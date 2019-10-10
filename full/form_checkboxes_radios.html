@@ -482,22 +482,24 @@
 						<!-- /main -->
 
 						<!-- Forms -->
-						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Forms</div> <i class="icon-menu" title="Forms"></i></li>
+						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Tables</div> <i class="icon-menu" title="Forms"></i></li>
 						<li class="nav-item nav-item-submenu nav-item-expanded nav-item-open">
-							<a href="#" class="nav-link"><i class="icon-pencil3"></i> <span>Form components</span></a>
+							<a href="#" class="nav-link"><i class="icon-pencil3"></i> <span>Empleados</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="Form components">
 								<li class="nav-item"><a href="form_inputs.html" class="nav-link">Listar</a></li>
 								<li class="nav-item"><a href="form_checkboxes_radios.html" class="nav-link active">Agregar</a></li>
 								<li class="nav-item"><a href="form_select2.html" class="nav-link">Editar</a></li>
-								
-								<li class="nav-item"><a href="form_multiselect.html" class="nav-link">Departamento</a></li>
 								<!--
+								<li class="nav-item"><a href="form_multiselect.html" class="nav-link">Departamento</a></li>
+								
 								<li class="nav-item"><a href="form_input_groups.html" class="nav-link">Input groups</a></li>
 								<li class="nav-item"><a href="form_controls_extended.html" class="nav-link">Extended controls</a></li>
 								<li class="nav-item"><a href="form_floating_labels.html" class="nav-link">Floating labels</a></li>
 								<li class="nav-item"><a href="form_tag_inputs.html" class="nav-link">Tag inputs</a></li>
 								<li class="nav-item"><a href="form_dual_listboxes.html" class="nav-link">Dual Listboxes</a></li>
-								<li class="nav-item"><a href="form_validation.html" class="nav-link">Validation</a></li>
+								/-->
+								<li class="nav-item"><a href="form_validation.html" class="nav-link">Departamento</a></li>
+								<!--
 								<li class="nav-item"><a href="form_wizard.html" class="nav-link">Form wizard</a></li>
 								<li class="nav-item"><a href="form_actions.html" class="nav-link">Form actions</a></li>
 								<li class="nav-item"><a href="form_inputs_grid.html" class="nav-link">Inputs grid</a></li>/-->
@@ -1319,38 +1321,38 @@
 								<div class="form-group row">
 									<label class="col-form-label col-lg-2">Objetivo</label>
 									<div class="col-lg-10">
-										<input type="text" class="form-control" readonly value="read only">
+										<input type="text" class="form-control">
 									</div>
 								</div>
-
+								<!--
 								<div class="form-group row">
 									<label class="col-form-label col-lg-2">Disabled field</label>
 									<div class="col-lg-10">
 										<input type="text" class="form-control" disabled value="disabled">
 									</div>
 								</div>
-
+								/-->
 								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Dirección Web</label>
+									<label class="col-form-label col-lg-2">Matricula</label>
 									<div class="col-lg-10">
-										<input type="text" class="form-control" value="http://">
+										<input type="text" class="form-control">
 									</div>
 								</div>
-
+								<!--
 								<div class="form-group row">
 									<label class="col-form-label col-lg-2">Disabled autocomplete</label>
 									<div class="col-lg-10">
 										<input type="text" class="form-control" placeholder="Autocomplete is off" autocomplete="off">
 									</div>
 								</div>
-
+								/-->
 								<div class="form-group row">
 									<label class="col-form-label col-lg-2">Numero Cuenta</label>
 									<div class="col-lg-10">
 										<input type="text" class="form-control" maxlength="4" placeholder="Maximum 4 characters">
 									</div>
 								</div>
-
+								<!--
 								<div class="form-group row">
 									<label class="col-form-label col-lg-2 cursor-pointer" for="clickable-label">Focus on label click</label>
 									<div class="col-lg-10">
@@ -1364,7 +1366,7 @@
 										<div class="form-control-plaintext">This is a static text</div>
 									</div>
 								</div>
-
+								/-->
 								<div class="form-group row">
 									<label class="col-form-label col-lg-2">Descripción</label>
 									<div class="col-lg-10">
@@ -1372,26 +1374,23 @@
 									</div>
 								</div>
 							</fieldset>
-
+							<!--
 							<fieldset class="mb-3">
 								<legend class="text-uppercase font-size-sm font-weight-bold">Basic selects</legend>
-
+								/-->
 		                        <div class="form-group row">
 		                        	<label class="col-form-label col-lg-2">Single select</label>
 		                        	<div class="col-lg-10">
 			                            <select class="form-control">
-			                                <option value="opt1">Default select box</option>
-			                                <option value="opt2">Option 2</option>
-			                                <option value="opt3">Option 3</option>
-			                                <option value="opt4">Option 4</option>
-			                                <option value="opt5">Option 5</option>
-			                                <option value="opt6">Option 6</option>
-			                                <option value="opt7">Option 7</option>
-			                                <option value="opt8">Option 8</option>
+			                                <option value="opt1">Default select</option>
+			                                <option value="opt2">Ezer</option>
+			                                <option value="opt3">Karen</option>
+			                                <option value="opt4">Adair</option>
+			                                <option value="opt5">Angel</option>
 			                            </select>
 		                            </div>
 		                        </div>
-
+		                        <!--
 		                        <div class="form-group row">
 		                        	<label class="col-form-label col-lg-2">Styled select</label>
 		                        	<div class="col-lg-10">
@@ -1462,7 +1461,7 @@
 										<input type="file" class="form-control h-auto">
 									</div>
 								</div>
-
+								
 								<div class="form-group row">
 									<label class="col-form-label col-lg-2">Styled file input</label>
 									<div class="col-lg-10">
@@ -1505,7 +1504,7 @@
 										</div>
 									</div>
 								</div>
-
+								
 								<div class="form-group row">
 									<label class="col-form-label col-lg-2">Full width badge helpers</label>
 									<div class="col-lg-10">
@@ -2075,7 +2074,7 @@
 							</div>
 						</form>
 					</div>
-				</div>
+				</div>/-->
 				<!-- /form inputs -->
 
 				<!-- Checkboxes -->
