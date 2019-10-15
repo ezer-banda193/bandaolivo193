@@ -23,17 +23,11 @@
 	<!-- /core JS files -->
 
 	<!-- Theme JS files -->
-	<script src="../../../../global_assets/js/plugins/ui/moment/moment.min.js"></script>
-	<script src="../../../../global_assets/js/plugins/pickers/daterangepicker.js"></script>
-	<script src="../../../../global_assets/js/plugins/pickers/anytime.min.js"></script>
-	<script src="../../../../global_assets/js/plugins/pickers/pickadate/picker.js"></script>
-	<script src="../../../../global_assets/js/plugins/pickers/pickadate/picker.date.js"></script>
-	<script src="../../../../global_assets/js/plugins/pickers/pickadate/picker.time.js"></script>
-	<script src="../../../../global_assets/js/plugins/pickers/pickadate/legacy.js"></script>
-	<script src="../../../../global_assets/js/plugins/notifications/jgrowl.min.js"></script>
+	<script src="../../../../global_assets/js/plugins/editors/ckeditor/ckeditor.js"></script>
+	<script src="../../../../global_assets/js/plugins/forms/selects/select2.min.js"></script>
 
 	<script src="assets/js/app.js"></script>
-	<script src="../../../../global_assets/js/demo_pages/picker_date.js"></script>
+	<script src="../../../../global_assets/js/demo_pages/editor_ckeditor.js"></script>
 	<!-- /theme JS files -->
 
 </head>
@@ -389,7 +383,7 @@
 							<div class="media-body">
 								<div class="media-title font-weight-semibold">Ezer Banda</div>
 								<div class="font-size-xs opacity-50">
-									<i class="icon-pin font-size-sm"></i> &nbsp;Cd. Victotria, Tamps
+									<i class="icon-pin font-size-sm"></i> &nbsp;Cd. Victoria, Tamps
 								</div>
 							</div>
 
@@ -487,13 +481,13 @@
 						<!-- /main -->
 
 						<!-- Forms -->
-						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Forms</div> <i class="icon-menu" title="Forms"></i></li>
+						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Tablas</div> <i class="icon-menu" title="Forms"></i></li>
 						<li class="nav-item nav-item-submenu">
-							<a href="#" class="nav-link"><i class="icon-pencil3"></i> <span>Form components</span></a>
+							<a href="#" class="nav-link"><i class="icon-pencil3"></i> <span>Empleados</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="Form components">
-								<li class="nav-item"><a href="form_inputs.html" class="nav-link">Basic inputs</a></li>
-								<li class="nav-item"><a href="form_checkboxes_radios.html" class="nav-link">Checkboxes &amp; radios</a></li>
-								<li class="nav-item"><a href="form_select2.html" class="nav-link">Select2 selects</a></li>
+								<li class="nav-item"><a href="form_inputs.html" class="nav-link">Listar</a></li>
+								<li class="nav-item"><a href="form_checkboxes_radios.html" class="nav-link">Agregar</a></li>
+								<li class="nav-item"><a href="form_select2.html" class="nav-link">Editar</a></li>
 								<!--
 								<li class="nav-item"><a href="form_multiselect.html" class="nav-link">Bootstrap multiselect</a></li>
 								<li class="nav-item"><a href="form_input_groups.html" class="nav-link">Input groups</a></li>
@@ -502,7 +496,7 @@
 								<li class="nav-item"><a href="form_tag_inputs.html" class="nav-link">Tag inputs</a></li>
 								<li class="nav-item"><a href="form_dual_listboxes.html" class="nav-link">Dual Listboxes</a></li>
 								/-->
-								<li class="nav-item"><a href="form_validation.html" class="nav-link">Validation</a></li>
+								<li class="nav-item"><a href="form_validation.html" class="nav-link">Departamento</a></li>
 								<!--
 								<li class="nav-item"><a href="form_wizard.html" class="nav-link">Form wizard</a></li>
 								<li class="nav-item"><a href="form_actions.html" class="nav-link">Form actions</a></li>
@@ -512,30 +506,30 @@
 						<li class="nav-item nav-item-submenu">
 							<a href="#" class="nav-link"><i class="icon-file-css"></i> <span>Empresas</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="JSON forms">
-								<li class="nav-item"><a href="alpaca_basic.html" class="nav-link">Basic inputs</a></li>
-								<li class="nav-item"><a href="alpaca_advanced.html" class="nav-link">Advanced inputs</a></li>
-								<li class="nav-item"><a href="alpaca_controls.html" class="nav-link">Controls</a></li>
-							</ul>
-						</li>
-						<li class="nav-item nav-item-submenu">
-							<a href="#" class="nav-link"><i class="icon-spell-check"></i> <span>Vacaciones</span></a>
-							<ul class="nav nav-group-sub" data-submenu-title="Text editors">
-								<li class="nav-item"><a href="editor_summernote.html" class="nav-link">Summernote editor</a></li>
-								<li class="nav-item"><a href="editor_ckeditor.html" class="nav-link">CKEditor</a></li>
-								<li class="nav-item"><a href="editor_trumbowyg.html" class="nav-link">Trumbowyg editor</a></li>
-								<li class="nav-item"><a href="editor_code.html" class="nav-link">Code editor</a></li>
+								<li class="nav-item"><a href="alpaca_basic.html" class="nav-link">Listar</a></li>
+								<li class="nav-item"><a href="alpaca_advanced.html" class="nav-link">Agregar</a></li>
+								<li class="nav-item"><a href="alpaca_controls.html" class="nav-link">Editar</a></li>
 							</ul>
 						</li>
 						<li class="nav-item nav-item-submenu nav-item-expanded nav-item-open">
-							<a href="#" class="nav-link"><i class="icon-select2"></i> <span>Transporte</span></a>
-							<ul class="nav nav-group-sub" data-submenu-title="Pickers">
-								<li class="nav-item"><a href="picker_date.html" class="nav-link active">Formulario</a></li>
+							<a href="#" class="nav-link"><i class="icon-spell-check"></i> <span>Vacaciones</span></a>
+							<ul class="nav nav-group-sub" data-submenu-title="Text editors">
+								<li class="nav-item"><a href="editor_summernote.html" class="nav-link">Listar</a></li>
+								<li class="nav-item"><a href="editor_ckeditor.html" class="nav-link active">Agregar</a></li>
+								<li class="nav-item"><a href="editor_trumbowyg.html" class="nav-link">Editar</a></li>
 								<!--
+								<li class="nav-item"><a href="editor_code.html" class="nav-link">Code editor</a></li>/-->
+							</ul>
+						</li>
+						<!--
+						<li class="nav-item nav-item-submenu">
+							<a href="#" class="nav-link"><i class="icon-select2"></i> <span>Pickers</span></a>
+							<ul class="nav nav-group-sub" data-submenu-title="Pickers">
+								<li class="nav-item"><a href="picker_date.html" class="nav-link">Date &amp; time pickers</a></li>
 								<li class="nav-item"><a href="picker_color.html" class="nav-link">Color pickers</a></li>
 								<li class="nav-item"><a href="picker_location.html" class="nav-link">Location pickers</a></li>
 							</ul>
 						</li>
-						<!--
 						<li class="nav-item nav-item-submenu">
 							<a href="#" class="nav-link"><i class="icon-insert-template"></i> <span>Form layouts</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="Form layouts">
@@ -1204,9 +1198,9 @@
 								<li class="nav-item"><a href="widgets_content.html" class="nav-link">Content widgets</a></li>
 								<li class="nav-item"><a href="widgets_stats.html" class="nav-link">Statistics widgets</a></li>
 								<li class="nav-item"><a href="widgets_menu.html" class="nav-link disabled">Menu widgets <span class="badge bg-transparent align-self-center ml-auto">Coming soon</span></a></li>
-								<li class="nav-item"><a href="widgets_form.html" class="nav-link disabled">Form widgets <span class="badge bg-transparent align-self-center ml-auto">Coming soon</span></a></li>/-->
+								<li class="nav-item"><a href="widgets_form.html" class="nav-link disabled">Form widgets <span class="badge bg-transparent align-self-center ml-auto">Coming soon</span></a></li>
 							</ul>
-						</li>
+						</li>/-->
 						<!-- /page kits -->
 
 					</ul>
@@ -1227,7 +1221,7 @@
 			<div class="page-header page-header-light">
 				<div class="page-header-content header-elements-md-inline">
 					<div class="page-title d-flex">
-						<h4><i class="icon-arrow-left52 mr-2"></i> <span class="font-weight-semibold">Transporte</span> - Formulario</h4>
+						<h4><i class="icon-arrow-left52 mr-2"></i> <span class="font-weight-semibold">Vacaciones</span> - Agregar</h4>
 						<a href="#" class="header-elements-toggle text-default d-md-none"><i class="icon-more"></i></a>
 					</div>
 
@@ -1244,8 +1238,8 @@
 					<div class="d-flex">
 						<div class="breadcrumb">
 							<a href="index.html" class="breadcrumb-item"><i class="icon-home2 mr-2"></i> Home</a>
-							<a href="picker_date.html" class="breadcrumb-item">Transporte</a>
-							<span class="breadcrumb-item active">Formulario</span>
+							<a href="editor_ckeditor.html" class="breadcrumb-item">Vacaciones</a>
+							<span class="breadcrumb-item active">Agregar</span>
 						</div>
 
 						<a href="#" class="header-elements-toggle text-default d-md-none"><i class="icon-more"></i></a>
@@ -1282,10 +1276,10 @@
 			<!-- Content area -->
 			<div class="content">
 
-								<!-- Form inputs -->
+				<!-- Form inputs -->
 				<div class="card">
 					<div class="card-header header-elements-inline">
-						<h5 class="card-title">Formulario</h5>
+						<h5 class="card-title">Empleados</h5>
 						<div class="header-elements">
 							<div class="list-icons">
 		                		<a class="list-icons-item" data-action="collapse"></a>
@@ -1301,43 +1295,31 @@
 
 						<form action="#">
 							<fieldset class="mb-3">
-								<legend class="text-uppercase font-size-sm font-weight-bold">Introducir Datos Basicos</legend>
+								<legend class="text-uppercase font-size-sm font-weight-bold">Introducir Datos</legend>
 
 								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Matricula</label>
-									<div class="col-lg-10">
-										<input type="text" class="form-control">
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Nombre</label>
+									<label class="col-form-label col-lg-2">Fecha de inicio</label>
 									<div class="col-lg-10">
 										<input type="text" class="form-control">
 									</div>
 								</div>
 
 								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Carrera</label>
+									<label class="col-form-label col-lg-2">Nombres</label>
 									<div class="col-lg-10">
 										<input type="text" class="form-control">
 									</div>
 								</div>
 
 								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Fecha de pago</label>
+									<label class="col-form-label col-lg-2">Apellidos</label>
 									<div class="col-lg-10">
 										<input type="text" class="form-control">
 									</div>
 								</div>
+
 								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Ruta</label>
-									<div class="col-lg-10">
-										<input type="text" class="form-control">
-									</div>
-								</div>
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Horario</label>
+									<label class="col-form-label col-lg-2">Clave</label>
 									<div class="col-lg-10">
 										<input type="text" class="form-control">
 									</div>
@@ -1350,9 +1332,20 @@
 									</div>
 								</div>
 								/-->
-								<!--
 								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Nùmero de Sucursales</label>
+									<label class="col-form-label col-lg-2">Fecha de Culminación</label>
+									<div class="col-lg-10">
+										<input type="text" class="form-control">
+									</div>
+								</div>
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Periodo</label>
+									<div class="col-lg-10">
+										<input type="text" class="form-control">
+									</div>
+								</div>
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Autorizado</label>
 									<div class="col-lg-10">
 										<input type="text" class="form-control">
 									</div>
@@ -1365,20 +1358,13 @@
 									</div>
 								</div>
 								/-->
-								<!--
 								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Tipo</label>
+									<label class="col-form-label col-lg-2">Situación</label>
 									<div class="col-lg-10">
-										<input type="text" class="form-control">
+										<!--
+										<input type="text" class="form-control" maxlength="4" placeholder="Maximum 4 characters">
 									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Registrada</label>
-									<div class="col-lg-10">
-										<input type="text" class="form-control" maxlength="2">
-									</div>
-								</div>
+								</div>/-->
 								<!--
 								<div class="form-group row">
 									<label class="col-form-label col-lg-2 cursor-pointer" for="clickable-label">Focus on label click</label>
@@ -1394,11 +1380,10 @@
 									</div>
 								</div>
 								/-->
-								<!--
 								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Descripción</label>
+									<label class="col-form-label col-lg-2"></label>
 									<div class="col-lg-10">
-										<textarea rows="3" cols="3" class="form-control" placeholder="Default textarea"></textarea>
+										<textarea rows="3" cols="3" class="form-control" placeholder="Describe"></textarea>
 									</div>
 								</div>
 							</fieldset>
@@ -1406,16 +1391,30 @@
 							<fieldset class="mb-3">
 								<legend class="text-uppercase font-size-sm font-weight-bold">Basic selects</legend>
 								/-->
-								<!--
 		                        <div class="form-group row">
-		                        	<label class="col-form-label col-lg-2">Single select</label>
+		                        	<label class="col-form-label col-lg-2">Jefe de Area</label>
 		                        	<div class="col-lg-10">
 			                            <select class="form-control">
-			                                <option value="opt1">Default select</option>
-			                                <option value="opt2">Ezer</option>
-			                                <option value="opt3">Karen</option>
-			                                <option value="opt4">Adair</option>
-			                                <option value="opt5">Angel</option>
+			                                <option value="opt1"> - Selecciona - </option>
+			                                <option value="opt2">Mario Rodriguez</option>
+			                                <option value="opt3">Jorge Hernandez</option>
+			                               
+			                            </select>
+		                            </div>
+		                        </div>
+		                       <!--
+		                      <fieldset class="mb-3">
+								<legend class="text-uppercase font-size-sm font-weight-bold">Basic selects</legend>
+								/-->
+		                        <div class="form-group row">
+		                        	<label class="col-form-label col-lg-2">Departamento</label>
+		                        	<div class="col-lg-10">
+			                            <select class="form-control">
+			                                <option value="opt1"> - Selecciona - </option>
+			                                <option value="opt2">Programación Web</option>
+			                                <option value="opt3">Tecnologias de la Información</option>
+			                                <option value="opt3">Programación de Objetos</option>
+			                               
 			                            </select>
 		                            </div>
 		                        </div>
@@ -2104,15 +2103,14 @@
 						</form>
 					</div>
 				</div>/-->
-				<!-- /form inputs -->				
+				<!-- /form inputs -->
 
 
-
-				<!-- Daterange picker -->
+				<!-- CKEditor default -->
 				<!--
 				<div class="card">
 					<div class="card-header header-elements-inline">
-						<h5 class="card-title">Daterange picker</h5>
+						<h5 class="card-title">Full featured CKEditor</h5>
 						<div class="header-elements">
 							<div class="list-icons">
 		                		<a class="list-icons-item" data-action="collapse"></a>
@@ -2123,593 +2121,307 @@
 					</div>
 
 					<div class="card-body">
-						<p class="mb-3">This date range picker component for <code>Bootstrap</code> creates a dropdown menu from which a user can select a range of dates. If invoked with no options, it will present two calendars to choose a start and end date from. Optionally, you can provide a list of date ranges the user can select from instead of choosing dates from the calendars.</p>
+						<p class="mb-3">CKEditor is a ready-for-use HTML text editor designed to simplify web content creation. It's a WYSIWYG editor that brings common word processor features directly to your web pages. It benefits from an active community that is constantly evolving the application with free add-ons and a transparent development process.</p>
+						<form action="#">
+							<div class="mb-3">
+								<textarea name="editor-full" id="editor-full" rows="4" cols="4">
+									<h2>Apollo 11</h2>
+									<div class="float-right" style="margin-left: 20px;"><img alt="Saturn V carrying Apollo 11" class="right" src="http://c.cksource.com/a/1/img/sample.jpg"></div>
 
-						<div class="row">
-							<div class="col-md-6">
-								<div class="form-group">
-									<label>Basic date range picker:</label>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-calendar22"></i></span>
-										</span>
-										<input type="text" class="form-control daterange-basic" value="01/01/2015 - 01/31/2015"> 
+									<p><strong>Apollo 11</strong> was the spaceflight that landed the first humans, Americans <a href="#">Neil Armstrong</a> and <a href="#">Buzz Aldrin</a>, on the Moon on July 20, 1969, at 20:18 UTC. Armstrong became the first to step onto the lunar surface 6 hours later on July 21 at 02:56 UTC.</p>
+
+									<p class="mb-3">Armstrong spent about <s>three and a half</s> two and a half hours outside the spacecraft, Aldrin slightly less; and together they collected 47.5 pounds (21.5&nbsp;kg) of lunar material for return to Earth. A third member of the mission, <a href="#">Michael Collins</a>, piloted the <a href="#">command</a> spacecraft alone in lunar orbit until Armstrong and Aldrin returned to it for the trip back to Earth.</p>
+
+									<h5 class="font-weight-semibold">Technical details</h5>
+									<p>Launched by a <strong>Saturn V</strong> rocket from <a href="#">Kennedy Space Center</a> in Merritt Island, Florida on July 16, Apollo 11 was the fifth manned mission of <a href="#">NASA</a>'s Apollo program. The Apollo spacecraft had three parts:</p>
+									<ol>
+										<li><strong>Command Module</strong> with a cabin for the three astronauts which was the only part which landed back on Earth</li>
+										<li><strong>Service Module</strong> which supported the Command Module with propulsion, electrical power, oxygen and water</li>
+										<li><strong>Lunar Module</strong> for landing on the Moon.</li>
+									</ol>
+									<p class="mb-3">After being sent to the Moon by the Saturn V's upper stage, the astronauts separated the spacecraft from it and travelled for three days until they entered into lunar orbit. Armstrong and Aldrin then moved into the Lunar Module and landed in the <a href="#">Sea of Tranquility</a>. They stayed a total of about 21 and a half hours on the lunar surface. After lifting off in the upper part of the Lunar Module and rejoining Collins in the Command Module, they returned to Earth and landed in the <a href="#">Pacific Ocean</a> on July 24.</p>
+
+									<h5 class="font-weight-semibold">Mission crew</h5>
+
+									<table class="table table-bordered" style="width: 100%">
+										<thead>
+											<tr>
+												<th>Position</th>
+												<th>Astronaut</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>Commander</td>
+												<td>Neil A. Armstrong</td>
+											</tr>
+											<tr>
+												<td>Command Module Pilot</td>
+												<td>Michael Collins</td>
+											</tr>
+											<tr>
+												<td>Lunar Module Pilot</td>
+												<td>Edwin "Buzz" E. Aldrin, Jr.</td>
+											</tr>
+										</tbody>
+									</table>
+
+									Source: <a href="http://en.wikipedia.org/wiki/Apollo_11">Wikipedia.org</a>
+					            </textarea>
+				            </div>
+
+				            <div class="text-right">
+					            <button type="submit" class="btn bg-teal-400">Submit form <i class="icon-paperplane ml-2"></i></button>
+				            </div>
+			            </form>
+					</div>
+				</div>
+				<!-- /CKEditor default -->
+
+
+				<!-- CKEditor readonly API -->
+				<!--
+				<div class="card">
+					<div class="card-header header-elements-inline">
+						<h5 class="card-title">CKEditor readonly API</h5>
+						<div class="header-elements">
+							<div class="list-icons">
+		                		<a class="list-icons-item" data-action="collapse"></a>
+		                		<a class="list-icons-item" data-action="reload"></a>
+		                		<a class="list-icons-item" data-action="remove"></a>
+		                	</div>
+	                	</div>
+					</div>
+
+					<div class="card-body">
+						<p class="mb-3">This sample shows how to use the <code>setReadOnly</code> API to put editor into the read-only state that makes it impossible for users to change the editor contents. In readonly mode all toolbar buttons are disabled, except <code>copy</code>, <code>full screen</code> and <code>source</code> buttons, they are still accessible. Content is selectable, but not editable.</p>
+
+						<p class="mb-3">
+				            <button type="button" class="btn btn-primary" id="readOnlyOn" style="display: none;"><i class="icon-eye2 mr-2"></i> Make editor readonly</button>
+				            <button type="button" class="btn btn-success" id="readOnlyOff" style="display: none;"><i class="icon-eye-blocked2 mr-2"></i> Make it editable</button>
+			            </p>
+
+						<form action="#">
+							<div class="mb-3">
+								<textarea name="editor-readonly" id="editor-readonly" rows="4" cols="4">
+									<h2>Apollo 11</h2>
+									<div class="float-right" style="margin-left: 20px;"><img alt="Saturn V carrying Apollo 11" class="right" src="http://c.cksource.com/a/1/img/sample.jpg"></div>
+
+									<p><strong>Apollo 11</strong> was the spaceflight that landed the first humans, Americans <a href="#">Neil Armstrong</a> and <a href="#">Buzz Aldrin</a>, on the Moon on July 20, 1969, at 20:18 UTC. Armstrong became the first to step onto the lunar surface 6 hours later on July 21 at 02:56 UTC.</p>
+
+									<p class="mb-3">Armstrong spent about <s>three and a half</s> two and a half hours outside the spacecraft, Aldrin slightly less; and together they collected 47.5 pounds (21.5&nbsp;kg) of lunar material for return to Earth. A third member of the mission, <a href="#">Michael Collins</a>, piloted the <a href="#">command</a> spacecraft alone in lunar orbit until Armstrong and Aldrin returned to it for the trip back to Earth.</p>
+
+									<h5 class="font-weight-semibold">Technical details</h5>
+									<p>Launched by a <strong>Saturn V</strong> rocket from <a href="#">Kennedy Space Center</a> in Merritt Island, Florida on July 16, Apollo 11 was the fifth manned mission of <a href="#">NASA</a>'s Apollo program. The Apollo spacecraft had three parts:</p>
+									<ol>
+										<li><strong>Command Module</strong> with a cabin for the three astronauts which was the only part which landed back on Earth</li>
+										<li><strong>Service Module</strong> which supported the Command Module with propulsion, electrical power, oxygen and water</li>
+										<li><strong>Lunar Module</strong> for landing on the Moon.</li>
+									</ol>
+									<p class="mb-3">After being sent to the Moon by the Saturn V's upper stage, the astronauts separated the spacecraft from it and travelled for three days until they entered into lunar orbit. Armstrong and Aldrin then moved into the Lunar Module and landed in the <a href="#">Sea of Tranquility</a>. They stayed a total of about 21 and a half hours on the lunar surface. After lifting off in the upper part of the Lunar Module and rejoining Collins in the Command Module, they returned to Earth and landed in the <a href="#">Pacific Ocean</a> on July 24.</p>
+
+									<h5 class="font-weight-semibold">Mission crew</h5>
+
+									<table class="table table-bordered" style="width: 100%">
+										<thead>
+											<tr>
+												<th>Position</th>
+												<th>Astronaut</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>Commander</td>
+												<td>Neil A. Armstrong</td>
+											</tr>
+											<tr>
+												<td>Command Module Pilot</td>
+												<td>Michael Collins</td>
+											</tr>
+											<tr>
+												<td>Lunar Module Pilot</td>
+												<td>Edwin "Buzz" E. Aldrin, Jr.</td>
+											</tr>
+										</tbody>
+									</table>
+
+									Source: <a href="http://en.wikipedia.org/wiki/Apollo_11">Wikipedia.org</a>
+					            </textarea>
+				            </div>
+
+				            <div class="text-right">
+					            <button type="submit" class="btn bg-teal-400">Submit form <i class="icon-paperplane ml-2"></i></button>
+				            </div>
+			            </form>
+					</div>
+				</div>
+				<!-- /CKEditor readonly API -->
+
+
+				<!-- Enter key configuration -->
+				<!--
+				<div class="card">
+					<div class="card-header header-elements-inline">
+						<h5 class="card-title">ENTER Key Configuration</h5>
+						<div class="header-elements">
+							<div class="list-icons">
+		                		<a class="list-icons-item" data-action="collapse"></a>
+		                		<a class="list-icons-item" data-action="reload"></a>
+		                		<a class="list-icons-item" data-action="remove"></a>
+		                	</div>
+	                	</div>
+					</div>
+
+					<div class="card-body">
+						<p class="mb-3">This sample shows how to configure the <code>Enter</code> and <code>Shift+Enter</code> keys to perform actions specified in the enterMode and <code>shiftEnterMode</code> parameters, respectively. You can choose from the following options: <span class="font-weight-semibold">ENTER_P</span> – new <code>&lt;p></code> paragraphs are created; <span class="font-weight-semibold">ENTER_BR</span> – lines are broken with <code>&lt;br></code> elements; <span class="font-weight-semibold">ENTER_DIV</span> – new <code>&lt;div></code> blocks are created.</p>
+
+						<form action="#">
+							<div class="row">
+								<div class="col-md-6">
+									<div class="form-group">
+										<label class="font-weight-semibold">When <kbd>Enter</kbd> is pressed:</label>
+										<select class="select" id="xEnter">
+											<option selected value="1">Create a new &lt;P&gt; (recommended)</option>
+											<option value="3">Create a new &lt;DIV&gt;</option>
+											<option value="2">Break the line with a &lt;BR&gt;</option>
+										</select>
 									</div>
 								</div>
 
-								<div class="form-group">
-									<label>Display week numbers:</label>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-calendar22"></i></span>
-										</span>
-										<input type="text" class="form-control daterange-weeknumbers" value="03/18/2013 - 03/23/2013"> 
+								<div class="col-md-6">
+									<div class="form-group">
+										<label class="font-weight-semibold">When <kbd>Shift+Enter</kbd> is pressed:</label>
+										<select class="select" id="xShiftEnter">
+											<option value="1">Create a new &lt;P&gt;</option>
+											<option value="3">Create a new &lt;DIV&gt;</option>
+											<option selected value="2">Break the line with a &lt;BR&gt; (recommended)</option>
+										</select>
 									</div>
-								</div>
-
-								<div class="form-group">
-									<label>Display time picker:</label>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-calendar22"></i></span>
-										</span>
-										<input type="text" class="form-control daterange-time" value="03/18/2013 - 03/23/2013"> 
-									</div>
-								</div>
-
-								<div class="form-group">
-									<label>Basic single date picker:</label>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-calendar22"></i></span>
-										</span>
-										<input type="text" class="form-control daterange-single" value="03/18/2013">
-									</div>
-								</div>
-
-								<div class="form-group">
-									<label>Simple text field attachment:</label>
-									<input type="text" class="form-control daterange-basic" value="03/18/2013 - 03/23/2013"> 
-								</div>
-
-								<div class="form-group">
-									<label>Button class options:</label>
-									<input type="text" class="form-control daterange-buttons" value="03/18/2013 - 03/23/2013"> 
 								</div>
 							</div>
 
-							<div class="col-md-6">
-								<div class="form-group">
-									<label>Show calendars on left:</label>
-									<div class="input-group">
-										<input type="text" class="form-control daterange-left" value="03/18/2013 - 03/23/2013"> 
-										<span class="input-group-append">
-											<span class="input-group-text"><i class="icon-calendar22"></i></span>
-										</span>
-									</div>
-								</div>
+							<div class="mb-3">
+								<textarea name="editor-enter" id="editor-enter" rows="4" cols="4">
+									<h2>Apollo 11</h2>
+									<div class="float-right" style="margin-left: 20px;"><img alt="Saturn V carrying Apollo 11" class="right" src="http://c.cksource.com/a/1/img/sample.jpg"></div>
 
-								<div class="form-group">
-									<label>Display date dropdowns:</label>
-									<div class="input-group">
-										<input type="text" class="form-control daterange-datemenu" value="03/18/2013 - 03/23/2013"> 
-										<span class="input-group-append">
-											<span class="input-group-text"><i class="icon-calendar22"></i></span>
-										</span>
-									</div>
-								</div>
+									<p><strong>Apollo 11</strong> was the spaceflight that landed the first humans, Americans <a href="#">Neil Armstrong</a> and <a href="#">Buzz Aldrin</a>, on the Moon on July 20, 1969, at 20:18 UTC. Armstrong became the first to step onto the lunar surface 6 hours later on July 21 at 02:56 UTC.</p>
 
-								<div class="form-group">
-									<label>10 minute increments:</label>
-									<div class="input-group">
-										<input type="text" class="form-control daterange-increments" value="08/01/2013 1:00 PM - 08/01/2013 1:30 PM">
-										<span class="input-group-append">
-											<span class="input-group-text"><i class="icon-calendar22"></i></span>
-										</span>
-									</div>
-								</div>
+									<p class="mb-3">Armstrong spent about <s>three and a half</s> two and a half hours outside the spacecraft, Aldrin slightly less; and together they collected 47.5 pounds (21.5&nbsp;kg) of lunar material for return to Earth. A third member of the mission, <a href="#">Michael Collins</a>, piloted the <a href="#">command</a> spacecraft alone in lunar orbit until Armstrong and Aldrin returned to it for the trip back to Earth.</p>
 
-								<div class="form-group">
-									<label>Localization (ru):</label>
-									<div class="input-group">
-										<input type="text" class="form-control daterange-locale" value="08/01/2013 1:00 PM - 08/01/2013 1:30 PM">
-										<span class="input-group-append">
-											<span class="input-group-text"><i class="icon-calendar22"></i></span>
-										</span>
-									</div>
-								</div>
+									<h5 class="font-weight-semibold">Technical details</h5>
+									<p>Launched by a <strong>Saturn V</strong> rocket from <a href="#">Kennedy Space Center</a> in Merritt Island, Florida on July 16, Apollo 11 was the fifth manned mission of <a href="#">NASA</a>'s Apollo program. The Apollo spacecraft had three parts:</p>
+									<ol>
+										<li><strong>Command Module</strong> with a cabin for the three astronauts which was the only part which landed back on Earth</li>
+										<li><strong>Service Module</strong> which supported the Command Module with propulsion, electrical power, oxygen and water</li>
+										<li><strong>Lunar Module</strong> for landing on the Moon.</li>
+									</ol>
+									<p class="mb-3">After being sent to the Moon by the Saturn V's upper stage, the astronauts separated the spacecraft from it and travelled for three days until they entered into lunar orbit. Armstrong and Aldrin then moved into the Lunar Module and landed in the <a href="#">Sea of Tranquility</a>. They stayed a total of about 21 and a half hours on the lunar surface. After lifting off in the upper part of the Lunar Module and rejoining Collins in the Command Module, they returned to Earth and landed in the <a href="#">Pacific Ocean</a> on July 24.</p>
 
-								<div class="form-group">
-									<label class="d-block">Pre-defined ranges &amp; callback:</label>
-									<button type="button" class="btn btn-light daterange-predefined">
-										<i class="icon-calendar22 mr-2"></i>
-										<span></span>
-									</button>
-								</div>
+									<h5 class="font-weight-semibold">Mission crew</h5>
 
-								<div class="form-group">
-									<label class="d-block">Date picker inside button:</label>
-									<button type="button" class="btn btn-danger daterange-ranges">
-										<i class="icon-calendar22 mr-2"></i>
-										<span></span>
-									</button>
-								</div>
-							</div>
+									<table class="table table-bordered" style="width: 100%">
+										<thead>
+											<tr>
+												<th>Position</th>
+												<th>Astronaut</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>Commander</td>
+												<td>Neil A. Armstrong</td>
+											</tr>
+											<tr>
+												<td>Command Module Pilot</td>
+												<td>Michael Collins</td>
+											</tr>
+											<tr>
+												<td>Lunar Module Pilot</td>
+												<td>Edwin "Buzz" E. Aldrin, Jr.</td>
+											</tr>
+										</tbody>
+									</table>
+
+									Source: <a href="http://en.wikipedia.org/wiki/Apollo_11">Wikipedia.org</a>
+					            </textarea>
+				            </div>
+
+				            <div class="text-right">
+					            <button type="submit" class="btn bg-teal-400">Submit form <i class="icon-paperplane ml-2"></i></button>
+				            </div>
+			            </form>
+					</div>
+				</div>
+				<!-- /enter key configuration -->
+
+
+				<!-- CKEditor inline -->
+				<!--
+				<div class="card">
+					<div class="card-header header-elements-inline">
+						<h5 class="card-title">Inline editor</h5>
+						<div class="header-elements">
+							<div class="list-icons">
+		                		<a class="list-icons-item" data-action="collapse"></a>
+		                		<a class="list-icons-item" data-action="reload"></a>
+		                		<a class="list-icons-item" data-action="remove"></a>
+		                	</div>
+	                	</div>
+					</div>
+
+					<div class="card-body">
+						<p class="mb-3">This sample shows how to create an inline editor instance of CKEditor. You can also create an inline editor from a textarea element. In this case the <code>textarea</code> will be replaced by a <code>div</code> element with inline editing enabled. To enter edit mode, click on any element inside div or textarea elements, toolbar will be sticked to the top of this element.</p>
+
+						<hr>
+
+						<div id="editor-inline">
+							<h1>Apollo 11</h1>
+							<img alt="Saturn V carrying Apollo 11" class="float-right" style="margin-left: 20px;" src="http://c.cksource.com/a/1/img/sample.jpg">
+
+							<p><strong>Apollo 11</strong> was the spaceflight that landed the first humans, Americans <a href="#">Neil Armstrong</a> and <a href="#">Buzz Aldrin</a>, on the Moon on July 20, 1969, at 20:18 UTC. Armstrong became the first to step onto the lunar surface 6 hours later on July 21 at 02:56 UTC.</p>
+
+							<p class="mb-3">Armstrong spent about <s>three and a half</s> two and a half hours outside the spacecraft, Aldrin slightly less; and together they collected 47.5 pounds (21.5&nbsp;kg) of lunar material for return to Earth. A third member of the mission, <a href="#">Michael Collins</a>, piloted the <a href="#">command</a> spacecraft alone in lunar orbit until Armstrong and Aldrin returned to it for the trip back to Earth.</p>
+
+							<h5 class="font-weight-semibold">Technical details</h5>
+							<p>Launched by a <strong>Saturn V</strong> rocket from <a href="#">Kennedy Space Center</a> in Merritt Island, Florida on July 16, Apollo 11 was the fifth manned mission of <a href="#">NASA</a>'s Apollo program. The Apollo spacecraft had three parts:</p>
+							<ol>
+								<li><strong>Command Module</strong> with a cabin for the three astronauts which was the only part which landed back on Earth</li>
+								<li><strong>Service Module</strong> which supported the Command Module with propulsion, electrical power, oxygen and water</li>
+								<li><strong>Lunar Module</strong> for landing on the Moon.</li>
+							</ol>
+							<p class="mb-3">After being sent to the Moon by the Saturn V's upper stage, the astronauts separated the spacecraft from it and travelled for three days until they entered into lunar orbit. Armstrong and Aldrin then moved into the Lunar Module and landed in the <a href="#">Sea of Tranquility</a>. They stayed a total of about 21 and a half hours on the lunar surface. After lifting off in the upper part of the Lunar Module and rejoining Collins in the Command Module, they returned to Earth and landed in the <a href="#">Pacific Ocean</a> on July 24.</p>
+
+							<h5 class="font-weight-semibold">Mission crew</h5>
+
+							<table class="table table-bordered mb-3" style="width: 100%">
+								<thead>
+									<tr>
+										<th>Position</th>
+										<th>Astronaut</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Commander</td>
+										<td>Neil A. Armstrong</td>
+									</tr>
+									<tr>
+										<td>Command Module Pilot</td>
+										<td>Michael Collins</td>
+									</tr>
+									<tr>
+										<td>Lunar Module Pilot</td>
+										<td>Edwin "Buzz" E. Aldrin, Jr.</td>
+									</tr>
+								</tbody>
+							</table>
+
+							Source: <a href="http://en.wikipedia.org/wiki/Apollo_11">Wikipedia.org</a>
 						</div>
 					</div>
 				</div>
-				<!-- /daterange picker -->
-
-
-				<!-- Pickadate picker -->
-				<!--
-				<div class="card">
-					<div class="card-header header-elements-inline">
-						<h5 class="card-title">Pick-a-Date picker</h5>
-						<div class="header-elements">
-							<div class="list-icons">
-		                		<a class="list-icons-item" data-action="collapse"></a>
-		                		<a class="list-icons-item" data-action="reload"></a>
-		                		<a class="list-icons-item" data-action="remove"></a>
-		                	</div>
-	                	</div>
-					</div>
-
-					<div class="card-body">
-						<p class="mb-3">Pickadate.js is a very powerful, mobile-friendly, responsive, and lightweight jQuery date &amp; time input picker. The basic setup requires targetting an input element and invoking the picker. Basically this plugin includes 2 main parts: date picker and time picker. Time picker examples demonstrated below.</p>
-
-						<div class="row">
-							<div class="col-md-6">
-								<div class="mb-4">
-									<h6 class="font-weight-semibold">Basic options</h6>
-									<p>The basic setup requires targetting an input element and invoking the picker.</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-calendar5"></i></span>
-										</span>
-										<input type="text" class="form-control pickadate" placeholder="Try me&hellip;">
-									</div>
-								</div>
-
-								<div class="mb-4">
-									<h6 class="font-weight-semibold">Strings</h6>
-									<p>Change the month and weekday labels as you find suitable.</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-calendar5"></i></span>
-										</span>
-										<input type="text" class="form-control pickadate-strings" placeholder="Try me&hellip;">
-									</div>
-								</div>
-
-								<div class="mb-4">
-									<h6 class="font-weight-semibold">Buttons</h6>
-									<p>Change the text or hide a button completely by passing a false-y value.</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-calendar5"></i></span>
-										</span>
-										<input type="text" class="form-control pickadate-buttons" placeholder="Try me&hellip;">
-									</div>
-								</div>
-
-								<div class="mb-4">
-									<h6 class="font-weight-semibold">Formats</h6>
-									<p>Display a human-friendly format and use an alternate one to submit to the server.</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-calendar5"></i></span>
-										</span>
-										<input type="text" class="form-control pickadate-format" placeholder="Try me&hellip;">
-									</div>
-								</div>
-
-								<div class="mb-4">
-									<h6 class="font-weight-semibold">Year selector</h6>
-									<p>You can also specify the number of years to show in the dropdown using an even integer.</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-calendar5"></i></span>
-										</span>
-										<input type="text" class="form-control pickadate-year" placeholder="Try me&hellip;">
-									</div>
-								</div>
-
-								<div class="mb-4">
-									<h6 class="font-weight-semibold">First weekday</h6>
-									<p>The first day of the week can be set to either Sunday or Monday.</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-calendar5"></i></span>
-										</span>
-										<input type="text" class="form-control pickadate-weekday" placeholder="Try me&hellip;">
-									</div>
-								</div>
-
-								<div class="mb-3">
-									<h6 class="font-weight-semibold">Date limits</h6>
-									<p>Set the minimum and maximum selectable dates on the picker.</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-calendar5"></i></span>
-										</span>
-										<input type="text" class="form-control pickadate-limits" placeholder="Try me&hellip;">
-									</div>
-								</div>
-							</div>
-
-							<div class="col-md-6">
-								<div class="mb-4">
-									<h6 class="font-weight-semibold">Accessibility labels</h6>
-									<p>Change the <code>title</code> attributes to several elements within the picker</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-calendar5"></i></span>
-										</span>
-										<input type="text" class="form-control pickadate-accessibility" placeholder="Try me&hellip;">
-									</div>
-								</div>
-
-								<div class="mb-4">
-									<h6 class="font-weight-semibold">Editable input</h6>
-									<p>By default, typing into the input is disabled by giving it a <code>readOnly</code> attribute.</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-calendar5"></i></span>
-										</span>
-										<input type="text" class="form-control pickadate-editable" placeholder="Try me&hellip;">
-									</div>
-								</div>
-
-								<div class="mb-4">
-									<h6 class="font-weight-semibold">Dropdown selectors</h6>
-									<p>Display <code>select</code> menus to pick the month and year.</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-calendar5"></i></span>
-										</span>
-										<input type="text" class="form-control pickadate-selectors" placeholder="Try me&hellip;">
-									</div>
-								</div>
-
-								<div class="mb-4">
-									<h6 class="font-weight-semibold">Translations</h6>
-									<p>The picker supports translations for 39 languages, available out of the box.</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-calendar5"></i></span>
-										</span>
-										<input type="text" class="form-control pickadate-translated" placeholder="Try me&hellip;">
-									</div>
-								</div>
-
-								<div class="mb-4">
-									<h6 class="font-weight-semibold">Disable ranges</h6>
-									<p>Enable dates that fall within a range of disabled dates by adding the <code>inverted</code> parameter.</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-calendar5"></i></span>
-										</span>
-										<input type="text" class="form-control pickadate-disable-range" placeholder="Try me&hellip;">
-									</div>
-								</div>
-
-								<div class="mb-4">
-									<h6 class="font-weight-semibold">Events</h6>
-									<p>Fire off events as the user interacts with the picker.</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-calendar5"></i></span>
-										</span>
-										<input type="text" class="form-control pickadate-events" placeholder="Open your console and try me&hellip;">
-									</div>
-								</div>
-
-								<div class="mb-3">
-									<h6 class="font-weight-semibold">Disable dates</h6>
-									<p>Disable a specific or arbitrary set of dates selectable on the picker.</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-calendar5"></i></span>
-										</span>
-										<input type="text" class="form-control pickadate-disable" placeholder="Try me&hellip;">
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- /pickadate picker -->
-
-
-				<!-- Pickatime picker -->
-				<!--
-				<div class="card">
-					<div class="card-header header-elements-inline">
-						<h5 class="card-title">Pick-a-Time time picker</h5>
-						<div class="header-elements">
-							<div class="list-icons">
-		                		<a class="list-icons-item" data-action="collapse"></a>
-		                		<a class="list-icons-item" data-action="reload"></a>
-		                		<a class="list-icons-item" data-action="remove"></a>
-		                	</div>
-	                	</div>
-					</div>
-
-					<div class="card-body">
-						<div class="row">
-							<div class="col-md-6">
-								<div class="mb-4">
-									<h6 class="font-weight-semibold">Basic options</h6>
-									<p>The basic setup requires targetting an <code>input</code> element and invoking the picke.r</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-alarm"></i></span>
-										</span>
-										<input type="text" class="form-control pickatime" placeholder="Try me&hellip;">
-									</div>
-								</div>
-
-								<div class="mb-4">
-									<h6 class="font-weight-semibold">Clear button</h6>
-									<p>Change the text or hide the button completely by passing a <code>false-y</code> value.</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-alarm"></i></span>
-										</span>
-										<input type="text" class="form-control pickatime-clear" placeholder="Try me&hellip;">
-									</div>
-								</div>
-
-								<div class="mb-4">
-									<h6 class="font-weight-semibold">Timepicker formats</h6>
-									<p>Display a human-friendly label and <code>input</code> format and use an alternate one to submit.</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-alarm"></i></span>
-										</span>
-										<input type="text" class="form-control pickatime-format" placeholder="Try me&hellip;">
-									</div>
-								</div>
-
-								<div class="mb-4">
-									<h6 class="font-weight-semibold">Send the hidden value only</h6>
-									<p>Sometimes the value that needs to be sent to the server is just the hidden value – and not the visible one.</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-alarm"></i></span>
-										</span>
-										<input type="text" class="form-control pickatime-hidden" placeholder="Try me&hellip;">
-									</div>
-								</div>
-
-								<div class="mb-4">
-									<h6 class="font-weight-semibold">Time limits</h6>
-									<p>Set the minimum and maximum selectable times on the picker.</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-alarm"></i></span>
-										</span>
-										<input type="text" class="form-control pickatime-limits" placeholder="Try me&hellip;">
-									</div>
-								</div>
-
-								<div class="mb-3">
-									<h6 class="font-weight-semibold">Using integers as hours</h6>
-									<p>Set the minimum and maximum selectable times on the picker using integers as hours.</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-alarm"></i></span>
-										</span>
-										<input type="text" class="form-control pickatime-limits-integers" placeholder="Try me&hellip;">
-									</div>
-								</div>
-							</div>
-
-							<div class="col-md-6">
-								<div class="mb-4">
-									<h6 class="font-weight-semibold">Disable times</h6>
-									<p>Disable a specific or arbitrary set of times selectable on the picker</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-alarm"></i></span>
-										</span>
-										<input type="text" class="form-control pickatime-disabled" placeholder="Try me&hellip;">
-									</div>
-								</div>
-
-								<div class="mb-4">
-									<h6 class="font-weight-semibold">Disabling ranges</h6>
-									<p>Enable times that fall within a range of disabled times by adding the <code>inverted</code> parameter.</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-alarm"></i></span>
-										</span>
-										<input type="text" class="form-control pickatime-range" placeholder="Try me&hellip;">
-									</div>
-								</div>
-
-								<div class="mb-4">
-									<h6 class="font-weight-semibold">Editable input</h6>
-									<p>By default, text input has a <code>readOnly</code> attribute to hide virtual keyboards on touch devices.</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-alarm"></i></span>
-										</span>
-										<input type="text" class="form-control pickatime-editable" placeholder="Try me&hellip;">
-									</div>
-								</div>
-
-								<div class="mb-4">
-									<h6 class="font-weight-semibold">Timepicker events</h6>
-									<p>Fire off events as the user interacts with the picker</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-alarm"></i></span>
-										</span>
-										<input type="text" class="form-control pickatime-events" placeholder="Open your console and try me&hellip;">
-									</div>
-								</div>
-
-								<div class="mb-4">
-									<h6 class="font-weight-semibold">Disabling all with exeptions</h6>
-									<p>Enable only a specific or arbitrary set of times by setting true as the first item in the collection.</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-alarm"></i></span>
-										</span>
-										<input type="text" class="form-control pickatime-disableall" placeholder="Try me&hellip;">
-									</div>
-								</div>
-
-								<div class="mb-3">
-									<h6 class="font-weight-semibold">Timepicker intervals</h6>
-									<p>Choose the minutes interval between each time in the list.</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-alarm"></i></span>
-										</span>
-										<input type="text" class="form-control pickatime-intervals" placeholder="Try me&hellip;">
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- /pickadate picker -->
-
-
-				<!-- Anytime picker -->
-				<!--
-				<div class="card">
-					<div class="card-header header-elements-inline">
-						<h5 class="card-title">Anytime pickers</h5>
-						<div class="header-elements">
-							<div class="list-icons">
-		                		<a class="list-icons-item" data-action="collapse"></a>
-		                		<a class="list-icons-item" data-action="reload"></a>
-		                		<a class="list-icons-item" data-action="remove"></a>
-		                	</div>
-	                	</div>
-					</div>
-
-					<div class="card-body">
-						<p class="mb-3">The <code>Any+Time™</code> JavaScript Library includes a highly-customizable, jQuery-compatible datepicker/ timepicker (calendar/ clock widget) and a powerful Date/String parse/format utility. Anytime allows you to create a date/time picker with advanced features and options not found in other calendar/clock widgets, also to format dates and times in different ways.</p>
-
-						<div class="row">
-							<div class="col-md-6">
-								<div class="mb-4">
-									<h6 class="font-weight-semibold">Basic usage</h6>
-									<p>Basic text field specifies that the week begins with Monday.</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-calendar3"></i></span>
-										</span>
-										<input type="text" class="form-control" id="anytime-date" value="Sunday, July 30th in the Year 1967 CE">
-									</div>
-								</div>
-
-								<div class="mb-4">
-									<h6 class="font-weight-semibold">Month and day</h6>
-									<p>Month and day only picker format</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-calendar3"></i></span>
-										</span>
-										<input type="text" class="form-control" id="anytime-month-day" value="4th of June">
-									</div>
-								</div>
-
-								<div class="mb-4">
-									<h6 class="font-weight-semibold">Time picker</h6>
-									<p>Current example displays hours and minutes only. Seconds can be added via plugin <code>options</code>.</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-watch2"></i></span>
-										</span>
-										<input type="text" class="form-control" id="anytime-time" value="12:34">
-									</div>
-								</div>
-
-								<div class="mb-4">
-									<h6 class="font-weight-semibold">Display hours only</h6>
-									<p>Current example demonstrates simple time picker with hours only in <code>AM/PM</code> format.</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-watch2"></i></span>
-										</span>
-										<input type="text" class="form-control" id="anytime-time-hours" value="9 PM">
-									</div>
-								</div>
-
-								<div class="mb-3">
-									<h6 class="font-weight-semibold">Date and time pickers</h6>
-									<p>The first field specifies that the week begins with Monday. The second field demonstrates a time picker.</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-calendar3"></i></span>
-										</span>
-										<input type="text" class="form-control" id="anytime-both" value="June 4th 08:47">
-									</div>
-								</div>
-							</div>
-
-							<div class="col-md-6">
-								<div class="mb-4">
-									<h6 class="font-weight-semibold">Custom display format</h6>
-									<p>Custom display format can be specified via plugin <code>options</code></p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-calendar3"></i></span>
-										</span>
-										<input type="text" class="form-control" id="anytime-weekday" value="Wednesday, 4th of June, 2014">
-									</div>
-								</div>
-
-								<div class="mb-4">
-									<h6 class="font-weight-semibold">Numeric date</h6>
-									<p>Current example demonstrates custom <code>DD/MM/YYYY</code> date format</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-calendar3"></i></span>
-										</span>
-										<input type="text" class="form-control" id="anytime-month-numeric" value="04/06/2014">
-									</div>
-								</div>
-
-								<div class="mb-4">
-									<h6 class="font-weight-semibold">Date range</h6>
-									<p>In the following example, <code>AnyTime.Converter</code> and jQuery work together to provide date-range selection. The value for the second ("Finish") field must be at least one day after the date in the first ("Start") field, but no more than 90 days later.</p>
-									<div class="row">
-										<div class="col-md-6">
-											<p><input type="text" class="form-control" id="rangeDemoStart" placeholder="Start date"></p>
-										</div>
-
-										<div class="col-md-6">
-											<p><input type="text" class="form-control" id="rangeDemoFinish" placeholder="Finish date" disabled></p>
-										</div>
-									</div>
-
-									<input type="button" id="rangeDemoToday" class="btn btn-primary" value="today">
-									<input type="button" id="rangeDemoClear" class="btn btn-light" value="clear">
-								</div>
-
-								<div class="mb-3">
-									<h6 class="font-weight-semibold">On-Demand Picker</h6>
-									<p>The following example shows how to create a field that initially does not have a picker, followed by a button that creates a picker for the field. This would be useful if you want to allow manual entry into the field, but it does not prevent the user from entering a value in the wrong format.</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<button type="button" class="btn btn-light btn-icon" id="ButtonCreationDemoButton"><i class="icon-calendar3"></i></button>
-										</span>
-										<input type="text" class="form-control" id="ButtonCreationDemoInput" placeholder="Select a date">
-									</div>
-									<span class="form-text text-muted">Format must be YYYY-MM-DD HH:MM:SS</span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>/-->
-				<!-- /anytime picker -->
+				<!-- /CKEditor inline -->
 
 			</div>
 			<!-- /content area -->

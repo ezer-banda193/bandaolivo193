@@ -23,17 +23,17 @@
 	<!-- /core JS files -->
 
 	<!-- Theme JS files -->
-	<script src="../../../../global_assets/js/plugins/ui/moment/moment.min.js"></script>
-	<script src="../../../../global_assets/js/plugins/pickers/daterangepicker.js"></script>
-	<script src="../../../../global_assets/js/plugins/pickers/anytime.min.js"></script>
-	<script src="../../../../global_assets/js/plugins/pickers/pickadate/picker.js"></script>
-	<script src="../../../../global_assets/js/plugins/pickers/pickadate/picker.date.js"></script>
-	<script src="../../../../global_assets/js/plugins/pickers/pickadate/picker.time.js"></script>
-	<script src="../../../../global_assets/js/plugins/pickers/pickadate/legacy.js"></script>
-	<script src="../../../../global_assets/js/plugins/notifications/jgrowl.min.js"></script>
+	<script src="../../../../global_assets/js/plugins/forms/inputs/typeahead/handlebars.min.js"></script>
+	<script src="../../../../global_assets/js/plugins/forms/inputs/alpaca/alpaca.min.js"></script>
+	<script src="../../../../global_assets/js/plugins/extensions/jquery_ui/interactions.min.js"></script>
+	<script src="../../../../global_assets/js/plugins/extensions/jquery_ui/widgets.min.js"></script>
+	<script src="../../../../global_assets/js/plugins/ui/prism.min.js"></script>
+	<script src="../../../../global_assets/js/plugins/forms/styling/uniform.min.js"></script>
+	<script src="../../../../global_assets/js/plugins/forms/styling/switchery.min.js"></script>
+	<script src="../../../../global_assets/js/plugins/forms/tags/tokenfield.min.js"></script>
 
 	<script src="assets/js/app.js"></script>
-	<script src="../../../../global_assets/js/demo_pages/picker_date.js"></script>
+	<script src="../../../../global_assets/js/demo_pages/alpaca_controls.js"></script>
 	<!-- /theme JS files -->
 
 </head>
@@ -389,7 +389,7 @@
 							<div class="media-body">
 								<div class="media-title font-weight-semibold">Ezer Banda</div>
 								<div class="font-size-xs opacity-50">
-									<i class="icon-pin font-size-sm"></i> &nbsp;Cd. Victotria, Tamps
+									<i class="icon-pin font-size-sm"></i> &nbsp;Cd. Victoria, Tamps
 								</div>
 							</div>
 
@@ -483,17 +483,17 @@
 								<span class="badge bg-blue-400 align-self-center ml-auto">2.2</span>
 							</a>
 						</li>
-						<li class="nav-item"><a href="../../../RTL/default/full/index.html" class="nav-link"><i class="icon-width"></i> <span>RTL version</span></a></li>
+						<li class="nav-item"><a href="../../../RTL/default/full/index.html" class="nav-link"><i class="icon-width"></i> <span>RTL version</span></a></li>/-->
 						<!-- /main -->
 
 						<!-- Forms -->
-						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Forms</div> <i class="icon-menu" title="Forms"></i></li>
+						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Tablas</div> <i class="icon-menu" title="Forms"></i></li>
 						<li class="nav-item nav-item-submenu">
-							<a href="#" class="nav-link"><i class="icon-pencil3"></i> <span>Form components</span></a>
+							<a href="#" class="nav-link"><i class="icon-pencil3"></i> <span>Empleados</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="Form components">
-								<li class="nav-item"><a href="form_inputs.html" class="nav-link">Basic inputs</a></li>
-								<li class="nav-item"><a href="form_checkboxes_radios.html" class="nav-link">Checkboxes &amp; radios</a></li>
-								<li class="nav-item"><a href="form_select2.html" class="nav-link">Select2 selects</a></li>
+								<li class="nav-item"><a href="form_inputs.html" class="nav-link">Listar</a></li>
+								<li class="nav-item"><a href="form_checkboxes_radios.html" class="nav-link">Agrupar</a></li>
+								<li class="nav-item"><a href="form_select2.html" class="nav-link">Editar</a></li>
 								<!--
 								<li class="nav-item"><a href="form_multiselect.html" class="nav-link">Bootstrap multiselect</a></li>
 								<li class="nav-item"><a href="form_input_groups.html" class="nav-link">Input groups</a></li>
@@ -502,40 +502,40 @@
 								<li class="nav-item"><a href="form_tag_inputs.html" class="nav-link">Tag inputs</a></li>
 								<li class="nav-item"><a href="form_dual_listboxes.html" class="nav-link">Dual Listboxes</a></li>
 								/-->
-								<li class="nav-item"><a href="form_validation.html" class="nav-link">Validation</a></li>
+								<li class="nav-item"><a href="form_validation.html" class="nav-link">Departamento</a></li>
 								<!--
 								<li class="nav-item"><a href="form_wizard.html" class="nav-link">Form wizard</a></li>
 								<li class="nav-item"><a href="form_actions.html" class="nav-link">Form actions</a></li>
 								<li class="nav-item"><a href="form_inputs_grid.html" class="nav-link">Inputs grid</a></li>/-->
 							</ul>
 						</li>
-						<li class="nav-item nav-item-submenu">
+						<li class="nav-item nav-item-submenu nav-item-expanded nav-item-open">
 							<a href="#" class="nav-link"><i class="icon-file-css"></i> <span>Empresas</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="JSON forms">
-								<li class="nav-item"><a href="alpaca_basic.html" class="nav-link">Basic inputs</a></li>
-								<li class="nav-item"><a href="alpaca_advanced.html" class="nav-link">Advanced inputs</a></li>
-								<li class="nav-item"><a href="alpaca_controls.html" class="nav-link">Controls</a></li>
+								<li class="nav-item"><a href="alpaca_basic.html" class="nav-link">Listar</a></li>
+								<li class="nav-item"><a href="alpaca_advanced.html" class="nav-link">Agrupar</a></li>
+								<li class="nav-item"><a href="alpaca_controls.html" class="nav-link active">Editar</a></li>
 							</ul>
 						</li>
 						<li class="nav-item nav-item-submenu">
 							<a href="#" class="nav-link"><i class="icon-spell-check"></i> <span>Vacaciones</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="Text editors">
-								<li class="nav-item"><a href="editor_summernote.html" class="nav-link">Summernote editor</a></li>
-								<li class="nav-item"><a href="editor_ckeditor.html" class="nav-link">CKEditor</a></li>
-								<li class="nav-item"><a href="editor_trumbowyg.html" class="nav-link">Trumbowyg editor</a></li>
-								<li class="nav-item"><a href="editor_code.html" class="nav-link">Code editor</a></li>
+								<li class="nav-item"><a href="editor_summernote.html" class="nav-link">Listar</a></li>
+								<li class="nav-item"><a href="editor_ckeditor.html" class="nav-link">Agregar</a></li>
+								<li class="nav-item"><a href="editor_trumbowyg.html" class="nav-link">Editar</a></li>
+								<!--
+								<li class="nav-item"><a href="editor_code.html" class="nav-link">Code editor</a></li>/-->
 							</ul>
 						</li>
-						<li class="nav-item nav-item-submenu nav-item-expanded nav-item-open">
-							<a href="#" class="nav-link"><i class="icon-select2"></i> <span>Transporte</span></a>
+						<!--
+						<li class="nav-item nav-item-submenu">
+							<a href="#" class="nav-link"><i class="icon-select2"></i> <span>Pickers</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="Pickers">
-								<li class="nav-item"><a href="picker_date.html" class="nav-link active">Formulario</a></li>
-								<!--
+								<li class="nav-item"><a href="picker_date.html" class="nav-link">Date &amp; time pickers</a></li>
 								<li class="nav-item"><a href="picker_color.html" class="nav-link">Color pickers</a></li>
 								<li class="nav-item"><a href="picker_location.html" class="nav-link">Location pickers</a></li>
 							</ul>
 						</li>
-						<!--
 						<li class="nav-item nav-item-submenu">
 							<a href="#" class="nav-link"><i class="icon-insert-template"></i> <span>Form layouts</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="Form layouts">
@@ -1204,9 +1204,9 @@
 								<li class="nav-item"><a href="widgets_content.html" class="nav-link">Content widgets</a></li>
 								<li class="nav-item"><a href="widgets_stats.html" class="nav-link">Statistics widgets</a></li>
 								<li class="nav-item"><a href="widgets_menu.html" class="nav-link disabled">Menu widgets <span class="badge bg-transparent align-self-center ml-auto">Coming soon</span></a></li>
-								<li class="nav-item"><a href="widgets_form.html" class="nav-link disabled">Form widgets <span class="badge bg-transparent align-self-center ml-auto">Coming soon</span></a></li>/-->
+								<li class="nav-item"><a href="widgets_form.html" class="nav-link disabled">Form widgets <span class="badge bg-transparent align-self-center ml-auto">Coming soon</span></a></li>
 							</ul>
-						</li>
+						</li>/-->
 						<!-- /page kits -->
 
 					</ul>
@@ -1227,7 +1227,7 @@
 			<div class="page-header page-header-light">
 				<div class="page-header-content header-elements-md-inline">
 					<div class="page-title d-flex">
-						<h4><i class="icon-arrow-left52 mr-2"></i> <span class="font-weight-semibold">Transporte</span> - Formulario</h4>
+						<h4><i class="icon-arrow-left52 mr-2"></i> <span class="font-weight-semibold">Empresas</span> - Editar</h4>
 						<a href="#" class="header-elements-toggle text-default d-md-none"><i class="icon-more"></i></a>
 					</div>
 
@@ -1244,8 +1244,8 @@
 					<div class="d-flex">
 						<div class="breadcrumb">
 							<a href="index.html" class="breadcrumb-item"><i class="icon-home2 mr-2"></i> Home</a>
-							<a href="picker_date.html" class="breadcrumb-item">Transporte</a>
-							<span class="breadcrumb-item active">Formulario</span>
+							<a href="alpaca_controls.html" class="breadcrumb-item">Empresas</a>
+							<span class="breadcrumb-item active">Editar</span>
 						</div>
 
 						<a href="#" class="header-elements-toggle text-default d-md-none"><i class="icon-more"></i></a>
@@ -1282,33 +1282,41 @@
 			<!-- Content area -->
 			<div class="content">
 
-								<!-- Form inputs -->
-				<div class="card">
-					<div class="card-header header-elements-inline">
-						<h5 class="card-title">Formulario</h5>
-						<div class="header-elements">
-							<div class="list-icons">
-		                		<a class="list-icons-item" data-action="collapse"></a>
-		                		<a class="list-icons-item" data-action="reload"></a>
-		                		<a class="list-icons-item" data-action="remove"></a>
-		                	</div>
-	                	</div>
-					</div>
+					<!-- Select2 selects -->
+				<div class="mb-3">
+					<h6 class="mb-0 font-weight-semibold">
+						Empleados
+					</h6>
+					<span class="text-muted d-block">Examples with basic options</span>
+				</div>
 
-					<div class="card-body">
-						<!--
-						<p class="mb-4">Examples of standard form controls supported in an example form layout. Individual form controls automatically receive some global styling. All textual <code>&lt;input></code>, <code>&lt;textarea></code>, and <code>&lt;select></code> elements with <code>.form-control</code> are set to <code>width: 100%;</code> by default. Wrap labels and controls in <code>.form-group</code> for optimum spacing. Labels in horizontal form require <code>.col-form-label</code> class.</p>/-->
+				<div class="row">
+					<div class="col-md-6">
+						<div class="card">
+							<div class="card-header header-elements-inline">
+								<h5 class="card-title">Seleccionar Empleado</h5>
+								<div class="header-elements">
+									<div class="list-icons">
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="reload"></a>
+				                		<a class="list-icons-item" data-action="remove"></a>
+				                	</div>
+			                	</div>
+							</div>
+								<div class="form-group">
+									<label>Selecciona Empresa</label>
+									<select class="form-control select" data-dropdown-css-class="bg-teal-400" data-fouc>
+										<optgroup href="alpaca_advanced.html" label="Main content">
+											<option value="AZ">Telmex</option>
+											<option value="CO">Uber</option>
+											<option value="ID">Walmert</option>
+											<option value="WY">Banorte</option>
+										</optgroup>
+									</select>
+								</div>							
 
-						<form action="#">
-							<fieldset class="mb-3">
-								<legend class="text-uppercase font-size-sm font-weight-bold">Introducir Datos Basicos</legend>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Matricula</label>
-									<div class="col-lg-10">
-										<input type="text" class="form-control">
-									</div>
-								</div>
+							<div class="card-body">
+								<div class="form-group">
 
 								<div class="form-group row">
 									<label class="col-form-label col-lg-2">Nombre</label>
@@ -1318,54 +1326,47 @@
 								</div>
 
 								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Carrera</label>
+									<label class="col-form-label col-lg-2">Sector</label>
 									<div class="col-lg-10">
 										<input type="text" class="form-control">
 									</div>
 								</div>
 
 								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Fecha de pago</label>
+									<label class="col-form-label col-lg-2">Clave</label>
 									<div class="col-lg-10">
-										<input type="text" class="form-control">
+										<input type="text" class="form-control" maxlength="7" placeholder="7 digitos">
 									</div>
 								</div>
+
 								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Ruta</label>
+									<label class="col-form-label col-lg-2">Ciudad</label>
 									<div class="col-lg-10">
 										<input type="text" class="form-control">
 									</div>
 								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Pais</label>
+									<div class="col-lg-10">
+										<input type="text" class="form-control">
+									</div>
+								</div>
+
 								<div class="form-group row">
 									<label class="col-form-label col-lg-2">Horario</label>
 									<div class="col-lg-10">
 										<input type="text" class="form-control">
 									</div>
 								</div>
-								<!--
+
 								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Disabled field</label>
-									<div class="col-lg-10">
-										<input type="text" class="form-control" disabled value="disabled">
-									</div>
-								</div>
-								/-->
-								<!--
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Nùmero de Sucursales</label>
+									<label class="col-form-label col-lg-2">Numero de sucursales</label>
 									<div class="col-lg-10">
 										<input type="text" class="form-control">
 									</div>
 								</div>
-								<!--
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Disabled autocomplete</label>
-									<div class="col-lg-10">
-										<input type="text" class="form-control" placeholder="Autocomplete is off" autocomplete="off">
-									</div>
-								</div>
-								/-->
-								<!--
+
 								<div class="form-group row">
 									<label class="col-form-label col-lg-2">Tipo</label>
 									<div class="col-lg-10">
@@ -1380,1336 +1381,1076 @@
 									</div>
 								</div>
 								<!--
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2 cursor-pointer" for="clickable-label">Focus on label click</label>
-									<div class="col-lg-10">
-										<input type="text" class="form-control" id="clickable-label" placeholder="Field focus on label click">
-									</div>
+									<label>Buscar Empleado</label>
+									<select class="form-control select-search" data-fouc>
+										<optgroup label="¿A quien Buscas?">
+											<option value="AZ">Ezer</option>
+											<option value="CO">Karen</option>
+											<option value="ID">Adair</option>
+											<option value="WY">Angel</option>
+										</optgroup>
+										<optgroup label="Campo">
+											<option value="AL">Programación</option>
+											<option value="AR">TIC</option>
+											<option value="KS">Programación Objetos</option>
+											<option value="KY"></option>
+										</optgroup>
+									</select>
 								</div>
 
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Static text</label>
-									<div class="col-lg-10">
-										<div class="form-control-plaintext">This is a static text</div>
-									</div>
+								<div class="form-group">
+									<label class="d-block">Clave</label>
+									<select class="form-control select-fixed-single" data-fouc>
+										<optgroup label="Matricula">
+											<option value="AZ">1930230</option>
+											<option value="CO">1920243</option>
+											<option value="ID">1932893</option>
+											<option value="WY">1934234</option>
+										</optgroup>
+									</select>
 								</div>
-								/-->
+
+								<div class="form-group">
+									<label>Ciudad</label>
+									<select class="form-control select-search" data-fouc>
+										<optgroup>
+											<option value="AZ">Cd. victoria</option>
+											<option value="CO">Cd. Mante</option>
+											<option value="ID">Tula</option>
+											<option value="WY">Tampico</option>
+										</optgroup>
+									</select>
+								</div>
 								<!--
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Descripción</label>
-									<div class="col-lg-10">
-										<textarea rows="3" cols="3" class="form-control" placeholder="Default textarea"></textarea>
-									</div>
-								</div>
-							</fieldset>
-							<!--
-							<fieldset class="mb-3">
-								<legend class="text-uppercase font-size-sm font-weight-bold">Basic selects</legend>
-								/-->
-								<!--
-		                        <div class="form-group row">
-		                        	<label class="col-form-label col-lg-2">Single select</label>
-		                        	<div class="col-lg-10">
-			                            <select class="form-control">
-			                                <option value="opt1">Default select</option>
-			                                <option value="opt2">Ezer</option>
-			                                <option value="opt3">Karen</option>
-			                                <option value="opt4">Adair</option>
-			                                <option value="opt5">Angel</option>
-			                            </select>
-		                            </div>
-		                        </div>
-		                        <!--
-		                        <div class="form-group row">
-		                        	<label class="col-form-label col-lg-2">Styled select</label>
-		                        	<div class="col-lg-10">
-			                            <select class="form-control form-control-uniform" data-fouc>
-			                                <option value="opt1">Styled select box</option>
-			                                <option value="opt2">Option 2</option>
-			                                <option value="opt3">Option 3</option>
-			                                <option value="opt4">Option 4</option>
-			                                <option value="opt5">Option 5</option>
-			                                <option value="opt6">Option 6</option>
-			                                <option value="opt7">Option 7</option>
-			                                <option value="opt8">Option 8</option>
-			                            </select>
-		                            </div>
-		                        </div>
-
-		                        <div class="form-group row">
-		                        	<label class="col-form-label col-lg-2">Custom BS select</label>
-		                        	<div class="col-lg-10">
-			                            <select class="custom-select">
-			                                <option value="opt1">Styled select box</option>
-			                                <option value="opt2">Option 2</option>
-			                                <option value="opt3">Option 3</option>
-			                                <option value="opt4">Option 4</option>
-			                                <option value="opt5">Option 5</option>
-			                                <option value="opt6">Option 6</option>
-			                                <option value="opt7">Option 7</option>
-			                                <option value="opt8">Option 8</option>
-			                            </select>
-		                            </div>
-		                        </div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Multiple select</label>
-									<div class="col-lg-10">
-			                            <select multiple="multiple" class="form-control">
-			                                <option selected>Amsterdam</option>      
-			                                <option selected>Atlanta</option>
-			                                <option>Baltimore</option>
-			                                <option>Boston</option>
-			                                <option>Buenos Aires</option>
-			                                <option>Calgary</option>
-			                                <option selected>Chicago</option>
-			                                <option>Denver</option>
-			                                <option>Dubai</option>
-			                                <option>Frankfurt</option>
-			                                <option>Hong Kong</option>
-			                                <option>Honolulu</option>
-			                                <option>Houston</option>
-			                                <option>Kuala Lumpur</option>
-			                                <option>London</option>
-			                                <option>Los Angeles</option>
-			                                <option>Melbourne</option>
-			                                <option>Mexico City</option>
-			                                <option>Miami</option>
-			                                <option>Minneapolis</option>
-			                            </select>
-									</div>
-								</div>
-							</fieldset>
-
-							<fieldset class="mb-3">
-								<legend class="text-uppercase font-size-sm font-weight-bold">Basic file inputs</legend>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Default file input</label>
-									<div class="col-lg-10">
-										<input type="file" class="form-control h-auto">
-									</div>
-								</div>
-								
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Styled file input</label>
-									<div class="col-lg-10">
-										<input type="file" class="form-control-uniform" data-fouc>
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Custom BS file input</label>
-									<div class="col-lg-10">
-										<div class="custom-file">
-											<input type="file" class="custom-file-input" id="customFile">
-											<label class="custom-file-label" for="customFile">Choose file</label>
-										</div>
-									</div>
-								</div>
-							</fieldset>
-
-							<fieldset class="mb-3">
-								<legend class="text-uppercase font-size-sm font-weight-bold">Form helpers</legend>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Text form helpers</label>
-									<div class="col-lg-10">
-										<div class="row">
-											<div class="col-md-4">
-												<input type="text" class="form-control">
-												<span class="form-text text-muted">Left aligned helper</span>
-											</div>
-
-											<div class="col-md-4">
-												<input type="text" class="form-control">
-												<span class="form-text text-muted text-center">Centered helper</span>
-											</div>
-
-											<div class="col-md-4">
-												<input type="text" class="form-control">
-												<span class="form-text text-muted text-right">Right aligned helper</span>
-											</div>
-										</div>
-									</div>
-								</div>
-								
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Full width badge helpers</label>
-									<div class="col-lg-10">
-										<div class="row">
-											<div class="col-md-4">
-												<input type="text" class="form-control">
-												<span class="badge d-block badge-primary form-text text-left">Left aligned badge</span>
-											</div>
-
-											<div class="col-md-4">
-												<input type="text" class="form-control">
-												<span class="badge d-block badge-danger form-text">Centered badge</span>
-											</div>
-
-											<div class="col-md-4">
-												<input type="text" class="form-control">
-												<span class="badge d-block badge-info form-text text-right">Right aligned badge</span>
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Block badge helpers</label>
-									<div class="col-lg-10">
-										<div class="row">
-											<div class="col-md-4">
-												<input type="text" class="form-control">
-												<div class="d-block form-text">
-													<span class="badge badge-primary">Left aligned badge</span>
-												</div>
-											</div>
-
-											<div class="col-md-4">
-												<input type="text" class="form-control">
-												<div class="d-block form-text text-center">
-													<span class="badge badge-danger">Centered badge</span>
-												</div>
-											</div>
-
-											<div class="col-md-4">
-												<input type="text" class="form-control">
-												<div class="d-block form-text text-right">
-													<span class="badge badge-info text-right">Right aligned badge</span>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Inline text helper</label>
-									<div class="col-lg-10">
-										<div class="row">
-											<div class="col-lg-6">
-												<input type="text" class="form-control">
-											</div>
-											<div class="col-lg-6 mt-1 mt-lg-0 align-self-center">
-												<span class="text-muted">Inline text helper</span>
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Inline badge helper</label>
-									<div class="col-lg-10">
-										<div class="row">
-											<div class="col-lg-6">
-												<input type="text" class="form-control">
-											</div>
-											<div class="col-lg-6 mt-1 mt-lg-0 align-self-center">
-												<span class="badge bg-teal">Inline badge helper</span>
-											</div>
-										</div>
-									</div>
-								</div>
-							</fieldset>
-
-							<fieldset class="mb-3">
-								<legend class="text-uppercase font-size-sm font-weight-bold">Input icons</legend>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Input with icons</label>
-									<div class="col-lg-10">
-										<div class="row">
-											<div class="col-md-6">
-												<div class="form-group form-group-feedback form-group-feedback-left">
-													<input type="text" class="form-control form-control-lg" placeholder="Left icon, input large">
-													<div class="form-control-feedback form-control-feedback-lg">
-														<i class="icon-make-group"></i>
-													</div>
-												</div>
-
-												<div class="form-group form-group-feedback form-group-feedback-left">
-													<input type="text" class="form-control" placeholder="Left icon, input default">
-													<div class="form-control-feedback">
-														<i class="icon-droplets"></i>
-													</div>
-												</div>
-
-												<div class="form-group form-group-feedback form-group-feedback-left">
-													<input type="text" class="form-control form-control-sm" placeholder="Left icon, input small">
-													<div class="form-control-feedback form-control-feedback-sm">
-														<i class="icon-pin-alt"></i>
-													</div>
-												</div>
-											</div>
-
-											<div class="col-md-6">
-												<div class="form-group form-group-feedback form-group-feedback-right">
-													<input type="text" class="form-control form-control-lg" placeholder="Right icon, input large">
-													<div class="form-control-feedback form-control-feedback-lg">
-														<i class="icon-make-group"></i>
-													</div>
-												</div>
-
-												<div class="form-group form-group-feedback form-group-feedback-right">
-													<input type="text" class="form-control" placeholder="Right icon, input default">
-													<div class="form-control-feedback">
-														<i class="icon-droplets"></i>
-													</div>
-												</div>
-
-												<div class="form-group form-group-feedback form-group-feedback-right">
-													<input type="text" class="form-control form-control-sm" placeholder="Right icon, input small">
-													<div class="form-control-feedback form-control-feedback-sm">
-														<i class="icon-pin-alt"></i>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Input with spinners</label>
-									<div class="col-lg-10">
-										<div class="row">
-											<div class="col-md-6">
-												<div class="form-group form-group-feedback form-group-feedback-left">
-													<input type="text" class="form-control" placeholder="Left spinner">
-													<div class="form-control-feedback">
-														<i class="icon-spinner2 spinner"></i>
-													</div>
-												</div>
-											</div>
-
-											<div class="col-md-6">
-												<div class="form-group form-group-feedback form-group-feedback-right">
-													<input type="text" class="form-control" placeholder="Right spinner">
-													<div class="form-control-feedback">
-														<i class="icon-spinner2 spinner"></i>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</fieldset>
-
-							<fieldset class="mb-3">
-								<legend class="text-uppercase font-size-sm font-weight-bold">Validation states</legend>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2 font-weight-semibold text-success">Valid state</label>
-									<div class="col-lg-10">
-										<input type="text" class="form-control border-success" placeholder="Valid state">
-										<span class="form-text text-success">Valid state helper</span>
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2 font-weight-semibold text-success">Valid state with icon</label>
-									<div class="col-lg-10">
-										<div class="form-group-feedback form-group-feedback-right">
-											<input type="text" class="form-control border-success" placeholder="Valid state">
-											<div class="form-control-feedback text-success">
-												<i class="icon-checkmark-circle"></i>
-											</div>
-										</div>
-										<span class="form-text text-success">Valid state helper</span>
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2 font-weight-semibold text-danger">Invalid state</label>
-									<div class="col-lg-10">
-										<input type="text" class="form-control border-danger" placeholder="Invalid state">
-										<span class="form-text text-danger">Invalid state helper</span>
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2 font-weight-semibold text-danger">Invalid state with icon</label>
-									<div class="col-lg-10">
-										<div class="form-group-feedback form-group-feedback-right">
-											<input type="text" class="form-control border-danger" placeholder="Invalid state">
-											<div class="form-control-feedback text-danger">
-												<i class="icon-cancel-circle2"></i>
-											</div>
-										</div>
-										<span class="form-text text-danger">Invalid state helper</span>
-									</div>
-								</div>
-							</fieldset>
-
-							<fieldset class="mb-3">
-								<legend class="text-uppercase font-size-sm font-weight-bold">Text options</legend>
-
-								<div class="form-group row">
-									<label class="col-form-label col-md-2">Light text</label>
-									<div class="col-md-10">
-										<input type="text" class="form-control font-weight-light" placeholder="Input with light text">
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-md-2">Semibold text</label>
-									<div class="col-md-10">
-										<input type="text" class="form-control font-weight-semibold" placeholder="Input with semibold text">
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-md-2">Bold text</label>
-									<div class="col-md-10">
-										<input type="text" class="form-control font-weight-bold" placeholder="Input with bold text">
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-md-2">Capitalized text</label>
-									<div class="col-md-10">
-										<input type="text" class="form-control text-capitalize" placeholder="Input with capitalized text">
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-md-2">Centered text</label>
-									<div class="col-md-10">
-										<input type="text" class="form-control text-center" placeholder="Input with centered text">
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-md-2">Right aligned text</label>
-									<div class="col-md-10">
-										<input type="text" class="form-control text-right" placeholder="Input with right aligned text">
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-md-2">Uppercase text</label>
-									<div class="col-md-10">
-										<input type="text" class="form-control text-uppercase" placeholder="Input with uppercase text">
-										<span class="form-text text-muted">Other text options work as well</span>
-									</div>
-								</div>
-							</fieldset>
-
-							<fieldset class="mb-3">
-								<legend class="text-uppercase font-size-sm font-weight-bold">Field options</legend>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Tooltip on focus</label>
-									<div class="col-lg-10">
-										<input type="text" class="form-control" data-popup="tooltip" data-trigger="focus" title="Tooltip on focus" placeholder="Click on input">
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Tooltip on hover</label>
-									<div class="col-lg-10">
-										<input type="text" class="form-control" data-popup="tooltip" title="Tooltip on hover" placeholder="Hover on input">
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-md-2">Rounded input</label>
-									<div class="col-md-10">
-										<input type="text" class="form-control rounded-round" placeholder="Rounded input">
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-md-2">Roundless input</label>
-									<div class="col-md-10">
-										<input type="text" class="form-control rounded-0" placeholder="Roundless input">
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Fixed input sizing</label>
-									<div class="col-lg-10">
-										<div class="row">
-											<div class="col-3">
-												<input type="text" class="form-control" placeholder=".col-3">
-											</div>
-
-											<div class="col-4">
-												<input type="text" class="form-control" placeholder=".col-4">
-											</div>
-
-											<div class="col-5">
-												<input type="text" class="form-control" placeholder=".col-5">
-											</div>
-										</div>
-										<span class="form-text text-muted">Available in 12 columns sizes since it's based on 12 columns grid</span>
-									</div>
-								</div>
-							</fieldset>
-
-							<fieldset class="mb-3">
-								<legend class="text-uppercase font-size-sm font-weight-bold">Sizing options</legend>
-
-								<div class="form-group row">
-									<label class="col-form-label col-form-label-lg col-lg-2">Large size</label>
-									<div class="col-lg-10">
-										<input type="text" class="form-control form-control-lg" placeholder=".col-form-label-lg .form-control-lg">
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Default size</label>
-									<div class="col-lg-10">
-										<input type="text" class="form-control" placeholder=".col-form-label .form-control">
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-form-label-sm col-lg-2">Small size</label>
-									<div class="col-lg-10">
-										<input type="text" class="form-control form-control-sm" placeholder=".col-form-label-sm .form-control-sm">
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Inputs only</label>
-									<div class="col-lg-10">
-										<div class="row">
-											<div class="col-md-6">
-												<div class="form-group">
-													<input class="form-control form-control-lg" type="text" placeholder="Large input height">
-												</div>
-
-												<div class="form-group">
-													<input class="form-control" type="text" placeholder="Default input height">
-												</div>
-
-												<div class="form-group">
-													<input class="form-control form-control-sm" type="text" placeholder="Small input height">
-												</div>
-											</div>
-
-											<div class="col-md-6">
-												<div class="form-group">
-													<select class="form-control form-control-lg">
-					                                    <option value="opt1">Large select height</option>
-					                                    <option value="opt2">Option 2</option>
-					                                    <option value="opt3">Option 3</option>
-					                                    <option value="opt4">Option 4</option>
-					                                    <option value="opt5">Option 5</option>
-					                                    <option value="opt6">Option 6</option>
-					                                    <option value="opt7">Option 7</option>
-					                                    <option value="opt8">Option 8</option>
-					                                </select>
-												</div>
-
-												<div class="form-group">
-													<select class="form-control">
-					                                    <option value="opt1">Default select height</option>
-					                                    <option value="opt2">Option 2</option>
-					                                    <option value="opt3">Option 3</option>
-					                                    <option value="opt4">Option 4</option>
-					                                    <option value="opt5">Option 5</option>
-					                                    <option value="opt6">Option 6</option>
-					                                    <option value="opt7">Option 7</option>
-					                                    <option value="opt8">Option 8</option>
-					                                </select>
-												</div>
-
-												<div class="form-group">
-													<select class="form-control form-control-sm">
-					                                    <option value="opt1">Small select height</option>
-					                                    <option value="opt2">Option 2</option>
-					                                    <option value="opt3">Option 3</option>
-					                                    <option value="opt4">Option 4</option>
-					                                    <option value="opt5">Option 5</option>
-					                                    <option value="opt6">Option 6</option>
-					                                    <option value="opt7">Option 7</option>
-					                                    <option value="opt8">Option 8</option>
-					                                </select>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</fieldset>
-
-							<fieldset class="mb-3">
-								<legend class="text-uppercase font-size-sm font-weight-bold">Color options</legend>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Text color</label>
-									<div class="col-lg-10">
-										<input type="text" class="form-control text-violet" value="Custom text color">
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Border color</label>
-									<div class="col-lg-10">
-										<input type="text" class="form-control border-teal border-1" placeholder="Custom border color">
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Background color</label>
-									<div class="col-lg-10">
-										<input type="text" class="form-control bg-slate-600 border-slate-600 border-1" placeholder="Custom background color">
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Select color</label>
-									<div class="col-lg-10">
-										<select class="form-control bg-indigo-400 border-indigo-400">
-		                                    <option value="opt1">Custom select color</option>
-		                                    <option value="opt2">Option 2</option>
-		                                    <option value="opt3">Option 3</option>
-		                                    <option value="opt4">Option 4</option>
-		                                    <option value="opt5">Option 5</option>
-		                                    <option value="opt6">Option 6</option>
-		                                    <option value="opt7">Option 7</option>
-		                                    <option value="opt8">Option 8</option>
-		                                </select>
-									</div>
-								</div>
-
-		                        <div class="form-group row">
-		                        	<label class="col-form-label col-lg-2">Styled select</label>
-		                        	<div class="col-lg-10">
-			                            <select class="form-control form-control-uniform-custom">
-			                                <option value="opt1">Custom styled select color</option>
-			                                <option value="opt2">Option 2</option>
-			                                <option value="opt3">Option 3</option>
-			                                <option value="opt4">Option 4</option>
-			                                <option value="opt5">Option 5</option>
-			                                <option value="opt6">Option 6</option>
-			                                <option value="opt7">Option 7</option>
-			                                <option value="opt8">Option 8</option>
-			                            </select>
-		                            </div>
-		                        </div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">File input color</label>
-									<div class="col-lg-10">
-										<input type="file" class="form-control-uniform-custom">
-									</div>
-								</div>
-							</fieldset>
-
-							<fieldset class="mb-3">
-								<legend class="text-uppercase font-size-sm font-weight-bold">Type options</legend>
-
-								<div class="form-group row">
-									<label class="col-form-label col-md-2">Datetime</label>
-									<div class="col-md-10">
-										<input class="form-control" type="datetime-local" name="datetime-local">
-										<span class="form-text text-muted">Using <code>input type="datetime-local"</code></span>
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-md-2">Date</label>
-									<div class="col-md-10">
-										<input class="form-control" type="date" name="date">
-										<span class="form-text text-muted">Using <code>input type="date"</code></span>
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-md-2">Month</label>
-									<div class="col-md-10">
-										<input class="form-control" type="month" name="month">
-										<span class="form-text text-muted">Using <code>input type="month"</code></span>
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-md-2">Time</label>
-									<div class="col-md-10">
-										<input class="form-control" type="time" name="time">
-										<span class="form-text text-muted">Using <code>input type="time"</code></span>
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-md-2">Week</label>
-									<div class="col-md-10">
-										<input class="form-control" type="week" name="week">
-										<span class="form-text text-muted">Using <code>input type="week"</code></span>
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-md-2">Number</label>
-									<div class="col-md-10">
-										<input class="form-control" type="number" name="number">
-										<span class="form-text text-muted">Using <code>input type="number"</code></span>
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-md-2">Email</label>
-									<div class="col-md-10">
-										<input class="form-control" type="email" name="email">
-										<span class="form-text text-muted">Using <code>input type="email"</code></span>
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-md-2">URL</label>
-									<div class="col-md-10">
-										<input class="form-control" type="url" name="url">
-										<span class="form-text text-muted">Using <code>input type="url"</code></span>
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-md-2">Search</label>
-									<div class="col-md-10">
-										<input class="form-control" type="search" name="search">
-										<span class="form-text text-muted">Using <code>input type="search"</code></span>
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-md-2">Tel</label>
-									<div class="col-md-10">
-										<input class="form-control" type="tel" name="tel">
-										<span class="form-text text-muted">Using <code>input type="tel"</code></span>
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-md-2">Color</label>
-									<div class="col-md-10">
-										<input class="form-control" type="color" name="color">
-										<span class="form-text text-muted">Using <code>input type="color"</code></span>
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-md-2">Range</label>
-									<div class="col-md-10">
-										<input class="form-control" type="range" name="range" min="0" max="10">
-										<span class="form-text text-muted">Using <code>input type="range"</code></span>
-									</div>
-								</div>
-							</fieldset>
-
-							<div class="text-right">
-								<button type="submit" class="btn btn-primary">Submit <i class="icon-paperplane ml-2"></i></button>
-							</div>
-						</form>
-					</div>
-				</div>/-->
-				<!-- /form inputs -->				
-
-
-
-				<!-- Daterange picker -->
-				<!--
-				<div class="card">
-					<div class="card-header header-elements-inline">
-						<h5 class="card-title">Daterange picker</h5>
-						<div class="header-elements">
-							<div class="list-icons">
-		                		<a class="list-icons-item" data-action="collapse"></a>
-		                		<a class="list-icons-item" data-action="reload"></a>
-		                		<a class="list-icons-item" data-action="remove"></a>
-		                	</div>
-	                	</div>
-					</div>
-
-					<div class="card-body">
-						<p class="mb-3">This date range picker component for <code>Bootstrap</code> creates a dropdown menu from which a user can select a range of dates. If invoked with no options, it will present two calendars to choose a start and end date from. Optionally, you can provide a list of date ranges the user can select from instead of choosing dates from the calendars.</p>
-
-						<div class="row">
-							<div class="col-md-6">
 								<div class="form-group">
-									<label>Basic date range picker:</label>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-calendar22"></i></span>
-										</span>
-										<input type="text" class="form-control daterange-basic" value="01/01/2015 - 01/31/2015"> 
-									</div>
+									<label>Select with placeholder</label>
+									<select data-placeholder="Select a State..." class="form-control select" data-fouc>
+										<option></option>
+										<optgroup label="Mountain Time Zone">
+											<option value="AZ">Arizona</option>
+											<option value="CO">Colorado</option>
+											<option value="ID">Idaho</option>
+											<option value="WY">Wyoming</option>
+										</optgroup>
+										<optgroup label="Central Time Zone">
+											<option value="AL">Alabama</option>
+											<option value="IA">Iowa</option>
+											<option value="KS">Kansas</option>
+											<option value="KY">Kentucky</option>
+										</optgroup>
+									</select>
 								</div>
 
 								<div class="form-group">
-									<label>Display week numbers:</label>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-calendar22"></i></span>
-										</span>
-										<input type="text" class="form-control daterange-weeknumbers" value="03/18/2013 - 03/23/2013"> 
-									</div>
+									<label>Select with icons</label>
+									<select data-placeholder="Select a state..." class="form-control select-icons" data-fouc>
+										<optgroup label="Services">
+											<option value="wordpress2" data-icon="wordpress2">Wordpress</option>
+											<option value="tumblr2" data-icon="tumblr2">Tumblr</option>
+											<option value="stumbleupon" data-icon="stumbleupon">Stumble upon</option>
+											<option value="pinterest2" data-icon="pinterest2">Pinterest</option>
+											<option value="lastfm2" data-icon="lastfm2">Lastfm</option>
+										</optgroup>
+										<optgroup label="File types">
+											<option value="pdf" data-icon="file-pdf">PDF</option>
+											<option value="word" data-icon="file-word">Word</option>
+											<option value="excel" data-icon="file-excel">Excel</option>
+											<option value="openoffice" data-icon="file-openoffice">Open office</option>
+										</optgroup>
+										<optgroup label="Browsers">
+											<option value="chrome" data-icon="chrome" selected>Chrome</option>
+											<option value="firefox" data-icon="firefox">Firefox</option>
+											<option value="safari" data-icon="safari">Safari</option>
+											<option value="opera" data-icon="opera">Opera</option>
+											<option value="IE" data-icon="IE">IE</option>
+										</optgroup>
+									</select>
 								</div>
 
 								<div class="form-group">
-									<label>Display time picker:</label>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-calendar22"></i></span>
-										</span>
-										<input type="text" class="form-control daterange-time" value="03/18/2013 - 03/23/2013"> 
-									</div>
+									<label>Disable items</label>
+									<select class="form-control select" data-fouc>
+										<optgroup label="Mountain Time Zone">
+											<option value="AZ" disabled>Arizona</option>
+											<option value="CO">Colorado</option>
+											<option value="ID" disabled>Idaho</option>
+											<option value="WY" disabled>Wyoming</option>
+										</optgroup>
+										<optgroup label="Central Time Zone">
+											<option value="AL">Alabama</option>
+											<option value="AR" disabled>Arkansas</option>
+											<option value="KS">Kansas</option>
+											<option value="KY" disabled>Kentucky</option>
+										</optgroup>
+									</select>
 								</div>
 
 								<div class="form-group">
-									<label>Basic single date picker:</label>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-calendar22"></i></span>
-										</span>
-										<input type="text" class="form-control daterange-single" value="03/18/2013">
-									</div>
+									<label>Disabled select</label>
+									<select class="form-control select" disabled data-fouc>
+										<option value="AZ">Arizona</option>
+										<option value="CO">Colorado</option>
+										<option value="ID">Idaho</option>
+										<option value="WY">Wyoming</option>
+									</select>
 								</div>
 
 								<div class="form-group">
-									<label>Simple text field attachment:</label>
-									<input type="text" class="form-control daterange-basic" value="03/18/2013 - 03/23/2013"> 
+									<label>Select background color</label>
+									<select class="form-control select" data-container-css-class="bg-teal-400" data-fouc>
+										<optgroup label="Mountain Time Zone">
+											<option value="AZ">Arizona</option>
+											<option value="CO">Colorado</option>
+											<option value="ID">Idaho</option>
+											<option value="WY">Wyoming</option>
+										</optgroup>
+										<optgroup label="Central Time Zone">
+											<option value="AL">Alabama</option>
+											<option value="IA">Iowa</option>
+											<option value="KS">Kansas</option>
+											<option value="KY">Kentucky</option>
+										</optgroup>
+									</select>
 								</div>
 
 								<div class="form-group">
-									<label>Button class options:</label>
-									<input type="text" class="form-control daterange-buttons" value="03/18/2013 - 03/23/2013"> 
-								</div>
-							</div>
-
-							<div class="col-md-6">
-								<div class="form-group">
-									<label>Show calendars on left:</label>
-									<div class="input-group">
-										<input type="text" class="form-control daterange-left" value="03/18/2013 - 03/23/2013"> 
-										<span class="input-group-append">
-											<span class="input-group-text"><i class="icon-calendar22"></i></span>
-										</span>
-									</div>
-								</div>
-
-								<div class="form-group">
-									<label>Display date dropdowns:</label>
-									<div class="input-group">
-										<input type="text" class="form-control daterange-datemenu" value="03/18/2013 - 03/23/2013"> 
-										<span class="input-group-append">
-											<span class="input-group-text"><i class="icon-calendar22"></i></span>
-										</span>
-									</div>
+									<label>Menu background color</label>
+									<select class="form-control select" data-dropdown-css-class="bg-teal-400" data-fouc>
+										<optgroup label="Mountain Time Zone">
+											<option value="AZ">Arizona</option>
+											<option value="CO">Colorado</option>
+											<option value="ID">Idaho</option>
+											<option value="WY">Wyoming</option>
+										</optgroup>
+										<optgroup label="Central Time Zone">
+											<option value="AL">Alabama</option>
+											<option value="IA">Iowa</option>
+											<option value="KS">Kansas</option>
+											<option value="KY">Kentucky</option>
+										</optgroup>
+									</select>
 								</div>
 
 								<div class="form-group">
-									<label>10 minute increments:</label>
-									<div class="input-group">
-										<input type="text" class="form-control daterange-increments" value="08/01/2013 1:00 PM - 08/01/2013 1:30 PM">
-										<span class="input-group-append">
-											<span class="input-group-text"><i class="icon-calendar22"></i></span>
-										</span>
-									</div>
+									<label>Custom color</label>
+									<select class="form-control select" data-container-css-class="bg-indigo-400" data-dropdown-css-class="bg-indigo-400" data-fouc>
+										<optgroup label="Mountain Time Zone">
+											<option value="AZ">Arizona</option>
+											<option value="CO">Colorado</option>
+											<option value="ID">Idaho</option>
+											<option value="WY">Wyoming</option>
+										</optgroup>
+										<optgroup label="Central Time Zone">
+											<option value="AL">Alabama</option>
+											<option value="IA">Iowa</option>
+											<option value="KS">Kansas</option>
+											<option value="KY">Kentucky</option>
+										</optgroup>
+									</select>
 								</div>
 
 								<div class="form-group">
-									<label>Localization (ru):</label>
-									<div class="input-group">
-										<input type="text" class="form-control daterange-locale" value="08/01/2013 1:00 PM - 08/01/2013 1:30 PM">
-										<span class="input-group-append">
-											<span class="input-group-text"><i class="icon-calendar22"></i></span>
-										</span>
-									</div>
-								</div>
-
-								<div class="form-group">
-									<label class="d-block">Pre-defined ranges &amp; callback:</label>
-									<button type="button" class="btn btn-light daterange-predefined">
-										<i class="icon-calendar22 mr-2"></i>
-										<span></span>
-									</button>
-								</div>
-
-								<div class="form-group">
-									<label class="d-block">Date picker inside button:</label>
-									<button type="button" class="btn btn-danger daterange-ranges">
-										<i class="icon-calendar22 mr-2"></i>
-										<span></span>
-									</button>
+									<label>Custom border and text color</label>
+									<select class="form-control select" data-container-css-class="border-primary text-primary-700" data-dropdown-css-class="border-primary" data-fouc>
+										<optgroup label="Mountain Time Zone">
+											<option value="AZ">Arizona</option>
+											<option value="CO">Colorado</option>
+											<option value="ID">Idaho</option>
+											<option value="WY">Wyoming</option>
+										</optgroup>
+										<optgroup label="Central Time Zone">
+											<option value="AL">Alabama</option>
+											<option value="IA">Iowa</option>
+											<option value="KS">Kansas</option>
+											<option value="KY">Kentucky</option>
+										</optgroup>
+									</select>
 								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-				<!-- /daterange picker -->
 
-
-				<!-- Pickadate picker -->
-				<!--
-				<div class="card">
-					<div class="card-header header-elements-inline">
-						<h5 class="card-title">Pick-a-Date picker</h5>
-						<div class="header-elements">
-							<div class="list-icons">
-		                		<a class="list-icons-item" data-action="collapse"></a>
-		                		<a class="list-icons-item" data-action="reload"></a>
-		                		<a class="list-icons-item" data-action="remove"></a>
-		                	</div>
-	                	</div>
-					</div>
-
-					<div class="card-body">
-						<p class="mb-3">Pickadate.js is a very powerful, mobile-friendly, responsive, and lightweight jQuery date &amp; time input picker. The basic setup requires targetting an input element and invoking the picker. Basically this plugin includes 2 main parts: date picker and time picker. Time picker examples demonstrated below.</p>
-
-						<div class="row">
-							<div class="col-md-6">
-								<div class="mb-4">
-									<h6 class="font-weight-semibold">Basic options</h6>
-									<p>The basic setup requires targetting an input element and invoking the picker.</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-calendar5"></i></span>
-										</span>
-										<input type="text" class="form-control pickadate" placeholder="Try me&hellip;">
-									</div>
-								</div>
-
-								<div class="mb-4">
-									<h6 class="font-weight-semibold">Strings</h6>
-									<p>Change the month and weekday labels as you find suitable.</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-calendar5"></i></span>
-										</span>
-										<input type="text" class="form-control pickadate-strings" placeholder="Try me&hellip;">
-									</div>
-								</div>
-
-								<div class="mb-4">
-									<h6 class="font-weight-semibold">Buttons</h6>
-									<p>Change the text or hide a button completely by passing a false-y value.</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-calendar5"></i></span>
-										</span>
-										<input type="text" class="form-control pickadate-buttons" placeholder="Try me&hellip;">
-									</div>
-								</div>
-
-								<div class="mb-4">
-									<h6 class="font-weight-semibold">Formats</h6>
-									<p>Display a human-friendly format and use an alternate one to submit to the server.</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-calendar5"></i></span>
-										</span>
-										<input type="text" class="form-control pickadate-format" placeholder="Try me&hellip;">
-									</div>
-								</div>
-
-								<div class="mb-4">
-									<h6 class="font-weight-semibold">Year selector</h6>
-									<p>You can also specify the number of years to show in the dropdown using an even integer.</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-calendar5"></i></span>
-										</span>
-										<input type="text" class="form-control pickadate-year" placeholder="Try me&hellip;">
-									</div>
-								</div>
-
-								<div class="mb-4">
-									<h6 class="font-weight-semibold">First weekday</h6>
-									<p>The first day of the week can be set to either Sunday or Monday.</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-calendar5"></i></span>
-										</span>
-										<input type="text" class="form-control pickadate-weekday" placeholder="Try me&hellip;">
-									</div>
-								</div>
-
-								<div class="mb-3">
-									<h6 class="font-weight-semibold">Date limits</h6>
-									<p>Set the minimum and maximum selectable dates on the picker.</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-calendar5"></i></span>
-										</span>
-										<input type="text" class="form-control pickadate-limits" placeholder="Try me&hellip;">
-									</div>
-								</div>
+					<div class="col-md-6">
+						<div class="card">
+							<div class="card-header header-elements-inline">
+								<h5 class="card-title">Multiple select</h5>
+								<div class="header-elements">
+									<div class="list-icons">
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="reload"></a>
+				                		<a class="list-icons-item" data-action="remove"></a>
+				                	</div>
+			                	</div>
 							</div>
 
-							<div class="col-md-6">
-								<div class="mb-4">
-									<h6 class="font-weight-semibold">Accessibility labels</h6>
-									<p>Change the <code>title</code> attributes to several elements within the picker</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-calendar5"></i></span>
-										</span>
-										<input type="text" class="form-control pickadate-accessibility" placeholder="Try me&hellip;">
-									</div>
+							<div class="card-body">
+								<div class="form-group">
+									<label>Multiple select</label>
+									<select multiple="multiple" class="form-control select" data-fouc>
+										<optgroup label="Mountain Time Zone">
+											<option value="AZ" selected>Arizona</option>
+											<option value="CO">Colorado</option>
+											<option value="ID">Idaho</option>
+											<option value="WY">Wyoming</option>
+										</optgroup>
+										<optgroup label="Central Time Zone">
+											<option value="AL">Alabama</option>
+											<option value="IA" selected>Iowa</option>
+											<option value="KS" selected>Kansas</option>
+											<option value="KY">Kentucky</option>
+										</optgroup>
+									</select>
 								</div>
 
-								<div class="mb-4">
-									<h6 class="font-weight-semibold">Editable input</h6>
-									<p>By default, typing into the input is disabled by giving it a <code>readOnly</code> attribute.</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-calendar5"></i></span>
-										</span>
-										<input type="text" class="form-control pickadate-editable" placeholder="Try me&hellip;">
-									</div>
+								<div class="form-group">
+									<label class="d-block">Fixed width select</label>
+									<select multiple="multiple" class="form-control select-fixed-multiple" data-fouc>
+										<optgroup label="Mountain Time Zone">
+											<option value="AZ" selected>Arizona</option>
+											<option value="CO">Colorado</option>
+											<option value="ID">Idaho</option>
+											<option value="WY">Wyoming</option>
+										</optgroup>
+										<optgroup label="Central Time Zone">
+											<option value="AL">Alabama</option>
+											<option value="IA">Iowa</option>
+											<option value="KS" selected>Kansas</option>
+											<option value="KY">Kentucky</option>
+										</optgroup>
+									</select>
 								</div>
 
-								<div class="mb-4">
-									<h6 class="font-weight-semibold">Dropdown selectors</h6>
-									<p>Display <code>select</code> menus to pick the month and year.</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-calendar5"></i></span>
-										</span>
-										<input type="text" class="form-control pickadate-selectors" placeholder="Try me&hellip;">
-									</div>
+								<div class="form-group">
+									<label>With placeholder</label>
+									<select data-placeholder="Select a State..." multiple="multiple" class="form-control select" data-fouc>
+										<option></option>
+										<optgroup label="Mountain Time Zone">
+											<option value="AZ">Arizona</option>
+											<option value="CO">Colorado</option>
+											<option value="ID">Idaho</option>
+											<option value="WY">Wyoming</option>
+										</optgroup>
+										<optgroup label="Central Time Zone">
+											<option value="AL">Alabama</option>
+											<option value="IA">Iowa</option>
+											<option value="KS">Kansas</option>
+											<option value="KY">Kentucky</option>
+										</optgroup>
+									</select>
 								</div>
 
-								<div class="mb-4">
-									<h6 class="font-weight-semibold">Translations</h6>
-									<p>The picker supports translations for 39 languages, available out of the box.</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-calendar5"></i></span>
-										</span>
-										<input type="text" class="form-control pickadate-translated" placeholder="Try me&hellip;">
-									</div>
+								<div class="form-group">
+									<label>With icons</label>
+									<select multiple="multiple" data-placeholder="Select a state..." class="form-control select-icons" data-fouc>
+										<optgroup label="Services">
+											<option value="wordpress2" data-icon="wordpress2">Wordpress</option>
+											<option value="tumblr2" data-icon="tumblr2">Tumblr</option>
+											<option value="stumbleupon" data-icon="stumbleupon">Stumble upon</option>
+											<option value="pinterest2" data-icon="pinterest2">Pinterest</option>
+											<option value="lastfm2" data-icon="lastfm2">Lastfm</option>
+										</optgroup>
+										<optgroup label="File types">
+											<option value="pdf" data-icon="file-pdf">PDF</option>
+											<option value="word" data-icon="file-word">Word</option>
+											<option value="excel" data-icon="file-excel">Excel</option>
+											<option value="openoffice" data-icon="file-openoffice">Open office</option>
+										</optgroup>
+										<optgroup label="Browsers">
+											<option value="chrome" data-icon="chrome" selected>Chrome</option>
+											<option value="firefox" data-icon="firefox" selected>Firefox</option>
+											<option value="safari" data-icon="safari" selected>Safari</option>
+											<option value="opera" data-icon="opera">Opera</option>
+											<option value="IE" data-icon="IE">IE</option>
+										</optgroup>
+									</select>
 								</div>
 
-								<div class="mb-4">
-									<h6 class="font-weight-semibold">Disable ranges</h6>
-									<p>Enable dates that fall within a range of disabled dates by adding the <code>inverted</code> parameter.</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-calendar5"></i></span>
-										</span>
-										<input type="text" class="form-control pickadate-disable-range" placeholder="Try me&hellip;">
-									</div>
+								<div class="form-group">
+									<label>Drag and drop sorting</label>
+									<select class="form-control select-multiple-drag" multiple="multiple" data-fouc>
+										<option value="AZ" selected>Arizona</option>
+										<option value="CO">Colorado</option>
+										<option value="ID">Idaho</option>
+										<option value="WY">Wyoming</option>
+										<option value="IL" selected>Illinois</option>
+										<option value="IA">Iowa</option>
+										<option value="KS">Kansas</option>
+										<option value="KY">Kentucky</option>
+									</select>
 								</div>
 
-								<div class="mb-4">
-									<h6 class="font-weight-semibold">Events</h6>
-									<p>Fire off events as the user interacts with the picker.</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-calendar5"></i></span>
-										</span>
-										<input type="text" class="form-control pickadate-events" placeholder="Open your console and try me&hellip;">
-									</div>
+								<div class="form-group">
+									<label>Disable menu items</label>
+									<select multiple="multiple" class="form-control select" data-fouc>
+										<optgroup label="Mountain Time Zone">
+											<option value="AZ" disabled>Arizona</option>
+											<option value="CO">Colorado</option>
+											<option value="ID" disabled>Idaho</option>
+											<option value="WY" selected>Wyoming</option>
+										</optgroup>
+										<optgroup label="Central Time Zone">
+											<option value="AL">Alabama</option>
+											<option value="AR" selected>Arkansas</option>
+											<option value="KS">Kansas</option>
+											<option value="KY" disabled>Kentucky</option>
+										</optgroup>
+									</select>
 								</div>
 
-								<div class="mb-3">
-									<h6 class="font-weight-semibold">Disable dates</h6>
-									<p>Disable a specific or arbitrary set of dates selectable on the picker.</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-calendar5"></i></span>
-										</span>
-										<input type="text" class="form-control pickadate-disable" placeholder="Try me&hellip;">
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- /pickadate picker -->
-
-
-				<!-- Pickatime picker -->
-				<!--
-				<div class="card">
-					<div class="card-header header-elements-inline">
-						<h5 class="card-title">Pick-a-Time time picker</h5>
-						<div class="header-elements">
-							<div class="list-icons">
-		                		<a class="list-icons-item" data-action="collapse"></a>
-		                		<a class="list-icons-item" data-action="reload"></a>
-		                		<a class="list-icons-item" data-action="remove"></a>
-		                	</div>
-	                	</div>
-					</div>
-
-					<div class="card-body">
-						<div class="row">
-							<div class="col-md-6">
-								<div class="mb-4">
-									<h6 class="font-weight-semibold">Basic options</h6>
-									<p>The basic setup requires targetting an <code>input</code> element and invoking the picke.r</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-alarm"></i></span>
-										</span>
-										<input type="text" class="form-control pickatime" placeholder="Try me&hellip;">
-									</div>
+								<div class="form-group">
+									<label>Disabled select</label>
+									<select multiple="multiple" class="form-control select" disabled data-fouc>
+										<option value="AZ" selected>Arizona</option>
+										<option value="CO">Colorado</option>
+										<option value="ID" selected>Idaho</option>
+										<option value="WY" selected>Wyoming</option>
+									</select>
 								</div>
 
-								<div class="mb-4">
-									<h6 class="font-weight-semibold">Clear button</h6>
-									<p>Change the text or hide the button completely by passing a <code>false-y</code> value.</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-alarm"></i></span>
-										</span>
-										<input type="text" class="form-control pickatime-clear" placeholder="Try me&hellip;">
-									</div>
+								<div class="form-group">
+									<label>Results background color</label>
+									<select multiple="multiple" class="form-control select" data-container-css-class="bg-teal-400" data-fouc>
+										<optgroup label="Mountain Time Zone">
+											<option value="AZ" selected>Arizona</option>
+											<option value="CO">Colorado</option>
+											<option value="ID">Idaho</option>
+											<option value="WY">Wyoming</option>
+										</optgroup>
+										<optgroup label="Central Time Zone">
+											<option value="IL" selected>Illinois</option>
+											<option value="IA">Iowa</option>
+											<option value="KS" selected>Kansas</option>
+											<option value="KY">Kentucky</option>
+										</optgroup>
+									</select>
 								</div>
 
-								<div class="mb-4">
-									<h6 class="font-weight-semibold">Timepicker formats</h6>
-									<p>Display a human-friendly label and <code>input</code> format and use an alternate one to submit.</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-alarm"></i></span>
-										</span>
-										<input type="text" class="form-control pickatime-format" placeholder="Try me&hellip;">
-									</div>
+								<div class="form-group">
+									<label>Menu background color</label>
+									<select multiple="multiple" class="form-control select" data-dropdown-css-class="bg-slate-700" data-fouc>
+										<optgroup label="Mountain Time Zone">
+											<option value="AZ" selected>Arizona</option>
+											<option value="CO">Colorado</option>
+											<option value="ID">Idaho</option>
+											<option value="WY">Wyoming</option>
+										</optgroup>
+										<optgroup label="Central Time Zone">
+											<option value="IL" selected>Illinois</option>
+											<option value="IA">Iowa</option>
+											<option value="KS" selected>Kansas</option>
+											<option value="KY">Kentucky</option>
+										</optgroup>
+									</select>
 								</div>
 
-								<div class="mb-4">
-									<h6 class="font-weight-semibold">Send the hidden value only</h6>
-									<p>Sometimes the value that needs to be sent to the server is just the hidden value – and not the visible one.</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-alarm"></i></span>
-										</span>
-										<input type="text" class="form-control pickatime-hidden" placeholder="Try me&hellip;">
-									</div>
+								<div class="form-group">
+									<label>Custom colors</label>
+									<select multiple="multiple" class="form-control select" data-container-css-class="bg-indigo-400" data-dropdown-css-class="bg-indigo-400" data-fouc>
+										<optgroup label="Mountain Time Zone">
+											<option value="AZ" selected>Arizona</option>
+											<option value="CO">Colorado</option>
+											<option value="ID">Idaho</option>
+											<option value="WY">Wyoming</option>
+										</optgroup>
+										<optgroup label="Central Time Zone">
+											<option value="IL" selected>Illinois</option>
+											<option value="IA">Iowa</option>
+											<option value="KS" selected>Kansas</option>
+											<option value="KY">Kentucky</option>
+										</optgroup>
+									</select>
 								</div>
 
-								<div class="mb-4">
-									<h6 class="font-weight-semibold">Time limits</h6>
-									<p>Set the minimum and maximum selectable times on the picker.</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-alarm"></i></span>
-										</span>
-										<input type="text" class="form-control pickatime-limits" placeholder="Try me&hellip;">
-									</div>
-								</div>
-
-								<div class="mb-3">
-									<h6 class="font-weight-semibold">Using integers as hours</h6>
-									<p>Set the minimum and maximum selectable times on the picker using integers as hours.</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-alarm"></i></span>
-										</span>
-										<input type="text" class="form-control pickatime-limits-integers" placeholder="Try me&hellip;">
-									</div>
-								</div>
-							</div>
-
-							<div class="col-md-6">
-								<div class="mb-4">
-									<h6 class="font-weight-semibold">Disable times</h6>
-									<p>Disable a specific or arbitrary set of times selectable on the picker</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-alarm"></i></span>
-										</span>
-										<input type="text" class="form-control pickatime-disabled" placeholder="Try me&hellip;">
-									</div>
-								</div>
-
-								<div class="mb-4">
-									<h6 class="font-weight-semibold">Disabling ranges</h6>
-									<p>Enable times that fall within a range of disabled times by adding the <code>inverted</code> parameter.</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-alarm"></i></span>
-										</span>
-										<input type="text" class="form-control pickatime-range" placeholder="Try me&hellip;">
-									</div>
-								</div>
-
-								<div class="mb-4">
-									<h6 class="font-weight-semibold">Editable input</h6>
-									<p>By default, text input has a <code>readOnly</code> attribute to hide virtual keyboards on touch devices.</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-alarm"></i></span>
-										</span>
-										<input type="text" class="form-control pickatime-editable" placeholder="Try me&hellip;">
-									</div>
-								</div>
-
-								<div class="mb-4">
-									<h6 class="font-weight-semibold">Timepicker events</h6>
-									<p>Fire off events as the user interacts with the picker</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-alarm"></i></span>
-										</span>
-										<input type="text" class="form-control pickatime-events" placeholder="Open your console and try me&hellip;">
-									</div>
-								</div>
-
-								<div class="mb-4">
-									<h6 class="font-weight-semibold">Disabling all with exeptions</h6>
-									<p>Enable only a specific or arbitrary set of times by setting true as the first item in the collection.</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-alarm"></i></span>
-										</span>
-										<input type="text" class="form-control pickatime-disableall" placeholder="Try me&hellip;">
-									</div>
-								</div>
-
-								<div class="mb-3">
-									<h6 class="font-weight-semibold">Timepicker intervals</h6>
-									<p>Choose the minutes interval between each time in the list.</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-alarm"></i></span>
-										</span>
-										<input type="text" class="form-control pickatime-intervals" placeholder="Try me&hellip;">
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- /pickadate picker -->
-
-
-				<!-- Anytime picker -->
-				<!--
-				<div class="card">
-					<div class="card-header header-elements-inline">
-						<h5 class="card-title">Anytime pickers</h5>
-						<div class="header-elements">
-							<div class="list-icons">
-		                		<a class="list-icons-item" data-action="collapse"></a>
-		                		<a class="list-icons-item" data-action="reload"></a>
-		                		<a class="list-icons-item" data-action="remove"></a>
-		                	</div>
-	                	</div>
-					</div>
-
-					<div class="card-body">
-						<p class="mb-3">The <code>Any+Time™</code> JavaScript Library includes a highly-customizable, jQuery-compatible datepicker/ timepicker (calendar/ clock widget) and a powerful Date/String parse/format utility. Anytime allows you to create a date/time picker with advanced features and options not found in other calendar/clock widgets, also to format dates and times in different ways.</p>
-
-						<div class="row">
-							<div class="col-md-6">
-								<div class="mb-4">
-									<h6 class="font-weight-semibold">Basic usage</h6>
-									<p>Basic text field specifies that the week begins with Monday.</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-calendar3"></i></span>
-										</span>
-										<input type="text" class="form-control" id="anytime-date" value="Sunday, July 30th in the Year 1967 CE">
-									</div>
-								</div>
-
-								<div class="mb-4">
-									<h6 class="font-weight-semibold">Month and day</h6>
-									<p>Month and day only picker format</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-calendar3"></i></span>
-										</span>
-										<input type="text" class="form-control" id="anytime-month-day" value="4th of June">
-									</div>
-								</div>
-
-								<div class="mb-4">
-									<h6 class="font-weight-semibold">Time picker</h6>
-									<p>Current example displays hours and minutes only. Seconds can be added via plugin <code>options</code>.</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-watch2"></i></span>
-										</span>
-										<input type="text" class="form-control" id="anytime-time" value="12:34">
-									</div>
-								</div>
-
-								<div class="mb-4">
-									<h6 class="font-weight-semibold">Display hours only</h6>
-									<p>Current example demonstrates simple time picker with hours only in <code>AM/PM</code> format.</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-watch2"></i></span>
-										</span>
-										<input type="text" class="form-control" id="anytime-time-hours" value="9 PM">
-									</div>
-								</div>
-
-								<div class="mb-3">
-									<h6 class="font-weight-semibold">Date and time pickers</h6>
-									<p>The first field specifies that the week begins with Monday. The second field demonstrates a time picker.</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-calendar3"></i></span>
-										</span>
-										<input type="text" class="form-control" id="anytime-both" value="June 4th 08:47">
-									</div>
-								</div>
-							</div>
-
-							<div class="col-md-6">
-								<div class="mb-4">
-									<h6 class="font-weight-semibold">Custom display format</h6>
-									<p>Custom display format can be specified via plugin <code>options</code></p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-calendar3"></i></span>
-										</span>
-										<input type="text" class="form-control" id="anytime-weekday" value="Wednesday, 4th of June, 2014">
-									</div>
-								</div>
-
-								<div class="mb-4">
-									<h6 class="font-weight-semibold">Numeric date</h6>
-									<p>Current example demonstrates custom <code>DD/MM/YYYY</code> date format</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<span class="input-group-text"><i class="icon-calendar3"></i></span>
-										</span>
-										<input type="text" class="form-control" id="anytime-month-numeric" value="04/06/2014">
-									</div>
-								</div>
-
-								<div class="mb-4">
-									<h6 class="font-weight-semibold">Date range</h6>
-									<p>In the following example, <code>AnyTime.Converter</code> and jQuery work together to provide date-range selection. The value for the second ("Finish") field must be at least one day after the date in the first ("Start") field, but no more than 90 days later.</p>
-									<div class="row">
-										<div class="col-md-6">
-											<p><input type="text" class="form-control" id="rangeDemoStart" placeholder="Start date"></p>
-										</div>
-
-										<div class="col-md-6">
-											<p><input type="text" class="form-control" id="rangeDemoFinish" placeholder="Finish date" disabled></p>
-										</div>
-									</div>
-
-									<input type="button" id="rangeDemoToday" class="btn btn-primary" value="today">
-									<input type="button" id="rangeDemoClear" class="btn btn-light" value="clear">
-								</div>
-
-								<div class="mb-3">
-									<h6 class="font-weight-semibold">On-Demand Picker</h6>
-									<p>The following example shows how to create a field that initially does not have a picker, followed by a button that creates a picker for the field. This would be useful if you want to allow manual entry into the field, but it does not prevent the user from entering a value in the wrong format.</p>
-									<div class="input-group">
-										<span class="input-group-prepend">
-											<button type="button" class="btn btn-light btn-icon" id="ButtonCreationDemoButton"><i class="icon-calendar3"></i></button>
-										</span>
-										<input type="text" class="form-control" id="ButtonCreationDemoInput" placeholder="Select a date">
-									</div>
-									<span class="form-text text-muted">Format must be YYYY-MM-DD HH:MM:SS</span>
+								<div class="form-group">
+									<label>Custom border color</label>
+									<select multiple="multiple" class="form-control select" data-container-css-class="border-primary text-primary-700" data-dropdown-css-class="border-primary" data-fouc>
+										<optgroup label="Mountain Time Zone">
+											<option value="AZ" selected>Arizona</option>
+											<option value="CO">Colorado</option>
+											<option value="ID">Idaho</option>
+											<option value="WY">Wyoming</option>
+										</optgroup>
+										<optgroup label="Central Time Zone">
+											<option value="IL" selected>Illinois</option>
+											<option value="IA">Iowa</option>
+											<option value="KS" selected>Kansas</option>
+											<option value="KY">Kentucky</option>
+										</optgroup>
+									</select>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>/-->
-				<!-- /anytime picker -->
+				<!-- /select2 selects -->
+
+				<!-- Checkboxes -->
+				<!--
+				<div class="mb-3">
+					<h6 class="mb-0 font-weight-semibold">
+						Checkbox inputs
+					</h6>
+					<span class="text-muted d-block">Checkbox inputs variations</span>
+				</div>
+
+				<div class="row">
+					<div class="col-md-6">
+						<div class="card">
+							<div class="card-header header-elements-inline">
+								<h6 class="card-title">Basic checkbox</h6>
+								<div class="header-elements">
+									<div class="list-icons">
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="reload"></a>
+				                		<a class="list-icons-item" data-action="remove"></a>
+				                	</div>
+			                	</div>
+							</div>
+						
+							<div class="card-body">
+								<p class="mb-3">The following example demonstrates checkbox input type with both field label and right label. Validation is enabled by default and requires proper options added to checkbox configuration. Supports all available input-specific options.</p>
+								<div id="alpaca-checkbox-label"></div>
+								<a href="#alpaca-checkbox-label-source" data-toggle="collapse"><i class="icon-embed2 mr-2"></i> Show source code</a>
+								<div class="collapse mt-2" id="alpaca-checkbox-label-source">
+									<pre class="language-javascript"><code>// Checkbox with label
+$('#alpaca-checkbox-label').alpaca({
+    data: true,
+    options: {
+        label: 'Question:',
+        rightLabel: 'Do you like Alpaca?'
+    }
+});</code></pre>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6">
+						<div class="card">
+							<div class="card-header header-elements-inline">
+								<h6 class="card-title">Display only mode</h6>
+								<div class="header-elements">
+									<div class="list-icons">
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="reload"></a>
+				                		<a class="list-icons-item" data-action="remove"></a>
+				                	</div>
+			                	</div>
+							</div>
+						
+							<div class="card-body">
+								<p class="mb-3">The following example demonstrates checkbox input type in display-only mode. Validation is enabled by default and requires proper options added to checkbox configuration. Supports all available input-specific options.</p>
+								<div id="alpaca-checkbox-static"></div>
+								<a href="#alpaca-checkbox-static-source" data-toggle="collapse"><i class="icon-embed2 mr-2"></i> Show source code</a>
+								<div class="collapse mt-2" id="alpaca-checkbox-static-source">
+									<pre class="language-javascript"><code>// Display only mode
+$('#alpaca-checkbox-static').alpaca({
+    data: false,
+    view: 'bootstrap-display',
+    options: {
+        label: 'Registered?'
+    }
+});</code></pre>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="row">
+					<div class="col-md-6">
+						<div class="card">
+							<div class="card-header header-elements-inline">
+								<h6 class="card-title">Styled checkbox</h6>
+								<div class="header-elements">
+									<div class="list-icons">
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="reload"></a>
+				                		<a class="list-icons-item" data-action="remove"></a>
+				                	</div>
+			                	</div>
+							</div>
+						
+							<div class="card-body">
+								<p class="mb-3">The following example demonstrates checkbox input type with custom style added by Uniform plugin. Validation is enabled by default and requires proper options added to checkbox configuration. Supports all available input-specific options.</p>
+								<div id="alpaca-checkbox-styled"></div>
+								<a href="#alpaca-checkbox-styled-source" data-toggle="collapse"><i class="icon-embed2 mr-2"></i> Show source code</a>
+								<div class="collapse mt-2" id="alpaca-checkbox-styled-source">
+									<pre class="language-javascript"><code>// Styled checkbox
+$('#alpaca-checkbox-styled').alpaca({
+    data: true,
+    options: {
+        label: 'Question:',
+        rightLabel: 'Do you like Alpaca?',
+        fieldClass: 'checkbox-styled'
+    },
+    postRender: function(control) {
+        $('.checkbox-styled').find('input[type=checkbox]').uniform();
+    }
+});</code></pre>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6">
+						<div class="card">
+							<div class="card-header header-elements-inline">
+								<h6 class="card-title">Disabled mode</h6>
+								<div class="header-elements">
+									<div class="list-icons">
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="reload"></a>
+				                		<a class="list-icons-item" data-action="remove"></a>
+				                	</div>
+			                	</div>
+							</div>
+						
+							<div class="card-body">
+								<p class="mb-3">The following example demonstrates styled checkbox input in disabled mode. Validation is enabled by default and requires proper options added to checkbox configuration. Supports all available input-specific options.</p>
+								<div id="alpaca-checkbox-styled-disabled"></div>
+								<a href="#alpaca-checkbox-styled-disabled-source" data-toggle="collapse"><i class="icon-embed2 mr-2"></i> Show source code</a>
+								<div class="collapse mt-2" id="alpaca-checkbox-styled-disabled-source">
+									<pre class="language-javascript"><code>// Disabled checkbox
+$('#alpaca-checkbox-styled-disabled').alpaca({
+    data: true,
+    options: {
+        label: 'Question:',
+        rightLabel: 'Do you like Alpaca?',
+        fieldClass: 'checkbox-styled-disabled',
+        disabled: true
+    },
+    postRender: function(control) {
+        $('.checkbox-styled-disabled').find('input[type=checkbox]').uniform();
+    }
+});</code></pre>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="row">
+					<div class="col-md-6">
+						<div class="card">
+							<div class="card-header header-elements-inline">
+								<h6 class="card-title">Switchery toggles</h6>
+								<div class="header-elements">
+									<div class="list-icons">
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="reload"></a>
+				                		<a class="list-icons-item" data-action="remove"></a>
+				                	</div>
+			                	</div>
+							</div>
+						
+							<div class="card-body">
+								<p class="mb-3">The following example demonstrates checkbox input type displayed as a toggle. Both Uniform and Switchery are custom additions, Alpaca doesn't support these components by default and requires custom configuraiton.</p>
+								<div id="alpaca-switchery"></div>
+								<a href="#alpaca-switchery-source" data-toggle="collapse"><i class="icon-embed2 mr-2"></i> Show source code</a>
+								<div class="collapse mt-2" id="alpaca-switchery-source">
+									<pre class="language-javascript"><code>// Switchery toggle
+$('#alpaca-switchery').alpaca({
+    data: true,
+    options: {
+        label: 'Question:',
+        rightLabel: 'Do you like Alpaca?',
+        fieldClass: 'switchery-demo'
+    },
+    postRender: function() {
+
+        // Init Switchery
+        var elems = Array.prototype.slice.call(document.querySelectorAll('.switchery-demo input[type=checkbox]'));
+        elems.forEach(function(html) {
+          var switchery = new Switchery(html);
+        });
+
+        // Add proper spacing
+        $('.switchery-demo').find('.form-check').addClass('form-check-switchery');
+    }
+});</code></pre>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6">
+						<div class="card">
+							<div class="card-header header-elements-inline">
+								<h6 class="card-title">Disabled mode</h6>
+								<div class="header-elements">
+									<div class="list-icons">
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="reload"></a>
+				                		<a class="list-icons-item" data-action="remove"></a>
+				                	</div>
+			                	</div>
+							</div>
+						
+							<div class="card-body">
+								<p class="mb-3">The following example demonstrates checkbox input type displayed as a toggle, in disabled mode. Both Uniform and Switchery are custom additions, Alpaca doesn't support these components by default and requires custom configuraiton.</p>
+								<div id="alpaca-switchery-disabled"></div>
+								<a href="#alpaca-switchery-disabled-source" data-toggle="collapse"><i class="icon-embed2 mr-2"></i> Show source code</a>
+								<div class="collapse mt-2" id="alpaca-switchery-disabled-source">
+									<pre class="language-javascript"><code>// Switchery toggle
+$('#alpaca-switchery-disabled').alpaca({
+    data: true,
+    options: {
+        label: 'Question:',
+        rightLabel: 'Do you like Alpaca?',
+        fieldClass: 'switchery-disabled-demo',
+        disabled: true
+    },
+    postRender: function(control) {
+
+        // Init Switchery
+        var elems = Array.prototype.slice.call(document.querySelectorAll('.switchery-disabled-demo input[type=checkbox]'));
+        elems.forEach(function(html) {
+          var switchery = new Switchery(html);
+        });
+
+        // Add proper spacing
+        $('.switchery-disabled-demo').find('.form-check').addClass('form-check-switchery');
+    }
+});</code></pre>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="row">
+					<div class="col-md-6">
+						<div class="card">
+							<div class="card-header header-elements-inline">
+								<h6 class="card-title">Basic checkbox list</h6>
+								<div class="header-elements">
+									<div class="list-icons">
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="reload"></a>
+				                		<a class="list-icons-item" data-action="remove"></a>
+				                	</div>
+			                	</div>
+							</div>
+						
+							<div class="card-body">
+								<p class="mb-3">The following example demonstrates checkbox list used for multiple values provided as an array. Validation is enabled by default and requires proper options added to checkbox configuration. Supports all available input-specific options.</p>
+								<div id="alpaca-checkbox-list"></div>
+								<a href="#alpaca-checkbox-list-source" data-toggle="collapse"><i class="icon-embed2 mr-2"></i> Show source code</a>
+								<div class="collapse mt-2" id="alpaca-checkbox-list-source">
+									<pre class="language-javascript"><code>// Basic checkbox list
+$('#alpaca-checkbox-list').alpaca({
+    data: ['sandwich', 'cookie', 'drink'],
+    schema: {
+        type: 'array',
+        enum: ['sandwich', 'chips', 'cookie', 'drink']
+    },
+    options: {
+        type: 'checkbox',
+        label: 'What would you like with your order?',
+        optionLabels: ['A Sandwich', 'Potato Chips', 'A Cookie', 'Soft Drink']
+    }
+});</code></pre>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6">
+						<div class="card">
+							<div class="card-header header-elements-inline">
+								<h6 class="card-title">Styled checkbox list</h6>
+								<div class="header-elements">
+									<div class="list-icons">
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="reload"></a>
+				                		<a class="list-icons-item" data-action="remove"></a>
+				                	</div>
+			                	</div>
+							</div>
+						
+							<div class="card-body">
+								<p class="mb-3">The following example demonstrates multiple checkbox list with custom style added by Uniform plugin. Validation is enabled by default and requires proper options added to checkbox configuration. Supports all available input-specific options.</p>
+								<div id="alpaca-checkbox-list-styled"></div>
+								<a href="#alpaca-checkbox-list-styled-source" data-toggle="collapse"><i class="icon-embed2 mr-2"></i> Show source code</a>
+								<div class="collapse mt-2" id="alpaca-checkbox-list-styled-source">
+									<pre class="language-javascript"><code>// Styled checkbox list
+$('#alpaca-checkbox-list-styled').alpaca({
+    data: ['sandwich', 'cookie', 'drink'],
+    schema: {
+        type: 'array',
+        enum: ['sandwich', 'chips', 'cookie', 'drink']
+    },
+    options: {
+        type: 'checkbox',
+        label: 'What would you like with your order?',
+        optionLabels: ['A Sandwich', 'Potato Chips', 'A Cookie', 'Soft Drink'],
+        fieldClass: 'checkbox-styled-list'
+    },
+    postRender: function(control) {
+        $('.checkbox-styled-list').find('input[type=checkbox]').uniform();
+    }
+});</code></pre>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /checkboxes -->
+
+
+				<!-- Radio -->
+				<!--
+				<div class="mb-3 pt-2">
+					<h6 class="mb-0 font-weight-semibold">
+						Radio buttons
+					</h6>
+					<span class="text-muted d-block">Radio button variations</span>
+				</div>
+
+				<div class="row">
+					<div class="col-md-6">
+						<div class="card">
+							<div class="card-header header-elements-inline">
+								<h6 class="card-title">Basic radios</h6>
+								<div class="header-elements">
+									<div class="list-icons">
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="reload"></a>
+				                		<a class="list-icons-item" data-action="remove"></a>
+				                	</div>
+			                	</div>
+							</div>
+						
+							<div class="card-body">
+								<p class="mb-3">The following example demonstrates <code>radio</code> button field with more than 3 options and custom option labels. Validation is enabled by default and requires proper options added to checkbox configuration. Supports all available input-specific options.</p>
+								<div id="alpaca-radio-basic"></div>
+								<a href="#alpaca-radio-basic-source" data-toggle="collapse"><i class="icon-embed2 mr-2"></i> Show source code</a>
+								<div class="collapse mt-2" id="alpaca-radio-basic-source">
+									<pre class="language-javascript"><code>// Basic radios
+$('#alpaca-radio-basic').alpaca({
+    data: 'green',
+    options: {
+        type: 'radio',
+        label: 'Favorite Color',
+        helper: 'Pick your favorite color',
+        optionLabels: {
+            red: 'Red',
+            green: 'Green',
+            blue: 'Blue',
+            white: 'White',
+            black: 'Black'
+        }
+    },
+    schema: {
+        required: true,
+        enum: ['red', 'green', 'blue', 'white', 'black']
+    }
+});</code></pre>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6">
+						<div class="card">
+							<div class="card-header header-elements-inline">
+								<h6 class="card-title">Disabled mode</h6>
+								<div class="header-elements">
+									<div class="list-icons">
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="reload"></a>
+				                		<a class="list-icons-item" data-action="remove"></a>
+				                	</div>
+			                	</div>
+							</div>
+						
+							<div class="card-body">
+								<p class="mb-3">The following example demonstrates <code>radio</code> button field with set of options in disabled mode. Validation is enabled by default and requires proper options added to checkbox configuration. Supports all available input-specific options.</p>
+								<div id="alpaca-radio-basic-disabled"></div>
+								<a href="#alpaca-radio-basic-disabled-source" data-toggle="collapse"><i class="icon-embed2 mr-2"></i> Show source code</a>
+								<div class="collapse mt-2" id="alpaca-radio-basic-disabled-source">
+									<pre class="language-javascript"><code>// Disabled mode
+$('#alpaca-radio-basic-disabled').alpaca({
+    data: 'Jimi Hendrix',
+    schema: {
+        enum: ['Jimi Hendrix', 'Mark Knopfler', 'Joe Satriani', 'Eddie Van Halen', 'Orianthi']
+    },
+    options: {
+        type: 'radio',
+        label: 'Who is your favorite guitarist?',
+        vertical: true,
+        disabled: true
+    }
+});</code></pre>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="row">
+					<div class="col-md-6">
+						<div class="card">
+							<div class="card-header header-elements-inline">
+								<h6 class="card-title">Styled radios</h6>
+								<div class="header-elements">
+									<div class="list-icons">
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="reload"></a>
+				                		<a class="list-icons-item" data-action="remove"></a>
+				                	</div>
+			                	</div>
+							</div>
+						
+							<div class="card-body">
+								<p class="mb-3">The following example demonstrates radio button field with custom style added by Uniform plugin. Validation is enabled by default and requires proper options added to checkbox configuration. Supports all available input-specific options.</p>
+								<div id="alpaca-radio-styled"></div>
+								<a href="#alpaca-radio-styled-source" data-toggle="collapse"><i class="icon-embed2 mr-2"></i> Show source code</a>
+								<div class="collapse mt-2" id="alpaca-radio-styled-source">
+									<pre class="language-javascript"><code>// Styled radios
+$('#alpaca-radio-styled').alpaca({
+    data: 'Jimi Hendrix',
+    schema: {
+        enum: ['Jimi Hendrix', 'Mark Knopfler', 'Joe Satriani', 'Eddie Van Halen', 'Orianthi']
+    },
+    options: {
+        type: 'radio',
+        label: 'Who is your favorite guitarist?',
+        fieldClass: 'radio-styled-demo',
+        vertical: true
+    },
+    postRender: function(control) {
+        $('.radio-styled-demo').find('input[type=radio]').uniform({
+            radioClass: 'choice'
+        });
+    }
+});</code></pre>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6">
+						<div class="card">
+							<div class="card-header header-elements-inline">
+								<h6 class="card-title">Disabled mode</h6>
+								<div class="header-elements">
+									<div class="list-icons">
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="reload"></a>
+				                		<a class="list-icons-item" data-action="remove"></a>
+				                	</div>
+			                	</div>
+							</div>
+						
+							<div class="card-body">
+								<p class="mb-3">The following example demonstrates styled radio button in disabled mode. Validation is enabled by default and requires proper options added to checkbox configuration. Supports all available input-specific options.</p>
+								<div id="alpaca-radio-styled-disabled"></div>
+								<a href="#alpaca-radio-styled-disabled-source" data-toggle="collapse"><i class="icon-embed2 mr-2"></i> Show source code</a>
+								<div class="collapse mt-2" id="alpaca-radio-styled-disabled-source">
+									<pre class="language-javascript"><code>// Disabled mode
+$('#alpaca-radio-styled-disabled').alpaca({
+    data: 'Jimi Hendrix',
+    schema: {
+        enum: ['Jimi Hendrix', 'Mark Knopfler', 'Joe Satriani', 'Eddie Van Halen', 'Orianthi']
+    },
+    options: {
+        type: 'radio',
+        label: 'Who is your favorite guitarist?',
+        vertical: true,
+        fieldClass: 'radio-styled-disabled-demo',
+        disabled: true
+    },
+    postRender: function(control) {
+        $('.radio-styled-disabled-demo').find('input[type=radio]').uniform({
+            radioClass: 'choice'
+        });
+    }
+});</code></pre>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="row">
+					<div class="col-md-6">
+						<div class="card">
+							<div class="card-header header-elements-inline">
+								<h6 class="card-title">Required radios</h6>
+								<div class="header-elements">
+									<div class="list-icons">
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="reload"></a>
+				                		<a class="list-icons-item" data-action="remove"></a>
+				                	</div>
+			                	</div>
+							</div>
+						
+							<div class="card-body">
+								<p class="mb-3">The following example demonstrates radio button with validation options and requirements. Validation engine automatically displays multiple notifications. To use, simply set <code>required</code> option to <code>true</code> in configuration.</p>
+								<div id="alpaca-radio-required"></div>
+								<a href="#alpaca-radio-required-source" data-toggle="collapse"><i class="icon-embed2 mr-2"></i> Show source code</a>
+								<div class="collapse mt-2" id="alpaca-radio-required-source">
+									<pre class="language-javascript"><code>// Required radios
+$('#alpaca-radio-required').alpaca({
+    data: 'Coffee2',
+    options: {
+        label: 'Ice cream',
+        helper: 'Guess my favorite ice cream?',
+        optionLabels: ['Vanilla Flavor', 'Chocolate Flavor', 'Coffee Flavor']
+    },
+    schema: {
+        required: true,
+        enum: ['Vanilla', 'Chocolate', 'Coffee']
+    }
+});</code></pre>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6">
+						<div class="card">
+							<div class="card-header header-elements-inline">
+								<h6 class="card-title">Options</h6>
+								<div class="header-elements">
+									<div class="list-icons">
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="reload"></a>
+				                		<a class="list-icons-item" data-action="remove"></a>
+				                	</div>
+			                	</div>
+							</div>
+						
+							<div class="card-body">
+								<p class="mb-3">A radio field that uses the <code>removeDefaultNone</code> option to remove the option for the end user to select <code>None</code> from the list of available options. In addition, the <code>vertical</code> option is specified to inform the field to render vertically.</p>
+								<div id="alpaca-radio-options"></div>
+								<a href="#alpaca-radio-options-source" data-toggle="collapse"><i class="icon-embed2 mr-2"></i> Show source code</a>
+								<div class="collapse mt-2" id="alpaca-radio-options-source">
+									<pre class="language-javascript"><code>// Options
+$('#alpaca-radio-options').alpaca({
+    data: 'Jimi Hendrix',
+    schema: {
+        enum: ['Jimi Hendrix', 'Mark Knopfler', 'Joe Satriani', 'Eddie Van Halen', 'Orianthi']
+    },
+    options: {
+        type: 'radio',
+        label: 'Who is your favorite guitarist?',
+        removeDefaultNone: true,
+        vertical: true
+    }
+});</code></pre>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /radios -->
+
+
+				<!-- Tokenfield -->
+				<!--
+				<div class="mb-3 pt-2">
+					<h6 class="mb-0 font-weight-semibold">
+						Bootstrap Tokenfield
+					</h6>
+					<span class="text-muted d-block">Display tagged elements</span>
+				</div>
+
+				<div class="row">
+					<div class="col-md-6">
+						<div class="card">
+							<div class="card-header header-elements-inline">
+								<h6 class="card-title">Tokenfield</h6>
+								<div class="header-elements">
+									<div class="list-icons">
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="reload"></a>
+				                		<a class="list-icons-item" data-action="remove"></a>
+				                	</div>
+			                	</div>
+							</div>
+						
+							<div class="card-body">
+								<p class="mb-3">The <code>token</code> field. This provides an implementation of the Bootstrap TokenField plugin on top of a text field to allow for autocomplete and typeahead tokens in a comma (or alternative separator) delimited string.</p>
+								<div id="alpaca-tokenfield"></div>
+								<a href="#alpaca-tokenfield-source" data-toggle="collapse"><i class="icon-embed2 mr-2"></i> Show source code</a>
+								<div class="collapse mt-2" id="alpaca-tokenfield-source">
+									<pre class="language-javascript"><code>// Basic setup
+$('#alpaca-tokenfield').alpaca({
+    schema: {
+        title: 'Character Names',
+        type: 'string'
+    },
+    options: {
+        type: 'token',
+        focus: false,
+        tokenfield: {
+            autocomplete: {
+                source: ['marty', 'doc', 'george', 'biff', 'lorraine', 'mr. strickland'],
+                delay: 100
+            },
+            showAutocompleteOnFocus: true
+        }
+    },
+    data: 'marty,doc,george,biff'
+});</code></pre>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6">
+						<div class="card">
+							<div class="card-header header-elements-inline">
+								<h6 class="card-title">Display only mode</h6>
+								<div class="header-elements">
+									<div class="list-icons">
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="reload"></a>
+				                		<a class="list-icons-item" data-action="remove"></a>
+				                	</div>
+			                	</div>
+							</div>
+						
+							<div class="card-body">
+								<p class="mb-3">Here is a token field that lets you pick character first names from the movie Back to the Future, displayed in display-only mode. Tokenfield also supports jQuery UI's <code>autocomplete</code> extension as seen in previous demo.</p>
+								<div id="alpaca-tokenfield-static"></div>
+								<a href="#alpaca-tokenfield-static-source" data-toggle="collapse"><i class="icon-embed2 mr-2"></i> Show source code</a>
+								<div class="collapse mt-2" id="alpaca-tokenfield-static-source">
+									<pre class="language-javascript"><code>// Display only mode
+$('#alpaca-tokenfield-static').alpaca({
+    schema: {
+        title: 'Character Names',
+        type: 'string'
+    },
+    options: {
+        type: 'token',
+        focus: false,
+        tokenfield: {
+            autocomplete: {
+                source: ['marty', 'doc', 'george', 'biff', 'lorraine', 'mr. strickland'],
+                delay: 100
+            },
+            showAutocompleteOnFocus: true
+        }
+    },
+    data: 'marty,doc,george,biff',
+    view: 'bootstrap-display'
+});</code></pre>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /tokenfield -->
 
 			</div>
 			<!-- /content area -->
