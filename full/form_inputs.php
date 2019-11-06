@@ -518,13 +518,14 @@
 								<li class="nav-item"><a href="editor_ckeditor.php" class="nav-link">Agregar</a></li>
 								<li class="nav-item"><a href="editor_trumbowyg.php" class="nav-link">Editar</a></li>
 								<!--
-								<li class="nav-item"><a href="editor_code.html" class="nav-link">Code editor</a></li>
+								<li class="nav-item"><a href="editor_code.html" class="nav-link">Code editor</a></li>/-->
 							</ul>
 						</li>
 						<li class="nav-item nav-item-submenu">
-							<a href="#" class="nav-link"><i class="icon-select2"></i> <span>Pickers</span></a>
+							<a href="#" class="nav-link"><i class="icon-select2"></i> <span>Transporte</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="Pickers">
-								<li class="nav-item"><a href="picker_date.html" class="nav-link">Date &amp; time pickers</a></li>
+								<li class="nav-item"><a href="picker_date.html" class="nav-link">Formulario</a></li>
+								<!--
 								<li class="nav-item"><a href="picker_color.html" class="nav-link">Color pickers</a></li>
 								<li class="nav-item"><a href="picker_location.html" class="nav-link">Location pickers</a></li>
 							</ul>
@@ -543,13 +544,14 @@
 
 						<!-- Components -->
 						<!--
-						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Components</div> <i class="icon-menu" title="Components"></i></li>
+						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Components</div> <i class="icon-menu" title="Components"></i></li>/-->
 						<li class="nav-item nav-item-submenu">
-							<a href="#" class="nav-link"><i class="icon-grid"></i> <span>Basic components</span></a>
+							<a href="#" class="nav-link"><i class="icon-grid"></i> <span>Alumnos</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="Basic components">
-								<li class="nav-item"><a href="components_modals.html" class="nav-link">Modals</a></li>
-								<li class="nav-item"><a href="components_dropdowns.html" class="nav-link">Dropdown menus</a></li>
-								<li class="nav-item"><a href="components_tabs.html" class="nav-link">Tabs component</a></li>
+								<li class="nav-item"><a href="components_modals.html" class="nav-link">Listar</a></li>
+								<li class="nav-item"><a href="components_dropdowns.html" class="nav-link">Agregar</a></li>
+								<li class="nav-item"><a href="components_tabs.html" class="nav-link">Editar</a></li>
+								<!--
 								<li class="nav-item"><a href="components_pills.html" class="nav-link">Pills component</a></li>
 								<li class="nav-item"><a href="components_collapsible.html" class="nav-link">Collapsible</a></li>
 								<li class="nav-item"><a href="components_navs.html" class="nav-link">Navs</a></li>
@@ -582,17 +584,19 @@
 								<li class="nav-item"><a href="content_helpers.html" class="nav-link">Helper classes</a></li>
 								<li class="nav-item"><a href="content_helpers_flex.html" class="nav-link">Flex utilities</a></li>
 								<li class="nav-item"><a href="content_syntax_highlighter.html" class="nav-link">Syntax highlighter</a></li>
-								<li class="nav-item"><a href="content_grid.html" class="nav-link">Grid system</a></li>
+								<li class="nav-item"><a href="content_grid.html" class="nav-link">Grid system</a></li>/-->
 							</ul>
 						</li>
 						<li class="nav-item nav-item-submenu">
-							<a href="#" class="nav-link"><i class="icon-gift"></i> <span>Extra components</span></a>
+							<a href="#" class="nav-link"><i class="icon-gift"></i> <span>Tutorias</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="Extra components">
-								<li class="nav-item"><a href="extra_pnotify.html" class="nav-link">PNotify notifications</a></li>
-								<li class="nav-item"><a href="extra_jgrowl_noty.html" class="nav-link">jGrowl and Noty notifications</a></li>
+								<li class="nav-item"><a href="extra_pnotify.html" class="nav-link">Listar</a></li>
+								<li class="nav-item"><a href="extra_jgrowl_noty.html" class="nav-link">Agregar</a></li>
+								<!--
 								<li class="nav-item"><a href="extra_sweetalert.html" class="nav-link">SweetAlert notifications</a></li>
-								<li class="nav-item-divider"></li>
-								<li class="nav-item"><a href="extra_sliders_noui.html" class="nav-link">NoUI sliders</a></li>
+								<li class="nav-item-divider"></li>/-->
+								<li class="nav-item"><a href="extra_sliders_noui.html" class="nav-link">Editar</a></li>
+								<!--
 								<li class="nav-item"><a href="extra_sliders_ion.html" class="nav-link">Ion range sliders</a></li>
 								<li class="nav-item"><a href="extra_trees.html" class="nav-link">Dynamic tree views</a></li>
 								<li class="nav-item"><a href="extra_context_menu.html" class="nav-link">Context menu</a></li>
