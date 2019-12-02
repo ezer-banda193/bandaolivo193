@@ -8,7 +8,7 @@
 
 	<!-- Global stylesheets -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
-	<link href="../../../../global_assets/css/icons/icomoon/styles.min.css" rel="stylesheet" type="text/css">
+	<link href="global_assets/css/icons/icomoon/styles.min.css" rel="stylesheet" type="text/css">
 	<link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 	<link href="assets/css/bootstrap_limitless.min.css" rel="stylesheet" type="text/css">
 	<link href="assets/css/layout.min.css" rel="stylesheet" type="text/css">
@@ -17,16 +17,17 @@
 	<!-- /global stylesheets -->
 
 	<!-- Core JS files -->
-	<script src="../../../../global_assets/js/main/jquery.min.js"></script>
-	<script src="../../../../global_assets/js/main/bootstrap.bundle.min.js"></script>
-	<script src="../../../../global_assets/js/plugins/loaders/blockui.min.js"></script>
+	<script src="global_assets/js/main/jquery.min.js"></script>
+	<script src="global_assets/js/main/bootstrap.bundle.min.js"></script>
+	<script src="/global_assets/js/plugins/loaders/blockui.min.js"></script>
 	<!-- /core JS files -->
 
 	<!-- Theme JS files -->
-	<script src="../../../../global_assets/js/plugins/sliders/nouislider.min.js"></script>
+	<script src="global_assets/js/plugins/notifications/jgrowl.min.js"></script>
+	<script src="global_assets/js/plugins/notifications/noty.min.js"></script>
 
 	<script src="assets/js/app.js"></script>
-	<script src="../../../../global_assets/js/demo_pages/extra_sliders_noui.js"></script>
+	<script src="global_assets/js/demo_pages/extra_jgrowl_noty.js"></script>
 	<!-- /theme JS files -->
 
 </head>
@@ -37,7 +38,7 @@
 	<div class="navbar navbar-expand-md navbar-dark">
 		<div class="navbar-brand">
 			<a href="index.html" class="d-inline-block">
-				<img src="../../../../global_assets/images/logo_light.png" alt="">
+				<img src="global_assets/images/logo_light.png" alt="">
 			</a>
 		</div>
 
@@ -402,7 +403,7 @@
 						<!-- Main -->
 						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Main</div> <i class="icon-menu" title="Main"></i></li>
 						<li class="nav-item">
-							<a href="index.html" class="nav-link">
+							<a href="index.php" class="nav-link">
 								<i class="icon-home4"></i>
 								<span>
 									Dashboard
@@ -484,9 +485,9 @@
 						<li class="nav-item nav-item-submenu">
 							<a href="#" class="nav-link"><i class="icon-pencil3"></i> <span>Empleados</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="Form components">
-								<li class="nav-item"><a href="form_inputs.html" class="nav-link">Listar</a></li>
-								<li class="nav-item"><a href="form_checkboxes_radios.html" class="nav-link">Agregar</a></li>
-								<li class="nav-item"><a href="form_select2.html" class="nav-link">Editar</a></li>
+								<li class="nav-item"><a href="form_inputs.php" class="nav-link">Listar</a></li>
+								<li class="nav-item"><a href="form_checkboxes_radios.php" class="nav-link">Agregar</a></li>
+								<li class="nav-item"><a href="form_select2.php" class="nav-link">Editar</a></li>
 								<!--
 								<li class="nav-item"><a href="form_multiselect.html" class="nav-link">Bootstrap multiselect</a></li>
 								<li class="nav-item"><a href="form_input_groups.html" class="nav-link">Input groups</a></li>
@@ -494,7 +495,7 @@
 								<li class="nav-item"><a href="form_floating_labels.html" class="nav-link">Floating labels</a></li>
 								<li class="nav-item"><a href="form_tag_inputs.html" class="nav-link">Tag inputs</a></li>
 								<li class="nav-item"><a href="form_dual_listboxes.html" class="nav-link">Dual Listboxes</a></li>/-->
-								<li class="nav-item"><a href="form_validation.html" class="nav-link">Departamento</a></li>
+								<li class="nav-item"><a href="form_validation.php" class="nav-link">Departamento</a></li>
 								<!--
 								<li class="nav-item"><a href="form_wizard.html" class="nav-link">Form wizard</a></li>
 								<li class="nav-item"><a href="form_actions.html" class="nav-link">Form actions</a></li>
@@ -504,17 +505,17 @@
 						<li class="nav-item nav-item-submenu">
 							<a href="#" class="nav-link"><i class="icon-file-css"></i> <span>Empresas</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="JSON forms">
-								<li class="nav-item"><a href="alpaca_basic.html" class="nav-link">Listar</a></li>
-								<li class="nav-item"><a href="alpaca_advanced.html" class="nav-link">Agregar</a></li>
-								<li class="nav-item"><a href="alpaca_controls.html" class="nav-link">Editar</a></li>
+								<li class="nav-item"><a href="alpaca_basic.php" class="nav-link">Listar</a></li>
+								<li class="nav-item"><a href="alpaca_advanced.php" class="nav-link">Agregar</a></li>
+								<li class="nav-item"><a href="alpaca_controls.php" class="nav-link">Editar</a></li>
 							</ul>
 						</li>
 						<li class="nav-item nav-item-submenu">
 							<a href="#" class="nav-link"><i class="icon-spell-check"></i> <span>Vacaciones</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="Text editors">
-								<li class="nav-item"><a href="editor_summernote.html" class="nav-link">Listar</a></li>
-								<li class="nav-item"><a href="editor_ckeditor.html" class="nav-link">Agregar</a></li>
-								<li class="nav-item"><a href="editor_trumbowyg.html" class="nav-link">Editar</a></li>
+								<li class="nav-item"><a href="editor_summernote.php" class="nav-link">Listar</a></li>
+								<li class="nav-item"><a href="editor_ckeditor.php" class="nav-link">Agregar</a></li>
+								<li class="nav-item"><a href="editor_trumbowyg.php" class="nav-link">Editar</a></li>
 								<!--
 								<li class="nav-item"><a href="editor_code.html" class="nav-link">Code editor</a></li>/-->
 							</ul>
@@ -522,7 +523,7 @@
 						<li class="nav-item nav-item-submenu">
 							<a href="#" class="nav-link"><i class="icon-select2"></i> <span>Transporte</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="Pickers">
-								<li class="nav-item"><a href="picker_date.html" class="nav-link">Formulario</a></li>
+								<li class="nav-item"><a href="picker_date.php" class="nav-link">Formulario</a></li>
 								<!--
 								<li class="nav-item"><a href="picker_color.html" class="nav-link">Color pickers</a></li>
 								<li class="nav-item"><a href="picker_location.html" class="nav-link">Location pickers</a></li>
@@ -546,9 +547,9 @@
 						<li class="nav-item nav-item-submenu">
 							<a href="#" class="nav-link"><i class="icon-grid"></i> <span>Alumnos</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="Basic components">
-								<li class="nav-item"><a href="components_modals.html" class="nav-link">Listar</a></li>
-								<li class="nav-item"><a href="components_dropdowns.html" class="nav-link">Agregar</a></li>
-								<li class="nav-item"><a href="components_tabs.html" class="nav-link">Editar</a></li>
+								<li class="nav-item"><a href="components_modals.php" class="nav-link">Listar</a></li>
+								<li class="nav-item"><a href="components_dropdowns.php" class="nav-link">Agregar</a></li>
+								<li class="nav-item"><a href="components_tabs.php" class="nav-link">Editar</a></li>
 								<!--
 								<li class="nav-item"><a href="components_pills.html" class="nav-link">Pills component</a></li>
 								<li class="nav-item"><a href="components_collapsible.html" class="nav-link">Collapsible</a></li>
@@ -588,12 +589,12 @@
 						<li class="nav-item nav-item-submenu nav-item-expanded nav-item-open">
 							<a href="#" class="nav-link"><i class="icon-gift"></i> <span>Tutorias</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="Extra components">
-								<li class="nav-item"><a href="extra_pnotify.html" class="nav-link">Listar</a></li>
-								<li class="nav-item"><a href="extra_jgrowl_noty.html" class="nav-link">Agregar</a></li>
+								<li class="nav-item"><a href="extra_pnotify.php" class="nav-link">Listar</a></li>
+								<li class="nav-item"><a href="extra_jgrowl_noty.php" class="nav-link active">Agregar</a></li>
 								<!--
 								<li class="nav-item"><a href="extra_sweetalert.html" class="nav-link">SweetAlert notifications</a></li>
 								<li class="nav-item-divider"></li>/-->
-								<li class="nav-item"><a href="extra_sliders_noui.html" class="nav-link active">Editar</a></li>
+								<li class="nav-item"><a href="extra_sliders_noui.php" class="nav-link">Editar</a></li>
 								<!--
 								<li class="nav-item"><a href="extra_sliders_ion.html" class="nav-link">Ion range sliders</a></li>
 								<li class="nav-item"><a href="extra_trees.html" class="nav-link">Dynamic tree views</a></li>
@@ -1222,7 +1223,7 @@
 			<div class="page-header page-header-light">
 				<div class="page-header-content header-elements-md-inline">
 					<div class="page-title d-flex">
-						<h4><i class="icon-arrow-left52 mr-2"></i> <span class="font-weight-semibold">Editar</span> - Tutorias</h4>
+						<h4><i class="icon-arrow-left52 mr-2"></i> <span class="font-weight-semibold">Agregar</span> - Tutoria</h4>
 						<a href="#" class="header-elements-toggle text-default d-md-none"><i class="icon-more"></i></a>
 					</div>
 
@@ -1239,8 +1240,8 @@
 					<div class="d-flex">
 						<div class="breadcrumb">
 							<a href="index.html" class="breadcrumb-item"><i class="icon-home2 mr-2"></i> Home</a>
-							<a href="extra_sliders_noui.html" class="breadcrumb-item">Extra</a>
-							<span class="breadcrumb-item active">NoUI sliders</span>
+							<a href="extra_jgrowl_noty.html" class="breadcrumb-item">Extra</a>
+							<span class="breadcrumb-item active">jGrowl &amp; Noty</span>
 						</div>
 
 						<a href="#" class="header-elements-toggle text-default d-md-none"><i class="icon-more"></i></a>
@@ -1276,573 +1277,1172 @@
 
 			<!-- Content area -->
 			<div class="content">
+				<!-- Form inputs -->
+				<div class="card">
+					<div class="card-header header-elements-inline">
+						<h5 class="card-title">Alumnos</h5>
+						<div class="header-elements">
+							<div class="list-icons">
+		                		<a class="list-icons-item" data-action="collapse"></a>
+		                		<a class="list-icons-item" data-action="reload"></a>
+		                		<a class="list-icons-item" data-action="remove"></a>
+		                	</div>
+	                	</div>
+					</div>
 
-				<!-- Basic examples -->
+					<div class="card-body">
+						<!--
+						<p class="mb-4">Examples of standard form controls supported in an example form layout. Individual form controls automatically receive some global styling. All textual <code>&lt;input></code>, <code>&lt;textarea></code>, and <code>&lt;select></code> elements with <code>.form-control</code> are set to <code>width: 100%;</code> by default. Wrap labels and controls in <code>.form-group</code> for optimum spacing. Labels in horizontal form require <code>.col-form-label</code> class.</p>/-->
+
+						<form action="#">
+							<fieldset class="mb-3">
+								<legend class="text-uppercase font-size-sm font-weight-bold">Introducir Datos Basicos</legend>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">ID</label>
+									<div class="col-lg-10">
+										<input type="text" class="form-control">
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Matricula</label>
+									<div class="col-lg-10">
+										<input type="password" class="form-control">
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Nombre</label>
+									<div class="col-lg-10">
+										<input type="text" class="form-control">
+									</div>
+								</div>
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Carrera</label>
+									<div class="col-lg-10">
+										<input type="text" class="form-control">
+									</div>
+								</div>
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Maestro</label>
+									<div class="col-lg-10">
+										<input type="text" class="form-control">
+									</div>
+								</div>
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">N° de Empleado</label>
+									<div class="col-lg-10">
+										<input type="text" class="form-control">
+									</div>
+								</div>
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Departamento</label>
+									<div class="col-lg-10">
+										<input type="text" class="form-control">
+									</div>
+								</div>
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Fecha de Sesión</label>
+									<div class="col-lg-10">
+										<input type="text" class="form-control">
+									</div>
+								</div>												
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Carrera</label>
+									<div class="col-lg-10">
+										<input type="text" class="form-control">
+									</div>
+								</div>																												
+								<!--
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Disabled field</label>
+									<div class="col-lg-10">
+										<input type="text" class="form-control" disabled value="disabled">
+									</div>
+								</div>
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Matricula</label>
+									<div class="col-lg-10">
+										<input type="text" class="form-control">
+									</div>
+								</div>
+								<!--
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Disabled autocomplete</label>
+									<div class="col-lg-10">
+										<input type="text" class="form-control" placeholder="Autocomplete is off" autocomplete="off">
+									</div>
+								</div>
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Numero Cuenta</label>
+									<div class="col-lg-10">
+										<input type="text" class="form-control" maxlength="4" placeholder="Maximum 4 characters">
+									</div>
+								</div>
+								<!--
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2 cursor-pointer" for="clickable-label">Focus on label click</label>
+									<div class="col-lg-10">
+										<input type="text" class="form-control" id="clickable-label" placeholder="Field focus on label click">
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Static text</label>
+									<div class="col-lg-10">
+										<div class="form-control-plaintext">This is a static text</div>
+									</div>
+								</div>
+			
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Descripción</label>
+									<div class="col-lg-10">
+										<textarea rows="3" cols="3" class="form-control" placeholder="Default textarea"></textarea>
+									</div>
+								</div>
+							</fieldset>
+							<!--
+							<fieldset class="mb-3">
+								<legend class="text-uppercase font-size-sm font-weight-bold">Basic selects</legend>
+		                        <div class="form-group row">
+		                        	<label class="col-form-label col-lg-2">Single select</label>
+		                        	<div class="col-lg-10">
+			                            <select class="form-control">
+			                                <option value="opt1">Default select</option>
+			                                <option value="opt2">Ezer</option>
+			                                <option value="opt3">Karen</option>
+			                                <option value="opt4">Adair</option>
+			                                <option value="opt5">Angel</option>
+			                            </select>
+		                            </div>
+		                        </div>
+		                        <!--
+		                        <div class="form-group row">
+		                        	<label class="col-form-label col-lg-2">Styled select</label>
+		                        	<div class="col-lg-10">
+			                            <select class="form-control form-control-uniform" data-fouc>
+			                                <option value="opt1">Styled select box</option>
+			                                <option value="opt2">Option 2</option>
+			                                <option value="opt3">Option 3</option>
+			                                <option value="opt4">Option 4</option>
+			                                <option value="opt5">Option 5</option>
+			                                <option value="opt6">Option 6</option>
+			                                <option value="opt7">Option 7</option>
+			                                <option value="opt8">Option 8</option>
+			                            </select>
+		                            </div>
+		                        </div>
+
+		                        <div class="form-group row">
+		                        	<label class="col-form-label col-lg-2">Custom BS select</label>
+		                        	<div class="col-lg-10">
+			                            <select class="custom-select">
+			                                <option value="opt1">Styled select box</option>
+			                                <option value="opt2">Option 2</option>
+			                                <option value="opt3">Option 3</option>
+			                                <option value="opt4">Option 4</option>
+			                                <option value="opt5">Option 5</option>
+			                                <option value="opt6">Option 6</option>
+			                                <option value="opt7">Option 7</option>
+			                                <option value="opt8">Option 8</option>
+			                            </select>
+		                            </div>
+		                        </div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Multiple select</label>
+									<div class="col-lg-10">
+			                            <select multiple="multiple" class="form-control">
+			                                <option selected>Amsterdam</option>      
+			                                <option selected>Atlanta</option>
+			                                <option>Baltimore</option>
+			                                <option>Boston</option>
+			                                <option>Buenos Aires</option>
+			                                <option>Calgary</option>
+			                                <option selected>Chicago</option>
+			                                <option>Denver</option>
+			                                <option>Dubai</option>
+			                                <option>Frankfurt</option>
+			                                <option>Hong Kong</option>
+			                                <option>Honolulu</option>
+			                                <option>Houston</option>
+			                                <option>Kuala Lumpur</option>
+			                                <option>London</option>
+			                                <option>Los Angeles</option>
+			                                <option>Melbourne</option>
+			                                <option>Mexico City</option>
+			                                <option>Miami</option>
+			                                <option>Minneapolis</option>
+			                            </select>
+									</div>
+								</div>
+							</fieldset>
+
+							<fieldset class="mb-3">
+								<legend class="text-uppercase font-size-sm font-weight-bold">Basic file inputs</legend>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Default file input</label>
+									<div class="col-lg-10">
+										<input type="file" class="form-control h-auto">
+									</div>
+								</div>
+								
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Styled file input</label>
+									<div class="col-lg-10">
+										<input type="file" class="form-control-uniform" data-fouc>
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Custom BS file input</label>
+									<div class="col-lg-10">
+										<div class="custom-file">
+											<input type="file" class="custom-file-input" id="customFile">
+											<label class="custom-file-label" for="customFile">Choose file</label>
+										</div>
+									</div>
+								</div>
+							</fieldset>
+
+							<fieldset class="mb-3">
+								<legend class="text-uppercase font-size-sm font-weight-bold">Form helpers</legend>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Text form helpers</label>
+									<div class="col-lg-10">
+										<div class="row">
+											<div class="col-md-4">
+												<input type="text" class="form-control">
+												<span class="form-text text-muted">Left aligned helper</span>
+											</div>
+
+											<div class="col-md-4">
+												<input type="text" class="form-control">
+												<span class="form-text text-muted text-center">Centered helper</span>
+											</div>
+
+											<div class="col-md-4">
+												<input type="text" class="form-control">
+												<span class="form-text text-muted text-right">Right aligned helper</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Full width badge helpers</label>
+									<div class="col-lg-10">
+										<div class="row">
+											<div class="col-md-4">
+												<input type="text" class="form-control">
+												<span class="badge d-block badge-primary form-text text-left">Left aligned badge</span>
+											</div>
+
+											<div class="col-md-4">
+												<input type="text" class="form-control">
+												<span class="badge d-block badge-danger form-text">Centered badge</span>
+											</div>
+
+											<div class="col-md-4">
+												<input type="text" class="form-control">
+												<span class="badge d-block badge-info form-text text-right">Right aligned badge</span>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Block badge helpers</label>
+									<div class="col-lg-10">
+										<div class="row">
+											<div class="col-md-4">
+												<input type="text" class="form-control">
+												<div class="d-block form-text">
+													<span class="badge badge-primary">Left aligned badge</span>
+												</div>
+											</div>
+
+											<div class="col-md-4">
+												<input type="text" class="form-control">
+												<div class="d-block form-text text-center">
+													<span class="badge badge-danger">Centered badge</span>
+												</div>
+											</div>
+
+											<div class="col-md-4">
+												<input type="text" class="form-control">
+												<div class="d-block form-text text-right">
+													<span class="badge badge-info text-right">Right aligned badge</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Inline text helper</label>
+									<div class="col-lg-10">
+										<div class="row">
+											<div class="col-lg-6">
+												<input type="text" class="form-control">
+											</div>
+											<div class="col-lg-6 mt-1 mt-lg-0 align-self-center">
+												<span class="text-muted">Inline text helper</span>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Inline badge helper</label>
+									<div class="col-lg-10">
+										<div class="row">
+											<div class="col-lg-6">
+												<input type="text" class="form-control">
+											</div>
+											<div class="col-lg-6 mt-1 mt-lg-0 align-self-center">
+												<span class="badge bg-teal">Inline badge helper</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</fieldset>
+
+							<fieldset class="mb-3">
+								<legend class="text-uppercase font-size-sm font-weight-bold">Input icons</legend>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Input with icons</label>
+									<div class="col-lg-10">
+										<div class="row">
+											<div class="col-md-6">
+												<div class="form-group form-group-feedback form-group-feedback-left">
+													<input type="text" class="form-control form-control-lg" placeholder="Left icon, input large">
+													<div class="form-control-feedback form-control-feedback-lg">
+														<i class="icon-make-group"></i>
+													</div>
+												</div>
+
+												<div class="form-group form-group-feedback form-group-feedback-left">
+													<input type="text" class="form-control" placeholder="Left icon, input default">
+													<div class="form-control-feedback">
+														<i class="icon-droplets"></i>
+													</div>
+												</div>
+
+												<div class="form-group form-group-feedback form-group-feedback-left">
+													<input type="text" class="form-control form-control-sm" placeholder="Left icon, input small">
+													<div class="form-control-feedback form-control-feedback-sm">
+														<i class="icon-pin-alt"></i>
+													</div>
+												</div>
+											</div>
+
+											<div class="col-md-6">
+												<div class="form-group form-group-feedback form-group-feedback-right">
+													<input type="text" class="form-control form-control-lg" placeholder="Right icon, input large">
+													<div class="form-control-feedback form-control-feedback-lg">
+														<i class="icon-make-group"></i>
+													</div>
+												</div>
+
+												<div class="form-group form-group-feedback form-group-feedback-right">
+													<input type="text" class="form-control" placeholder="Right icon, input default">
+													<div class="form-control-feedback">
+														<i class="icon-droplets"></i>
+													</div>
+												</div>
+
+												<div class="form-group form-group-feedback form-group-feedback-right">
+													<input type="text" class="form-control form-control-sm" placeholder="Right icon, input small">
+													<div class="form-control-feedback form-control-feedback-sm">
+														<i class="icon-pin-alt"></i>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Input with spinners</label>
+									<div class="col-lg-10">
+										<div class="row">
+											<div class="col-md-6">
+												<div class="form-group form-group-feedback form-group-feedback-left">
+													<input type="text" class="form-control" placeholder="Left spinner">
+													<div class="form-control-feedback">
+														<i class="icon-spinner2 spinner"></i>
+													</div>
+												</div>
+											</div>
+
+											<div class="col-md-6">
+												<div class="form-group form-group-feedback form-group-feedback-right">
+													<input type="text" class="form-control" placeholder="Right spinner">
+													<div class="form-control-feedback">
+														<i class="icon-spinner2 spinner"></i>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</fieldset>
+
+							<fieldset class="mb-3">
+								<legend class="text-uppercase font-size-sm font-weight-bold">Validation states</legend>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2 font-weight-semibold text-success">Valid state</label>
+									<div class="col-lg-10">
+										<input type="text" class="form-control border-success" placeholder="Valid state">
+										<span class="form-text text-success">Valid state helper</span>
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2 font-weight-semibold text-success">Valid state with icon</label>
+									<div class="col-lg-10">
+										<div class="form-group-feedback form-group-feedback-right">
+											<input type="text" class="form-control border-success" placeholder="Valid state">
+											<div class="form-control-feedback text-success">
+												<i class="icon-checkmark-circle"></i>
+											</div>
+										</div>
+										<span class="form-text text-success">Valid state helper</span>
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2 font-weight-semibold text-danger">Invalid state</label>
+									<div class="col-lg-10">
+										<input type="text" class="form-control border-danger" placeholder="Invalid state">
+										<span class="form-text text-danger">Invalid state helper</span>
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2 font-weight-semibold text-danger">Invalid state with icon</label>
+									<div class="col-lg-10">
+										<div class="form-group-feedback form-group-feedback-right">
+											<input type="text" class="form-control border-danger" placeholder="Invalid state">
+											<div class="form-control-feedback text-danger">
+												<i class="icon-cancel-circle2"></i>
+											</div>
+										</div>
+										<span class="form-text text-danger">Invalid state helper</span>
+									</div>
+								</div>
+							</fieldset>
+
+							<fieldset class="mb-3">
+								<legend class="text-uppercase font-size-sm font-weight-bold">Text options</legend>
+
+								<div class="form-group row">
+									<label class="col-form-label col-md-2">Light text</label>
+									<div class="col-md-10">
+										<input type="text" class="form-control font-weight-light" placeholder="Input with light text">
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-md-2">Semibold text</label>
+									<div class="col-md-10">
+										<input type="text" class="form-control font-weight-semibold" placeholder="Input with semibold text">
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-md-2">Bold text</label>
+									<div class="col-md-10">
+										<input type="text" class="form-control font-weight-bold" placeholder="Input with bold text">
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-md-2">Capitalized text</label>
+									<div class="col-md-10">
+										<input type="text" class="form-control text-capitalize" placeholder="Input with capitalized text">
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-md-2">Centered text</label>
+									<div class="col-md-10">
+										<input type="text" class="form-control text-center" placeholder="Input with centered text">
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-md-2">Right aligned text</label>
+									<div class="col-md-10">
+										<input type="text" class="form-control text-right" placeholder="Input with right aligned text">
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-md-2">Uppercase text</label>
+									<div class="col-md-10">
+										<input type="text" class="form-control text-uppercase" placeholder="Input with uppercase text">
+										<span class="form-text text-muted">Other text options work as well</span>
+									</div>
+								</div>
+							</fieldset>
+
+							<fieldset class="mb-3">
+								<legend class="text-uppercase font-size-sm font-weight-bold">Field options</legend>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Tooltip on focus</label>
+									<div class="col-lg-10">
+										<input type="text" class="form-control" data-popup="tooltip" data-trigger="focus" title="Tooltip on focus" placeholder="Click on input">
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Tooltip on hover</label>
+									<div class="col-lg-10">
+										<input type="text" class="form-control" data-popup="tooltip" title="Tooltip on hover" placeholder="Hover on input">
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-md-2">Rounded input</label>
+									<div class="col-md-10">
+										<input type="text" class="form-control rounded-round" placeholder="Rounded input">
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-md-2">Roundless input</label>
+									<div class="col-md-10">
+										<input type="text" class="form-control rounded-0" placeholder="Roundless input">
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Fixed input sizing</label>
+									<div class="col-lg-10">
+										<div class="row">
+											<div class="col-3">
+												<input type="text" class="form-control" placeholder=".col-3">
+											</div>
+
+											<div class="col-4">
+												<input type="text" class="form-control" placeholder=".col-4">
+											</div>
+
+											<div class="col-5">
+												<input type="text" class="form-control" placeholder=".col-5">
+											</div>
+										</div>
+										<span class="form-text text-muted">Available in 12 columns sizes since it's based on 12 columns grid</span>
+									</div>
+								</div>
+							</fieldset>
+
+							<fieldset class="mb-3">
+								<legend class="text-uppercase font-size-sm font-weight-bold">Sizing options</legend>
+
+								<div class="form-group row">
+									<label class="col-form-label col-form-label-lg col-lg-2">Large size</label>
+									<div class="col-lg-10">
+										<input type="text" class="form-control form-control-lg" placeholder=".col-form-label-lg .form-control-lg">
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Default size</label>
+									<div class="col-lg-10">
+										<input type="text" class="form-control" placeholder=".col-form-label .form-control">
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-form-label-sm col-lg-2">Small size</label>
+									<div class="col-lg-10">
+										<input type="text" class="form-control form-control-sm" placeholder=".col-form-label-sm .form-control-sm">
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Inputs only</label>
+									<div class="col-lg-10">
+										<div class="row">
+											<div class="col-md-6">
+												<div class="form-group">
+													<input class="form-control form-control-lg" type="text" placeholder="Large input height">
+												</div>
+
+												<div class="form-group">
+													<input class="form-control" type="text" placeholder="Default input height">
+												</div>
+
+												<div class="form-group">
+													<input class="form-control form-control-sm" type="text" placeholder="Small input height">
+												</div>
+											</div>
+
+											<div class="col-md-6">
+												<div class="form-group">
+													<select class="form-control form-control-lg">
+					                                    <option value="opt1">Large select height</option>
+					                                    <option value="opt2">Option 2</option>
+					                                    <option value="opt3">Option 3</option>
+					                                    <option value="opt4">Option 4</option>
+					                                    <option value="opt5">Option 5</option>
+					                                    <option value="opt6">Option 6</option>
+					                                    <option value="opt7">Option 7</option>
+					                                    <option value="opt8">Option 8</option>
+					                                </select>
+												</div>
+
+												<div class="form-group">
+													<select class="form-control">
+					                                    <option value="opt1">Default select height</option>
+					                                    <option value="opt2">Option 2</option>
+					                                    <option value="opt3">Option 3</option>
+					                                    <option value="opt4">Option 4</option>
+					                                    <option value="opt5">Option 5</option>
+					                                    <option value="opt6">Option 6</option>
+					                                    <option value="opt7">Option 7</option>
+					                                    <option value="opt8">Option 8</option>
+					                                </select>
+												</div>
+
+												<div class="form-group">
+													<select class="form-control form-control-sm">
+					                                    <option value="opt1">Small select height</option>
+					                                    <option value="opt2">Option 2</option>
+					                                    <option value="opt3">Option 3</option>
+					                                    <option value="opt4">Option 4</option>
+					                                    <option value="opt5">Option 5</option>
+					                                    <option value="opt6">Option 6</option>
+					                                    <option value="opt7">Option 7</option>
+					                                    <option value="opt8">Option 8</option>
+					                                </select>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</fieldset>
+
+							<fieldset class="mb-3">
+								<legend class="text-uppercase font-size-sm font-weight-bold">Color options</legend>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Text color</label>
+									<div class="col-lg-10">
+										<input type="text" class="form-control text-violet" value="Custom text color">
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Border color</label>
+									<div class="col-lg-10">
+										<input type="text" class="form-control border-teal border-1" placeholder="Custom border color">
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Background color</label>
+									<div class="col-lg-10">
+										<input type="text" class="form-control bg-slate-600 border-slate-600 border-1" placeholder="Custom background color">
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Select color</label>
+									<div class="col-lg-10">
+										<select class="form-control bg-indigo-400 border-indigo-400">
+		                                    <option value="opt1">Custom select color</option>
+		                                    <option value="opt2">Option 2</option>
+		                                    <option value="opt3">Option 3</option>
+		                                    <option value="opt4">Option 4</option>
+		                                    <option value="opt5">Option 5</option>
+		                                    <option value="opt6">Option 6</option>
+		                                    <option value="opt7">Option 7</option>
+		                                    <option value="opt8">Option 8</option>
+		                                </select>
+									</div>
+								</div>
+
+		                        <div class="form-group row">
+		                        	<label class="col-form-label col-lg-2">Styled select</label>
+		                        	<div class="col-lg-10">
+			                            <select class="form-control form-control-uniform-custom">
+			                                <option value="opt1">Custom styled select color</option>
+			                                <option value="opt2">Option 2</option>
+			                                <option value="opt3">Option 3</option>
+			                                <option value="opt4">Option 4</option>
+			                                <option value="opt5">Option 5</option>
+			                                <option value="opt6">Option 6</option>
+			                                <option value="opt7">Option 7</option>
+			                                <option value="opt8">Option 8</option>
+			                            </select>
+		                            </div>
+		                        </div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">File input color</label>
+									<div class="col-lg-10">
+										<input type="file" class="form-control-uniform-custom">
+									</div>
+								</div>
+							</fieldset>
+
+							<fieldset class="mb-3">
+								<legend class="text-uppercase font-size-sm font-weight-bold">Type options</legend>
+
+								<div class="form-group row">
+									<label class="col-form-label col-md-2">Datetime</label>
+									<div class="col-md-10">
+										<input class="form-control" type="datetime-local" name="datetime-local">
+										<span class="form-text text-muted">Using <code>input type="datetime-local"</code></span>
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-md-2">Date</label>
+									<div class="col-md-10">
+										<input class="form-control" type="date" name="date">
+										<span class="form-text text-muted">Using <code>input type="date"</code></span>
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-md-2">Month</label>
+									<div class="col-md-10">
+										<input class="form-control" type="month" name="month">
+										<span class="form-text text-muted">Using <code>input type="month"</code></span>
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-md-2">Time</label>
+									<div class="col-md-10">
+										<input class="form-control" type="time" name="time">
+										<span class="form-text text-muted">Using <code>input type="time"</code></span>
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-md-2">Week</label>
+									<div class="col-md-10">
+										<input class="form-control" type="week" name="week">
+										<span class="form-text text-muted">Using <code>input type="week"</code></span>
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-md-2">Number</label>
+									<div class="col-md-10">
+										<input class="form-control" type="number" name="number">
+										<span class="form-text text-muted">Using <code>input type="number"</code></span>
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-md-2">Email</label>
+									<div class="col-md-10">
+										<input class="form-control" type="email" name="email">
+										<span class="form-text text-muted">Using <code>input type="email"</code></span>
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-md-2">URL</label>
+									<div class="col-md-10">
+										<input class="form-control" type="url" name="url">
+										<span class="form-text text-muted">Using <code>input type="url"</code></span>
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-md-2">Search</label>
+									<div class="col-md-10">
+										<input class="form-control" type="search" name="search">
+										<span class="form-text text-muted">Using <code>input type="search"</code></span>
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-md-2">Tel</label>
+									<div class="col-md-10">
+										<input class="form-control" type="tel" name="tel">
+										<span class="form-text text-muted">Using <code>input type="tel"</code></span>
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-md-2">Color</label>
+									<div class="col-md-10">
+										<input class="form-control" type="color" name="color">
+										<span class="form-text text-muted">Using <code>input type="color"</code></span>
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-md-2">Range</label>
+									<div class="col-md-10">
+										<input class="form-control" type="range" name="range" min="0" max="10">
+										<span class="form-text text-muted">Using <code>input type="range"</code></span>
+									</div>
+								</div>
+							</fieldset>
+
+							<div class="text-right">
+								<button type="submit" class="btn btn-primary">Submit <i class="icon-paperplane ml-2"></i></button>
+							</div>
+						</form>
+					</div>
+				</div>/-->
+				<!-- /form inputs -->				
+
+				<!-- Noty notifications -->
 				<!--
-				<div class="mb-3">
-					<h6 class="mb-0 font-weight-semibold">
-						NoUI sliders
-					</h6>
-					<span class="text-muted d-block">Basic NoUI slider examples</span>
+				<div class="card">
+					<div class="card-header header-elements-inline">
+						<h5 class="card-title">Noty notifications</h5>
+						<div class="header-elements">
+							<div class="list-icons">
+		                		<a class="list-icons-item" data-action="collapse"></a>
+		                		<a class="list-icons-item" data-action="reload"></a>
+		                		<a class="list-icons-item" data-action="remove"></a>
+		                	</div>
+	                	</div>
+					</div>
+
+					<div class="card-body">
+						Noty is a jQuery plugin that makes it easy to create <code>alert</code> - <code>success</code> - <code>error</code> - <code>warning</code> - <code>information</code> - <code>confirmation</code> messages as an alternative the standard alert dialog. The API provides lots of other options to customise the text, animation, speed, buttons and much more. It also has various callbacks for the buttons such as opening and closing the notifications and queue control.
+					</div>
+
+					<div class="table-responsive">
+						<table class="table">
+							<tbody>
+								<tr class="table-active">
+									<th colspan="3">Notification layouts</th>
+								</tr>
+								<tr>
+									<td style="width: 20%;">Error notice</td>
+									<td style="width: 20%;">
+										<button type="button" class="btn btn-danger" id="noty_error">Launch <i class="icon-play3 ml-2"></i></button>
+									</td>
+									<td>Error notification. To use, add <code>type: 'error'</code> option to the notification configuration</td>
+								</tr>
+								<tr>
+									<td>Success notice</td>
+									<td><button type="button" class="btn btn-success" id="noty_success">Launch <i class="icon-play3 ml-2"></i></button></td>
+									<td>Success notification. To use, add <code>type: 'success'</code> option to the notification configuration</td>
+								</tr>
+								<tr>
+									<td>Warning notice</td>
+									<td><button type="button" class="btn btn-warning" id="noty_warning">Launch <i class="icon-play3 ml-2"></i></button></td>
+									<td>Warning notification. To use, add <code>type: 'warning'</code> option to the notification configuration</td>
+								</tr>
+								<tr>
+									<td>Information notice</td>
+									<td><button type="button" class="btn bg-blue" id="noty_info">Launch <i class="icon-play3 ml-2"></i></button></td>
+									<td>Info notification. To use, add <code>type: 'info'</code> option to the notification configuration</td>
+								</tr>
+								<tr>
+									<td>Alert notice</td>
+									<td><button type="button" class="btn bg-slate-600" id="noty_alert">Launch <i class="icon-play3 ml-2"></i></button></td>
+									<td>Simple alert layout. To use, add <code>type: 'alert'</code> option to the notification configuration</td>
+								</tr>
+								<tr>
+									<td>Confirmation dialog</td>
+									<td><button type="button" class="btn btn-light" id="noty_confirm">Launch <i class="icon-play3 ml-2"></i></button></td>
+									<td>Confirmation dialog with buttons and callbacks. To use, add <code>type: 'confirm'</code> option to the notification configuration</td>
+								</tr>
+
+								<tr class="table-border-double table-active">
+									<th colspan="3">Notification position. Top</th>
+								</tr>
+								<tr>
+									<td>Top position</td>
+									<td><button type="button" class="btn btn-light" id="noty_top">Launch <i class="icon-play3 ml-2"></i></button></td>
+									<td>Top notification position. To use, add <code>layout: 'top'</code> option to the notification configuration</td>
+								</tr>
+								<tr>
+									<td>Top left position</td>
+									<td><button type="button" class="btn btn-light" id="noty_top_left">Launch <i class="icon-play3 ml-2"></i></button></td>
+									<td>Top left notification position. To use, add <code>layout: 'topLeft'</code> option to the notification configuration</td>
+								</tr>
+								<tr>
+									<td>Top center position</td>
+									<td><button type="button" class="btn btn-light" id="noty_top_center">Launch <i class="icon-play3 ml-2"></i></button></td>
+									<td>Top center notification position. To use, add <code>layout: 'topCenter'</code> option to the notification configuration</td>
+								</tr>
+								<tr>
+									<td>Top right position</td>
+									<td><button type="button" class="btn btn-light" id="noty_top_right">Launch <i class="icon-play3 ml-2"></i></button></td>
+									<td>Top right notification position. To use, add <code>layout: 'topRight'</code> option to the notification configuration</td>
+								</tr>
+
+								<tr class="table-border-double table-active">
+									<th colspan="3">Notification position. Center</th>
+								</tr>
+								<tr>
+									<td>Center left position</td>
+									<td><button type="button" class="btn btn-light" id="noty_center_left">Launch <i class="icon-play3 ml-2"></i></button></td>
+									<td>Center left notification position. To use, add <code>layout: 'centerLeft'</code> option to the notification configuration</td>
+								</tr>
+								<tr>
+									<td>Center position</td>
+									<td><button type="button" class="btn btn-light" id="noty_center">Launch <i class="icon-play3 ml-2"></i></button></td>
+									<td>Center notification position. To use, add <code>layout: 'center'</code> option to the notification configuration</td>
+								</tr>
+								<tr>
+									<td>Center right position</td>
+									<td><button type="button" class="btn btn-light" id="noty_center_right">Launch <i class="icon-play3 ml-2"></i></button></td>
+									<td>Center right notification position. To use, add <code>layout: 'centerRight'</code> option to the notification configuration</td>
+								</tr>
+
+								<tr class="table-border-double table-active">
+									<th colspan="3">Notification position. Bottom</th>
+								</tr>
+								<tr>
+									<td>Bottom left position</td>
+									<td><button type="button" class="btn btn-light" id="noty_bottom_left">Launch <i class="icon-play3 ml-2"></i></button></td>
+									<td>Bottom left notification position. To use, add <code>layout: 'bottomLeft'</code> option to the notification configuration</td>
+								</tr>
+								<tr>
+									<td>Bottom center position</td>
+									<td><button type="button" class="btn btn-light" id="noty_bottom_center">Launch <i class="icon-play3 ml-2"></i></button></td>
+									<td>Bottom center notification position. To use, add <code>layout: 'bottomCenter'</code> option to the notification configuration</td>
+								</tr>
+								<tr>
+									<td>Bottom right position</td>
+									<td><button type="button" class="btn btn-light" id="noty_bottom_right">Launch <i class="icon-play3 ml-2"></i></button></td>
+									<td>Bottom right notification position. To use, add <code>layout: 'bottomRight'</code> option to the notification configuration</td>
+								</tr>
+								<tr>
+									<td>Bottom position</td>
+									<td><button type="button" class="btn btn-light" id="noty_bottom">Launch <i class="icon-play3 ml-2"></i></button></td>
+									<td>Bottom notification position. To use, add <code>layout: 'bottom'</code> option to the notification configuration</td>
+								</tr>
+
+								<tr class="table-border-double table-active">
+									<th colspan="3">Other examples</th>
+								</tr>
+								<tr>
+									<td>Overlay</td>
+									<td><button type="button" class="btn btn-light" id="noty_overlay">Launch <i class="icon-play3 ml-2"></i></button></td>
+									<td>To display a dark page overlay when notification is shown, set <code>modal</code> to <code>true</code> in noty config</td>
+								</tr>
+								<tr>
+									<td>Sticky</td>
+									<td><button type="button" class="btn btn-light" id="noty_sticky">Launch <i class="icon-play3 ml-2"></i></button></td>
+									<td>Set <code>timeout</code> option to <code>false</code> to disable timer. Progress bar will be also disabled</td>
+								</tr>
+								<tr>
+									<td>Close button</td>
+									<td><button type="button" class="btn btn-light" id="noty_close">Launch <i class="icon-play3 ml-2"></i></button></td>
+									<td>By default, notification is closable on click. To use close button instead, use <code>closeWith: ['button']</code> option</td>
+								</tr>
+								<tr>
+									<td>No progress</td>
+									<td><button type="button" class="btn btn-light" id="noty_progress">Launch <i class="icon-play3 ml-2"></i></button></td>
+									<td>Noty's <code>progressBar</code> option displays a progress bar if timeout is not false. Set to <code>false</code> to disable</td>
+								</tr>
+								<tr>
+									<td>Styled</td>
+									<td><button type="button" class="btn btn-light" id="noty_styled">Launch <i class="icon-play3 ml-2"></i></button></td>
+									<td>To use <strong>styled</strong> theme, add <code>  alert alert-danger alert-styled-left p-0</code> classes to <code>theme</code> option</td>
+								</tr>
+								<tr>
+									<td>Styled white</td>
+									<td><button type="button" class="btn btn-light" id="noty_styled_white">Launch <i class="icon-play3 ml-2"></i></button></td>
+									<td>To use <strong>styled</strong> theme with white background, add <code> alert alert-success alert-styled-left p-0 bg-white</code> classes to <code>theme</code> option</td>
+								</tr>
+								<tr>
+									<td>Solid styled</td>
+									<td><button type="button" class="btn btn-light" id="noty_solid_styled">Launch <i class="icon-play3 ml-2"></i></button></td>
+									<td>To use <strong>solid styled</strong> theme, add <code> alert bg-info text-white alert-styled-left p-0</code> classes to <code>theme</code> option</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
 				</div>
-
-				<div class="row">
-					<div class="col-md-4">
-						<div class="card card-body border-top-primary">
-							<div class="text-center">
-								<h6 class="mb-0 font-weight-semibold">Slider handles</h6>
-								<p class="mb-3 text-muted">Set handles using <code>start</code> option</p>
-							</div>
-
-							<div class="noui-height-helper" id="noui-slider-handles" data-fouc></div>
-
-							<div class="clearfix">
-								<span class="mt-3 float-left">Value: <span class="font-weight-semibold" id="noui-handles-lower-val"></span></span>
-								<span class="mt-3 float-right">Value: <span class="font-weight-semibold" id="noui-handles-upper-val"></span></span>
-							</div>
-						</div>
-
-						<div class="card card-body border-top-primary">
-							<div class="text-center">
-								<h6 class="mb-0 font-weight-semibold">Non-linear slider</h6>
-								<p class="mb-3 text-muted">Displays non-linear slider example</p>
-							</div>
-
-							<div class="noui-height-helper" id="noui-slider-nonlinear" data-fouc></div>
-
-							<span class="mt-3">Value: <span class="font-weight-semibold" id="noui-nonlinear-val"></span></span>
-						</div>
-					</div>
-
-					<div class="col-md-4">
-						<div class="card card-body border-top-primary">
-							<div class="text-center">
-								<h6 class="mb-0 font-weight-semibold">Values range</h6>
-								<p class="mb-3 text-muted">Slider values are part of a range</p>
-							</div>
-
-							<div class="noui-height-helper" id="noui-slider-range" data-fouc></div>
-
-							<span class="mt-3">Value: <span class="font-weight-semibold" id="noui-range-val"></span></span>
-						</div>
-
-						<div class="card card-body border-top-primary">
-							<div class="text-center">
-								<h6 class="mb-0 font-weight-semibold">Non-linear stepping</h6>
-								<p class="mb-3 text-muted">Displays steps in non-linear slider</p>
-							</div>
-
-							<div class="noui-height-helper" id="noui-slider-nonlinear-stepping" data-fouc></div>
-
-							<div class="clearfix">
-								<span class="mt-3 float-left">Value: <span class="font-weight-semibold" id="noui-nonlinear-stepping-lower-val"></span></span>
-								<span class="mt-3 float-right">Value: <span class="font-weight-semibold" id="noui-nonlinear-stepping-upper-val"></span></span>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-md-4">
-						<div class="card card-body border-top-primary">
-							<div class="text-center">
-								<h6 class="mb-0 font-weight-semibold">Stepping and snapping</h6>
-								<p class="mb-3 text-muted">Set slider steps with <code>step</code> option</p>
-							</div>
-
-							<div class="noui-height-helper" id="noui-slider-stepping" data-fouc></div>
-
-							<span class="mt-3">Value: <span class="font-weight-semibold" id="noui-stepping-val"></span></span>
-						</div>
-
-						<div class="card card-body border-top-primary">
-							<div class="text-center">
-								<h6 class="mb-0 font-weight-semibold">Snapping between steps</h6>
-								<p class="mb-3 text-muted">Force slider to jump between values</p>
-							</div>
-
-							<div class="noui-height-helper" id="noui-slider-snapping" data-fouc></div>
-
-							<div class="clearfix">
-								<span class="mt-3 float-left">Value: <span class="font-weight-semibold" id="noui-slider-snapping-lower-val"></span></span>
-								<span class="mt-3 float-right">Value: <span class="font-weight-semibold" id="noui-slider-snapping-upper-val"></span></span>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- /basic examples -->
+				<!-- /noty notifications -->
 
 
-				<!-- Slider behaviour -->
+				<!-- jGrowl notifications -->
 				<!--
-				<div class="mb-3 mt-2">
-					<h6 class="mb-0 font-weight-semibold">
-						Slider Behaviour
-					</h6>
-					<span class="text-muted d-block">Tapping, dragging, snapping etc.</span>
-				</div>
-
-				<div class="row">
-					<div class="col-md-4">
-						<div class="card card-body border-top-primary">
-							<div class="text-center">
-								<h6 class="mb-0 font-weight-semibold">Slider behaviour</h6>
-								<p class="mb-3 text-muted">Add behaviour to the slider</p>
-							</div>
-
-							<div class="noui-height-helper" id="noui-slider-behaviour" data-fouc></div>
-
-							<div class="clearfix">
-								<span class="mt-3 float-left">Value: <span class="font-weight-semibold" id="noui-slider-behaviour-lower-val"></span></span>
-								<span class="mt-3 float-right">Value: <span class="font-weight-semibold" id="noui-slider-behaviour-upper-val"></span></span>
-							</div>
-						</div>
-
-						<div class="card card-body border-top-primary">
-							<div class="text-center">
-								<h6 class="mb-0 font-weight-semibold">Fixed dragging</h6>
-								<p class="mb-3 text-muted">Distance between handles is fixed</p>
-							</div>
-
-							<div class="noui-height-helper" id="noui-slider-drag-fixed" data-fouc></div>
-
-							<div class="clearfix">
-								<span class="mt-3 float-left">Value: <span class="font-weight-semibold" id="noui-slider-fixed-lower-val"></span></span>
-								<span class="mt-3 float-right">Value: <span class="font-weight-semibold" id="noui-slider-fixed-upper-val"></span></span>
-							</div>
-						</div>
+				<div class="card">
+					<div class="card-header header-elements-inline">
+						<h5 class="card-title">jGrowl notifications</h5>
+						<div class="header-elements">
+							<div class="list-icons">
+		                		<a class="list-icons-item" data-action="collapse"></a>
+		                		<a class="list-icons-item" data-action="reload"></a>
+		                		<a class="list-icons-item" data-action="remove"></a>
+		                	</div>
+	                	</div>
 					</div>
 
-					<div class="col-md-4">
-						<div class="card card-body border-top-primary">
-							<div class="text-center">
-								<h6 class="mb-0 font-weight-semibold">Tap behaviour</h6>
-								<p class="mb-3 text-muted">A handle slides to a clicked location</p>
-							</div>
-
-							<div class="noui-height-helper" id="noui-slider-tap" data-fouc></div>
-
-							<span class="mt-3">Value: <span class="font-weight-semibold" id="noui-slider-tap-val"></span></span>
-						</div>
-
-						<div class="card card-body border-top-primary">
-							<div class="text-center">
-								<h6 class="mb-0 font-weight-semibold">Snap behaviour</h6>
-								<p class="mb-3 text-muted">A handle snaps to a clicked location</p>
-							</div>
-
-							<div class="noui-height-helper" id="noui-slider-snap" data-fouc></div>
-
-							<span class="mt-3">Value: <span class="font-weight-semibold" id="noui-slider-snap-val"></span></span>
-						</div>
+					<div class="card-body">
+						jGrowl is a pretty flexible and easy to use jQuery plugin that raises unobtrusive messages within the browser, similar to the way that OS X's Growl Framework works. The idea is simple, deliver notifications to the end user in a noticeable way that doesn't obstruct the work flow and yet keeps the user informed. Supports 6 screen positions, 5 contextual color alternatives and various options.
 					</div>
 
-					<div class="col-md-4">
-						<div class="card card-body border-top-primary">
-							<div class="text-center">
-								<h6 class="mb-0 font-weight-semibold">Drag behaviour</h6>
-								<p class="mb-3 text-muted">Makes the range dragable</p>
-							</div>
+					<div class="table-responsive">
+						<table class="table">
+							<tbody>
+								<tr class="table-active">
+									<th colspan="3">Solid color notifications</th>
+								</tr>
+								<tr>
+									<td style="width: 20%;">Default notice</td>
+									<td style="width: 20%;"><button type="button" class="btn btn-primary" id="jgrowl-default">Launch <i class="icon-play3 ml-2"></i></button></td>
+									<td>Basic configuration using <code>theme: 'bg-primary'</code> theme added to the config</td>
+								</tr>
+								<tr>
+									<td>Danger notice</td>
+									<td><button type="button" class="btn btn-danger" id="jgrowl-danger">Launch <i class="icon-play3 ml-2"></i></button></td>
+									<td>Danger notification. To use, add <code>theme: 'bg-danger'</code> option to the notification configuration</td>
+								</tr>
+								<tr>
+									<td>Success notice</td>
+									<td><button type="button" class="btn btn-success" id="jgrowl-success">Launch <i class="icon-play3 ml-2"></i></button></td>
+									<td>Success notification. To use, add <code>theme: 'bg-success'</code> option to the notification configuration</td>
+								</tr>
+								<tr>
+									<td>Warning notice</td>
+									<td><button type="button" class="btn btn-warning" id="jgrowl-warning">Launch <i class="icon-play3 ml-2"></i></button></td>
+									<td>Warning notification. To use, add <code>theme: 'bg-warning'</code> option to the notification configuration</td>
+								</tr>
+								<tr>
+									<td>Info notice</td>
+									<td><button type="button" class="btn btn-info" id="jgrowl-info">Launch <i class="icon-play3 ml-2"></i></button></td>
+									<td>Info notification. To use, add <code>theme: 'bg-info'</code> option to the notification configuration</td>
+								</tr>
 
-							<div class="noui-height-helper" id="noui-slider-drag" data-fouc></div>
+								<tr class="table-border-double table-active">
+									<th colspan="3">Basic notification styling</th>
+								</tr>
+								<tr>
+									<td>Default notice</td>
+									<td><button type="button" class="btn btn-light" id="jgrowl-alert-default">Launch <i class="icon-play3 ml-2"></i></button></td>
+									<td>Default notification style. To use, add <code>theme: 'alert-*'</code> contextual class to the plugin configuration</td>
+								</tr>
+								<tr>
+									<td>Left icon</td>
+									<td><button type="button" class="btn btn-light" id="jgrowl-styled-left">Launch <i class="icon-play3 ml-2"></i></button></td>
+									<td>Notification with left icon. To use, add <code>'alert-styled-left'</code> with contextual class to the <code>theme</code> option</td>
+								</tr>
+								<tr>
+									<td>Right icon</td>
+									<td><button type="button" class="btn btn-light" id="jgrowl-styled-right">Launch <i class="icon-play3 ml-2"></i></button></td>
+									<td>Notification with right icon. To use, add <code>'alert-styled-right'</code> with contextual class to the <code>theme</code> option</td>
+								</tr>
+								<tr>
+									<td>Custom styles</td>
+									<td><button type="button" class="btn btn-light" id="jgrowl-custom-styled">Launch <i class="icon-play3 ml-2"></i></button></td>
+									<td>Notification with custom color variations of text, border and background</td>
+								</tr>
+								<tr>
+									<td>Display arrow</td>
+									<td><button type="button" class="btn btn-light" id="jgrowl-styled-arrow">Launch <i class="icon-play3 ml-2"></i></button></td>
+									<td>Display arrow. To use, add <code>'alert-arrow-left'</code> or <code>*-right</code> to the <code>theme</code> option</td>
+								</tr>
 
-							<div class="clearfix">
-								<span class="mt-3 float-left">Value: <span class="font-weight-semibold" id="noui-slider-drag-lower-val"></span></span>
-								<span class="mt-3 float-right">Value: <span class="font-weight-semibold" id="noui-slider-drag-upper-val"></span></span>
-							</div>
-						</div>
+								<tr class="table-border-double table-active">
+									<th colspan="3">Additional styles</th>
+								</tr>
+								<tr>
+									<td>Notice with left icon</td>
+									<td><button type="button" class="btn btn-light" id="jgrowl-solid-styled-left">Launch <i class="icon-play3 ml-2"></i></button></td>
+									<td>Solid color notification with left icon. To use, add <code>'bg-* alert-styled-left'</code> to the <code>theme</code> option</td>
+								</tr>
+								<tr>
+									<td>Notice with right icon</td>
+									<td><button type="button" class="btn btn-light" id="jgrowl-solid-styled-right">Launch <i class="icon-play3 ml-2"></i></button></td>
+									<td>Solid color notification with right icon. To use, add <code>'bg-* alert-styled-right'</code> to the <code>theme</code> option</td>
+								</tr>
+								<tr>
+									<td>Custom colors</td>
+									<td><button type="button" class="btn btn-light" id="jgrowl-solid-custom-styled">Launch <i class="icon-play3 ml-2"></i></button></td>
+									<td>Alert sith custom styles. To use, add <code>'alert-styled-custom'</code> with other classes to the <code>theme</code> option</td>
+								</tr>
+								<tr>
+									<td>Rounded alert</td>
+									<td><button type="button" class="btn btn-light" id="jgrowl-rounded">Launch <i class="icon-play3 ml-2"></i></button></td>
+									<td>Alert with rounded corners. To use, add <code>'alert-rounded'</code> to the <code>theme</code> option</td>
+								</tr>
 
-						<div class="card card-body border-top-primary">
-							<div class="text-center">
-								<h6 class="mb-0 font-weight-semibold">Combined options</h6>
-								<p class="mb-3 text-muted">Behaviour flags can be combined</p>
-							</div>
+								<tr class="table-border-double table-active">
+									<th colspan="3">jGrowl options</th>
+								</tr>
+								<tr>
+									<td>Sticky notice</td>
+									<td><button type="button" class="btn btn-light" id="jgrowl-sticky">Launch <i class="icon-play3 ml-2"></i></button></td>
+									<td>When set to <code>true</code> a message will stick to the screen until it is intentionally closed by the user</td>
+								</tr>
+								<tr>
+									<td>Long life</td>
+									<td><button type="button" class="btn btn-light" id="jgrowl-long-life">Launch <i class="icon-play3 ml-2"></i></button></td>
+									<td>The lifespan of a non-sticky message on the screen. In current example it is 10 seconds</td>
+								</tr>
+								<tr>
+									<td>Animation speed</td>
+									<td><button type="button" class="btn btn-light" id="jgrowl-animation">Launch <i class="icon-play3 ml-2"></i></button></td>
+									<td>The animation speed used to open and close a notification. In current example it is <code>100ms</code></td>
+								</tr>
+								<tr>
+									<td>Callbacks</td>
+									<td><button type="button" class="btn btn-light" id="jgrowl-callbacks">Launch <i class="icon-play3 ml-2"></i></button></td>
+									<td>All callbacks receive the notification's DOM context, the notifications message and it's option object. Check out your <code>console</code></td>
+								</tr>
 
-							<div class="noui-height-helper" id="noui-slider-combined" data-fouc></div>
-
-							<div class="clearfix">
-								<span class="mt-3 float-left">Value: <span class="font-weight-semibold" id="noui-slider-combined-lower-val"></span></span>
-								<span class="mt-3 float-right">Value: <span class="font-weight-semibold" id="noui-slider-combined-upper-val"></span></span>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- /slider behaviour -->
-
-
-				<!-- Pips and scales -->
-				<!--
-				<div class="mb-3 mt-2">
-					<h6 class="mb-0 font-weight-semibold">
-						Pips and scales
-					</h6>
-					<span class="text-muted d-block">Adding a scale/pips to a slider</span>
-				</div>
-
-				<div class="row">
-					<div class="col-md-4">
-						<div class="card card-body border-top-primary">
-							<div class="text-center">
-								<h6 class="mb-0 font-weight-semibold">Slider with pips</h6>
-								<p class="mb-3 text-muted">Slider pips in <code>range</code> mode</p>
-							</div>
-
-							<div class="noui-slider-info has-pips noui-pips-height-helper" id="noui-slider-pips-range" data-fouc></div>
-						</div>
-
-						<div class="card card-body border-top-primary">
-							<div class="text-center">
-								<h6 class="mb-0 font-weight-semibold">Count mode</h6>
-								<p class="mb-3 text-muted">Slider pips in <code>count</code> mode</p>
-							</div>
-
-							<div class="noui-slider-info has-pips noui-pips-height-helper" id="noui-slider-pips-count" data-fouc></div>
-						</div>
-					</div>
-
-					<div class="col-md-4">
-						<div class="card card-body border-top-primary">
-							<div class="text-center">
-								<h6 class="mb-0 font-weight-semibold">Filtered steps</h6>
-								<p class="mb-3 text-muted">Slider with filtered pip labels</p>
-							</div>
-
-							<div class="noui-slider-info has-pips noui-pips-height-helper" id="noui-slider-pips-filter" data-fouc></div>
-						</div>
-
-						<div class="card card-body border-top-primary">
-							<div class="text-center">
-								<h6 class="mb-0 font-weight-semibold">Values mode</h6>
-								<p class="mb-3 text-muted">Slider pips in <code>values</code> mode</p>
-							</div>
-
-							<div class="noui-slider-info has-pips noui-pips-height-helper" id="noui-slider-pips-values" data-fouc></div>
-						</div>
-					</div>
-
-					<div class="col-md-4">
-						<div class="card card-body border-top-primary">
-							<div class="text-center">
-								<h6 class="mb-0 font-weight-semibold">RTL direction</h6>
-								<p class="mb-3 text-muted">Slider pips in <code>RTL</code> direction</p>
-							</div>
-
-							<div class="noui-slider-info has-pips noui-pips-height-helper" id="noui-slider-pips-rtl" data-fouc></div>
-						</div>
-
-						<div class="card card-body border-top-primary">
-							<div class="text-center">
-								<h6 class="mb-0 font-weight-semibold">Positions mode</h6>
-								<p class="mb-3 text-muted">Slider pips in <code>positions</code> mode</p>
-							</div>
-
-							<div class="noui-slider-info has-pips noui-pips-height-helper" id="noui-slider-pips-positions" data-fouc></div>
-						</div>
-					</div>
-				</div>
-				<!-- /pips and scales -->
-
-
-				<!-- Advanced examples -->
-				<!--
-				<div class="mb-3 mt-2">
-					<h6 class="mb-0 font-weight-semibold">
-						Advanced examples
-					</h6>
-					<span class="text-muted d-block">More complex NoUI slider examples</span>
-				</div>
-
-				<div class="row">
-					<div class="col-md-4">
-						<div class="card card-body border-top-primary">
-							<div class="text-center">
-								<h6 class="mb-0 font-weight-semibold">Slider with tooltips</h6>
-								<p class="mb-3 text-muted">Add tooltips with <code>serialization</code> feature</p>
-							</div>
-
-							<div class="noui-slider-danger noui-height-helper" id="noui-slider-tooltip" data-fouc></div>
-
-							<div class="clearfix">
-								<span class="mt-3 float-left">Value: <span class="font-weight-semibold" id="noui-slider-tooltip-lower-val"></span></span>
-								<span class="mt-3 float-right">Value: <span class="font-weight-semibold" id="noui-slider-tooltip-upper-val"></span></span>
-							</div>
-						</div>
-
-						<div class="card card-body border-top-primary">
-							<div class="text-center">
-								<h6 class="mb-0 font-weight-semibold">Connect to lower side</h6>
-								<p class="mb-3 text-muted">Connect handle to the <code>lower</code> side</p>
-							</div>
-
-							<div class="noui-slider-primary noui-height-helper" id="noui-slider-connect-lower" data-fouc></div>
-
-							<span class="mt-3">Value: <span class="font-weight-semibold" id="noui-slider-connect-lower-val"></span></span>
-						</div>
-					</div>
-
-					<div class="col-md-4">
-						<div class="card card-body border-top-primary">
-							<div class="text-center">
-								<h6 class="mb-0 font-weight-semibold">Min handles distance</h6>
-								<p class="mb-3 text-muted">Set minimum distance between handles</p>
-							</div>
-
-							<div class="noui-slider-danger noui-height-helper" id="noui-slider-margin" data-fouc></div>
-
-							<div class="clearfix">
-								<span class="mt-3 float-left">Value: <span class="font-weight-semibold" id="noui-slider-margin-lower-val"></span></span>
-								<span class="mt-3 float-right">Value: <span class="font-weight-semibold" id="noui-slider-margin-upper-val"></span></span>
-							</div>
-						</div>
-
-						<div class="card card-body border-top-primary">
-							<div class="text-center">
-								<h6 class="mb-0 font-weight-semibold">Skipping steps</h6>
-								<p class="mb-3 text-muted">Skip certain steps with <code>snap</code> option</p>
-							</div>
-
-							<div class="noui-slider-primary noui-height-helper" id="noui-slider-skip-steps" data-fouc></div>
-
-							<div class="clearfix">
-								<span class="mt-3 float-left">Value: <span class="font-weight-semibold" id="noui-slider-skip-lower-val"></span></span>
-								<span class="mt-3 float-right">Value: <span class="font-weight-semibold" id="noui-slider-skip-upper-val"></span></span>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-md-4">
-						<div class="card card-body border-top-primary">
-							<div class="text-center">
-								<h6 class="mb-0 font-weight-semibold">RTL slider direction</h6>
-								<p class="mb-3 text-muted">Change direction with <code>direction</code> option</p>
-							</div>
-
-							<div class="noui-slider-danger noui-height-helper" id="noui-slider-direction" data-fouc></div>
-
-							<span class="mt-3">Value: <span class="font-weight-semibold" id="noui-slider-direction-val"></span></span>
-						</div>
-
-						<div class="card card-body border-top-primary">
-							<div class="text-center">
-								<h6 class="mb-0 font-weight-semibold">Connect to upper side</h6>
-								<p class="mb-3 text-muted">Connect handle to the <code>upper</code> side</p>
-							</div>
-
-							<div class="noui-slider-primary noui-height-helper" id="noui-slider-connect-upper" data-fouc></div>
-
-							<span class="mt-3">Value: <span class="font-weight-semibold" id="noui-slider-connect-upper-val"></span></span>
-						</div>
+								<tr class="table-border-double table-active">
+									<th colspan="3">jGrowl positions</th>
+								</tr>
+								<tr>
+									<td>Top left position</td>
+									<td><button type="button" class="btn btn-light" id="jgrowl-top-left">Launch <i class="icon-play3 ml-2"></i></button></td>
+									<td>Top left notification position. To use, add <code>position: 'top-left'</code> option to the notification config</td>
+								</tr>
+								<tr>
+									<td>Top center position</td>
+									<td><button type="button" class="btn btn-light" id="jgrowl-top-center">Launch <i class="icon-play3 ml-2"></i></button></td>
+									<td>Top center notification position. To use, add <code>position: 'top-center'</code> option to the notification config</td>
+								</tr>
+								<tr>
+									<td>Top right position</td>
+									<td><button type="button" class="btn btn-light" id="jgrowl-top-right">Launch <i class="icon-play3 ml-2"></i></button></td>
+									<td>Top right notification position. To use, add <code>position: 'top-right'</code> option to the notification config</td>
+								</tr>
+								<tr>
+									<td>Page center position</td>
+									<td><button type="button" class="btn btn-light" id="jgrowl-center">Launch <i class="icon-play3 ml-2"></i></button></td>
+									<td>Center notification position. To use, add <code>position: 'center'</code> option to the notification config</td>
+								</tr>
+								<tr>
+									<td>Bottom left position</td>
+									<td><button type="button" class="btn btn-light" id="jgrowl-bottom-left">Launch <i class="icon-play3 ml-2"></i></button></td>
+									<td>Bottom left notification position. To use, add <code>position: 'bottom-left'</code> option to the notification config</td>
+								</tr>
+								<tr>
+									<td>Bottom center position</td>
+									<td><button type="button" class="btn btn-light" id="jgrowl-bottom-center">Launch <i class="icon-play3 ml-2"></i></button></td>
+									<td>Bottom center notification position. To use, add <code>position: 'bottom-center'</code> option to the notification config</td>
+								</tr>
+								<tr>
+									<td>Bottom right position</td>
+									<td><button type="button" class="btn btn-light" id="jgrowl-bottom-right">Launch <i class="icon-play3 ml-2"></i></button></td>
+									<td>Bottom right notification position. To use, add <code>position: 'bottom-right'</code> option to the notification config</td>
+								</tr>
+							</tbody>
+						</table>
 					</div>
 				</div>
-				<!-- /advanced examples -->
-
-
-				<!-- Vertical sliders -->
-				<!--
-				<div class="mb-3 mt-2">
-					<h6 class="mb-0 font-weight-semibold">
-						Vertical sliders
-					</h6>
-					<span class="text-muted d-block">NoUI vertical slider orientation</span>
-				</div>
-
-				<div class="row">
-					<div class="col-md-4">
-						<div class="card card-body border-top-primary text-center">
-							<h6 class="mb-0 font-weight-semibold">Default vertical slider</h6>
-							<p class="mb-3 text-muted">Vertical direction slider example</p>
-
-							<div>
-								<div class="noui-vertical-height-helper" id="noui-slider-values1" data-fouc></div>
-								<div class="noui-vertical-height-helper" id="noui-slider-values2" data-fouc></div>
-								<div class="noui-vertical-height-helper" id="noui-slider-values3" data-fouc></div>
-								<div class="noui-vertical-height-helper" id="noui-slider-values4" data-fouc></div>
-							</div>
-						</div>
-
-						<div class="card card-body border-top-primary text-center">
-							<h6 class="mb-0 font-weight-semibold">Vertical ranges</h6>
-							<p class="mb-3 text-muted">Add ranges to vertical slider</p>
-
-							<div>
-								<div class="noui-slider-primary noui-vertical-height-helper" id="noui-slider-range1" data-fouc></div>
-								<div class="noui-slider-primary noui-vertical-height-helper" id="noui-slider-range2" data-fouc></div>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-md-4">
-						<div class="card card-body border-top-primary text-center">
-							<h6 class="mb-0 font-weight-semibold">Connect to lower side</h6>
-							<p class="mb-3 text-muted">Connect handle to the <code>lower</code> side</p>
-
-							<div>
-								<div class="noui-slider-primary noui-vertical-height-helper" id="noui-slider-upper1" data-fouc></div>
-								<div class="noui-slider-success noui-vertical-height-helper" id="noui-slider-upper2" data-fouc></div>
-								<div class="noui-slider-danger noui-vertical-height-helper" id="noui-slider-upper3" data-fouc></div>
-								<div class="noui-slider-info noui-vertical-height-helper" id="noui-slider-upper4" data-fouc></div>
-							</div>
-						</div>
-
-						<div class="card card-body border-top-primary text-center">
-							<h6 class="mb-0 font-weight-semibold">Top to bottom pips</h6>
-							<p class="mb-3 text-muted">Scale pips from top to bottom</p>
-
-							<div>
-								<div class="noui-slider-primary has-pips noui-vertical-height-helper" id="noui-slider-top1" data-fouc></div>
-								<div class="noui-slider-primary has-pips noui-vertical-height-helper" id="noui-slider-top2" data-fouc></div>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-md-4">
-						<div class="card card-body border-top-primary text-center">
-							<h6 class="mb-0 font-weight-semibold">Connect to upper side</h6>
-							<p class="mb-3 text-muted">Connect handle to the <code>upper</code> side</p>
-
-							<div>
-								<div class="noui-slider-primary noui-vertical-height-helper" id="noui-slider-lower1" data-fouc></div>
-								<div class="noui-slider-success noui-vertical-height-helper" id="noui-slider-lower2" data-fouc></div>
-								<div class="noui-slider-danger noui-vertical-height-helper" id="noui-slider-lower3" data-fouc></div>
-								<div class="noui-slider-info noui-vertical-height-helper" id="noui-slider-lower4" data-fouc></div>
-							</div>
-						</div>
-
-						<div class="card card-body border-top-primary text-center">
-							<h6 class="mb-0 font-weight-semibold">Bottom to top pips</h6>
-							<p class="mb-3 text-muted">Scale pips from bottom to top</p>
-
-							<div>
-								<div class="noui-slider-primary has-pips noui-vertical-height-helper" id="noui-slider-bottom1" data-fouc></div>
-								<div class="noui-slider-primary has-pips noui-vertical-height-helper" id="noui-slider-bottom2" data-fouc></div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- /vertical sliders -->
-
-
-				<!-- Slider colors title -->
-				<!--
-				<div class="mb-3 mt-2">
-					<h6 class="mb-0 font-weight-semibold">
-						Slider colors
-					</h6>
-					<span class="text-muted d-block">Contextual NoUI slider alternatives</span>
-				</div>
-
-				<div class="row">
-					<div class="col-md-4">
-						<div class="card card-body border-top-primary">
-							<div class="text-center">
-								<h6 class="mb-0 font-weight-semibold">Default slider</h6>
-								<p class="mb-3 text-muted">Default <code>dark grey</code> slider color</p>
-							</div>
-
-							<div class="mb-1 noui-height-helper" id="noui-slider-color-demo1" data-fouc></div>
-						</div>
-
-						<div class="card card-body border-top-primary">
-							<div class="text-center">
-								<h6 class="mb-0 font-weight-semibold">Success slider style</h6>
-								<p class="mb-3 text-muted">Using <code>noui-slider-success</code> class</p>
-							</div>
-
-							<div class="noui-slider-success mb-1 noui-height-helper" id="noui-slider-color-demo2" data-fouc></div>
-						</div>
-					</div>
-
-					<div class="col-md-4">
-						<div class="card card-body border-top-primary">
-							<div class="text-center">
-								<h6 class="mb-0 font-weight-semibold">Primary slider style</h6>
-								<p class="mb-3 text-muted">Using <code>noui-slider-primary</code> class</p>
-							</div>
-
-							<div class="noui-slider-primary mb-1 noui-height-helper" id="noui-slider-color-demo3" data-fouc></div>
-						</div>
-
-						<div class="card card-body border-top-primary">
-							<div class="text-center">
-								<h6 class="mb-0 font-weight-semibold">Warning slider style</h6>
-								<p class="mb-3 text-muted">Using <code>noui-slider-warning</code> class</p>
-							</div>
-
-							<div class="noui-slider-warning mb-1 noui-height-helper" id="noui-slider-color-demo4" data-fouc></div>
-						</div>
-					</div>
-
-					<div class="col-md-4">
-						<div class="card card-body border-top-primary">
-							<div class="text-center">
-								<h6 class="mb-0 font-weight-semibold">Danger slider style</h6>
-								<p class="mb-3 text-muted">Using <code>noui-slider-danger</code> class</p>
-							</div>
-
-							<div class="noui-slider-danger mb-1 noui-height-helper" id="noui-slider-color-demo5" data-fouc></div>
-						</div>
-
-						<div class="card card-body border-top-primary">
-							<div class="text-center">
-								<h6 class="mb-0 font-weight-semibold">Info slider style</h6>
-								<p class="mb-3 text-muted">Using <code>noui-slider-info</code> class</p>
-							</div>
-
-							<div class="noui-slider-info mb-1 noui-height-helper" id="noui-slider-color-demo6" data-fouc></div>
-						</div>
-					</div>
-				</div>
-				<!-- /slider colors -->
-
-
-				<!-- Sizes and styles -->
-				<!--
-				<div class="mb-3 mt-2">
-					<h6 class="mb-0 font-weight-semibold">
-						Other slider options
-					</h6>
-					<span class="text-muted d-block">Optional slider settings</span>
-				</div>
-
-				<div class="row">
-					<div class="col-md-4">
-						<div class="card card-body border-top-primary">
-							<div class="text-center">
-								<h6 class="mb-0 font-weight-semibold">Sizes. Default handle</h6>
-								<p class="mb-3 text-muted">Using <code>noui-slider-lg (sm)</code> classes</p>
-							</div>
-
-							<div class="noui-slider-primary noui-slider-lg noui-height-helper" id="slider-default-lg" style="margin-bottom: 30px;" data-fouc></div>
-							<div class="noui-slider-danger noui-height-helper" id="slider-default-md" style="margin-bottom: 30px;" data-fouc></div>
-							<div class="noui-slider-success noui-slider-sm mb-1 noui-height-helper" id="slider-default-sm" data-fouc></div>
-						</div>
-					</div>
-
-					<div class="col-md-4">
-						<div class="card card-body border-top-primary">
-							<div class="text-center">
-								<h6 class="mb-0 font-weight-semibold">Sizes. Solid handle</h6>
-								<p class="mb-3 text-muted">Using <code>noui-slider-solid</code> class</p>
-							</div>
-
-							<div class="noui-slider-primary noui-slider-solid noui-slider-lg noui-height-helper" id="slider-solid-lg" style="margin-bottom: 30px;" data-fouc></div>
-							<div class="noui-slider-danger noui-slider-solid noui-height-helper" id="slider-solid-md" style="margin-bottom: 30px;" data-fouc></div>
-							<div class="noui-slider-success noui-slider-solid noui-slider-sm mb-1 noui-height-helper" id="slider-solid-sm" data-fouc></div>
-						</div>
-					</div>
-
-					<div class="col-md-4">
-						<div class="card card-body border-top-primary">
-							<div class="text-center">
-								<h6 class="mb-0 font-weight-semibold">Sizes. White handle</h6>
-								<p class="mb-3 text-muted">Using <code>noui-slider-white</code> class</p>
-							</div>
-
-							<div class="noui-slider-primary noui-slider-white noui-slider-lg noui-height-helper" id="slider-white-lg" style="margin-bottom: 30px;" data-fouc></div>
-							<div class="noui-slider-danger noui-slider-white noui-height-helper" id="slider-white-md" style="margin-bottom: 30px;" data-fouc></div>
-							<div class="noui-slider-success noui-slider-white noui-slider-sm mb-1 noui-height-helper" id="slider-white-sm" data-fouc></div>
-						</div>
-					</div>
-				</div>
-				<!-- /sizes and styles -->
+				<!-- /jGrowl notifications -->
 
 			</div>
 			<!-- /content area -->

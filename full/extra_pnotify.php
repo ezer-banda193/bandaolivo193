@@ -8,7 +8,7 @@
 
 	<!-- Global stylesheets -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
-	<link href="../../../../global_assets/css/icons/icomoon/styles.min.css" rel="stylesheet" type="text/css">
+	<link href="global_assets/css/icons/icomoon/styles.min.css" rel="stylesheet" type="text/css">
 	<link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 	<link href="assets/css/bootstrap_limitless.min.css" rel="stylesheet" type="text/css">
 	<link href="assets/css/layout.min.css" rel="stylesheet" type="text/css">
@@ -17,16 +17,16 @@
 	<!-- /global stylesheets -->
 
 	<!-- Core JS files -->
-	<script src="../../../../global_assets/js/main/jquery.min.js"></script>
-	<script src="../../../../global_assets/js/main/bootstrap.bundle.min.js"></script>
-	<script src="../../../../global_assets/js/plugins/loaders/blockui.min.js"></script>
+	<script src="global_assets/js/main/jquery.min.js"></script>
+	<script src="global_assets/js/main/bootstrap.bundle.min.js"></script>
+	<script src="global_assets/js/plugins/loaders/blockui.min.js"></script>
 	<!-- /core JS files -->
 
 	<!-- Theme JS files -->
-	<script src="../../../../global_assets/js/plugins/notifications/pnotify.min.js"></script>
+	<script src="global_assets/js/plugins/notifications/pnotify.min.js"></script>
 
 	<script src="assets/js/app.js"></script>
-	<script src="../../../../global_assets/js/demo_pages/extra_pnotify.js"></script>
+	<script src="global_assets/js/demo_pages/extra_pnotify.js"></script>
 	<!-- /theme JS files -->
 
 </head>
@@ -402,7 +402,7 @@
 						<!-- Main -->
 						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Main</div> <i class="icon-menu" title="Main"></i></li>
 						<li class="nav-item">
-							<a href="index.html" class="nav-link">
+							<a href="index.php" class="nav-link">
 								<i class="icon-home4"></i>
 								<span>
 									Dashboard
@@ -484,9 +484,9 @@
 						<li class="nav-item nav-item-submenu">
 							<a href="#" class="nav-link"><i class="icon-pencil3"></i> <span>Empleados</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="Form components">
-								<li class="nav-item"><a href="form_inputs.html" class="nav-link">Listar</a></li>
-								<li class="nav-item"><a href="form_checkboxes_radios.html" class="nav-link">Agregar</a></li>
-								<li class="nav-item"><a href="form_select2.html" class="nav-link">Editar</a></li>
+								<li class="nav-item"><a href="form_inputs.php" class="nav-link">Listar</a></li>
+								<li class="nav-item"><a href="form_checkboxes_radios.php" class="nav-link">Agregar</a></li>
+								<li class="nav-item"><a href="form_select2.php" class="nav-link">Editar</a></li>
 								<!--
 								<li class="nav-item"><a href="form_multiselect.html" class="nav-link">Bootstrap multiselect</a></li>
 								<li class="nav-item"><a href="form_input_groups.html" class="nav-link">Input groups</a></li>
@@ -495,7 +495,7 @@
 								<li class="nav-item"><a href="form_tag_inputs.html" class="nav-link">Tag inputs</a></li>
 								<li class="nav-item"><a href="form_dual_listboxes.html" class="nav-link">Dual Listboxes</a></li>
 								/-->
-								<li class="nav-item"><a href="form_validation.html" class="nav-link">Departamento</a></li>
+								<li class="nav-item"><a href="form_validation.php" class="nav-link">Departamento</a></li>
 								<!--
 								<li class="nav-item"><a href="form_wizard.html" class="nav-link">Form wizard</a></li>
 								<li class="nav-item"><a href="form_actions.html" class="nav-link">Form actions</a></li>
@@ -505,17 +505,17 @@
 						<li class="nav-item nav-item-submenu">
 							<a href="#" class="nav-link"><i class="icon-file-css"></i> <span>Empresas</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="JSON forms">
-								<li class="nav-item"><a href="alpaca_basic.html" class="nav-link">Listar</a></li>
-								<li class="nav-item"><a href="alpaca_advanced.html" class="nav-link">Agregar</a></li>
-								<li class="nav-item"><a href="alpaca_controls.html" class="nav-link">Editar</a></li>
+								<li class="nav-item"><a href="alpaca_basic.php" class="nav-link">Listar</a></li>
+								<li class="nav-item"><a href="alpaca_advanced.php" class="nav-link">Agregar</a></li>
+								<li class="nav-item"><a href="alpaca_controls.php" class="nav-link">Editar</a></li>
 							</ul>
 						</li>
 						<li class="nav-item nav-item-submenu">
 							<a href="#" class="nav-link"><i class="icon-spell-check"></i> <span>Vacaciones</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="Text editors">
-								<li class="nav-item"><a href="editor_summernote.html" class="nav-link">Listar</a></li>
-								<li class="nav-item"><a href="editor_ckeditor.html" class="nav-link">Agregar</a></li>
-								<li class="nav-item"><a href="editor_trumbowyg.html" class="nav-link">Editar</a></li>
+								<li class="nav-item"><a href="editor_summernote.php" class="nav-link">Listar</a></li>
+								<li class="nav-item"><a href="editor_ckeditor.php" class="nav-link">Agregar</a></li>
+								<li class="nav-item"><a href="editor_trumbowyg.php" class="nav-link">Editar</a></li>
 								<!--
 								<li class="nav-item"><a href="editor_code.html" class="nav-link">Code editor</a></li>/-->
 							</ul>
@@ -523,7 +523,7 @@
 						<li class="nav-item nav-item-submenu">
 							<a href="#" class="nav-link"><i class="icon-select2"></i> <span>Transporte</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="Pickers">
-								<li class="nav-item"><a href="picker_date.html" class="nav-link">Formulario</a></li>
+								<li class="nav-item"><a href="picker_date.php" class="nav-link">Formulario</a></li>
 								<!--
 								<li class="nav-item"><a href="picker_color.html" class="nav-link">Color pickers</a></li>
 								<li class="nav-item"><a href="picker_location.html" class="nav-link">Location pickers</a></li>
@@ -547,9 +547,9 @@
 						<li class="nav-item nav-item-submenu">
 							<a href="#" class="nav-link"><i class="icon-grid"></i> <span>Alumnos</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="Basic components">
-								<li class="nav-item"><a href="components_modals.html" class="nav-link">Listar</a></li>
-								<li class="nav-item"><a href="components_dropdowns.html" class="nav-link">Agregar</a></li>
-								<li class="nav-item"><a href="components_tabs.html" class="nav-link">Editar</a></li>
+								<li class="nav-item"><a href="components_modals.php" class="nav-link">Listar</a></li>
+								<li class="nav-item"><a href="components_dropdowns.php" class="nav-link">Agregar</a></li>
+								<li class="nav-item"><a href="components_tabs.php" class="nav-link">Editar</a></li>
 								<!--
 								<li class="nav-item"><a href="components_pills.html" class="nav-link">Pills component</a></li>
 								<li class="nav-item"><a href="components_collapsible.html" class="nav-link">Collapsible</a></li>
@@ -589,12 +589,12 @@
 						<li class="nav-item nav-item-submenu nav-item-expanded nav-item-open">
 							<a href="#" class="nav-link"><i class="icon-gift"></i> <span>Tutorias</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="Extra components">
-								<li class="nav-item"><a href="extra_pnotify.html" class="nav-link active">Listar</a></li>
-								<li class="nav-item"><a href="extra_jgrowl_noty.html" class="nav-link">Agregar</a></li>
+								<li class="nav-item"><a href="extra_pnotify.php" class="nav-link active">Listar</a></li>
+								<li class="nav-item"><a href="extra_jgrowl_noty.php" class="nav-link">Agregar</a></li>
 								<!--
 								<li class="nav-item"><a href="extra_sweetalert.html" class="nav-link">SweetAlert notifications</a></li>
 								<li class="nav-item-divider"></li>/-->
-								<li class="nav-item"><a href="extra_sliders_noui.html" class="nav-link">Editar</a></li>
+								<li class="nav-item"><a href="extra_sliders_noui.php" class="nav-link">Editar</a></li>
 								<!--
 								<li class="nav-item"><a href="extra_sliders_ion.html" class="nav-link">Ion range sliders</a></li>
 								<li class="nav-item"><a href="extra_trees.html" class="nav-link">Dynamic tree views</a></li>
